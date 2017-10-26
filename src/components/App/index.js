@@ -1,14 +1,42 @@
-import React, { PropTypes } from 'react';
+import React, {PropTypes} from 'react';
+// Styled
+import {Title, DoubleBlockContainer, BlockContainer, Block} from './styled/styles.js';
 
-function App({ children }) {
+function App({}) {
   return (
     <div>
-      <h1>
+      <Title>
         Ivo's
-      </h1>
-      <div>
-        {children}
-      </div>
+      </Title>
+
+      <DoubleBlockContainer>
+
+        <BlockContainer>
+          <Block>
+            Ondernemende Technoloog
+          </Block>
+        </BlockContainer>
+        <BlockContainer>
+          <Block>
+            Betrokken Technoloog
+          </Block>
+        </BlockContainer>
+
+      </DoubleBlockContainer>
+      <DoubleBlockContainer>
+
+        <BlockContainer>
+          <Block>
+            Ontwerpende Technoloog
+          </Block>
+        </BlockContainer>
+        <BlockContainer>
+          <Block>
+            Onderzoekende Technoloog
+          </Block>
+        </BlockContainer>
+
+      </DoubleBlockContainer>
     </div>
   );
 }
