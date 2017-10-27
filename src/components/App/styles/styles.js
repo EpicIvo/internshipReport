@@ -20,14 +20,11 @@ const BlockContainer = glamorous.div({
 });
 
 const Block = glamorous.div({
-  fontFamily: 'Avenir Next',
-  fontSize: '40pt',
   display: 'inline-block',
   backgroundColor: '#2e2e2e',
   color: '#ffffff',
   width: '80%',
   height: '40vh',
-  lineHeight: '40vh',
   textAlign: 'center',
   borderRadius: '25px',
   border: '2px solid #38FF87',
@@ -38,7 +35,14 @@ const Block = glamorous.div({
     border: '2px solid #2e2e2e',
     color: '#2e2e2e',
     transform: 'Scale(1.1)',
+    cursor: 'pointer',
   }
 });
 
-export {Title, DoubleBlockContainer, BlockContainer, Block};
+const BlockText = glamorous.div({
+  fontFamily: 'Avenir Next',
+  fontSize: '42pt',
+  marginTop: '15vh',
+});
+
+export {Title, DoubleBlockContainer, BlockContainer, Block, BlockText};
