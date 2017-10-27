@@ -1,16 +1,31 @@
 import React from 'react';
-import {Title} from './styles/styles';
+import {Title, List, ListItem} from './styles/styles';
 
 class Ondernemend extends React.Component {
-  constructor(){
+  constructor() {
     super();
   }
 
-  render(){
+  render() {
     return (
-      <Title>
-        Ondernemend
-      </Title>
+      <div>
+        <Title onClick={() => {
+          this.props.history.push("/")
+        }}>
+          Ondernemend
+        </Title>
+        <List>
+          <ListItem>
+            List item uno
+          </ListItem>
+          <ListItem>
+            List item dos
+          </ListItem>
+          <ListItem>
+            List item tres
+          </ListItem>
+        </List>
+      </div>
     );
   }
 }

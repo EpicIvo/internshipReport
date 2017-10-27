@@ -1,18 +1,33 @@
 import React from 'react';
-import {Title} from './styles/styles';
+import {Title, List, ListItem} from './styles/styles';
 
-class Ontwerpend extends React.Component {
-  constructor(){
+class Onderzoekend extends React.Component {
+  constructor() {
     super();
   }
 
-  render(){
+  render() {
     return (
-      <Title>
-        Ontwerpend
-      </Title>
+      <div>
+        <Title onClick={() => {
+          this.props.history.push("/")
+        }}>
+          Onderzoekend
+        </Title>
+        <List>
+          <ListItem>
+            List item uno
+          </ListItem>
+          <ListItem>
+            List item dos
+          </ListItem>
+          <ListItem>
+            List item tres
+          </ListItem>
+        </List>
+      </div>
     );
   }
 }
 
-export default Ontwerpend;
+export default Onderzoekend;

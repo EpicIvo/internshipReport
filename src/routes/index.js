@@ -4,8 +4,8 @@ import Switch from 'react-router/lib/Route';
 import App from '../components/App/App.jsx';
 import Ondernemend from '../components/Ondernemend/Ondernemend.jsx';
 import Betrokken from '../components/Betrokken/Betrokken.jsx';
-import Onderzoekend from '../components/Ontwerpend/Ontwerpend.jsx';
-import Ontwerpend from "../components/Onderzoekend/Onderzoekend.jsx";
+import Onderzoekend from '../components/Onderzoekend/Onderzoekend.jsx';
+import Ontwerpend from "../components/Ontwerpend/Ontwerpend.jsx";
 
 const routes = (
   <Switch>

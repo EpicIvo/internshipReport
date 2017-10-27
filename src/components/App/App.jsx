@@ -35,7 +35,7 @@ class App extends React.Component {
         <DoubleBlockContainer>
 
           <BlockContainer>
-            <Block onClick={() => {this.props.history.push("/ontwerpende");}}>
+            <Block onClick={() => {this.props.history.push("/ontwerpend");}}>
               <BlockText>
                 Ontwerpende <br/> Technoloog
               </BlockText>
