@@ -1,32 +1,87 @@
 import React, {PropTypes} from 'react';
 // Styled
-import {Title, DoubleBlockContainer, BlockContainer, Block, BlockText} from './styles/styles.js';
+import {AppContainer, ColorfulBG, TopBar, MenuItem, Title, DoubleBlockContainer, BlockContainer, Block, BlockText} from './styles/styles.js';
 
 class App extends React.Component {
   constructor() {
     super();
+    // Bindings
   }
 
   render() {
     return (
-      <div>
-        <Title>
-          Ivo's
-        </Title>
+      <AppContainer>
+
+        <TopBar>
+          <MenuItem
+            onClick={() => {
+              this.props.history.push("/ondernemend");
+            }}>
+            Ondernemend
+          </MenuItem>
+          <MenuItem
+            onClick={() => {
+              this.props.history.push("/betrokken");
+            }}>
+            Betrokken
+          </MenuItem>
+          <Title>
+            Ivo's
+          </Title>
+          <MenuItem
+            onClick={() => {
+              this.props.history.push("/onderzoekend");
+            }}>
+            Onderzoekend
+          </MenuItem>
+          <MenuItem
+            onClick={() => {
+              this.props.history.push("/ontwerpend");
+            }}>
+            Ontwerpend
+          </MenuItem>
+        </TopBar>
 
         <DoubleBlockContainer>
 
+          <ColorfulBG />
+
           <BlockContainer>
-            <Block onClick={() => {this.props.history.push("/ondernemend");}}>
+            <Block
+              onClick={() => {
+                this.props.history.push("/ninlaro");
+              }}>
               <BlockText>
-                Ondernemende <br/> Technoloog
+                Ninlaro
               </BlockText>
             </Block>
           </BlockContainer>
           <BlockContainer>
-            <Block onClick={() => {this.props.history.push("/betrokken");}}>
+            <Block onClick={() => {
+              this.props.history.push("/zino-davidoff");
+            }}>
               <BlockText>
-                Betrokken <br/> Technoloog
+                Zino-davidoff
+              </BlockText>
+            </Block>
+          </BlockContainer>
+
+          <BlockContainer>
+            <Block
+              onClick={() => {
+                this.props.history.push("/mentos");
+              }}>
+              <BlockText>
+                Mentos
+              </BlockText>
+            </Block>
+          </BlockContainer>
+          <BlockContainer>
+            <Block onClick={() => {
+              this.props.history.push("/hero");
+            }}>
+              <BlockText>
+                Hero
               </BlockText>
             </Block>
           </BlockContainer>
@@ -35,14 +90,18 @@ class App extends React.Component {
         <DoubleBlockContainer>
 
           <BlockContainer>
-            <Block onClick={() => {this.props.history.push("/ontwerpend");}}>
+            <Block onClick={() => {
+              this.props.history.push("/ontwerpend");
+            }}>
               <BlockText>
                 Ontwerpende <br/> Technoloog
               </BlockText>
             </Block>
           </BlockContainer>
           <BlockContainer>
-            <Block onClick={() => {this.props.history.push("/onderzoekend");}}>
+            <Block onClick={() => {
+              this.props.history.push("/onderzoekend");
+            }}>
               <BlockText>
                 Onderzoekende <br/> Technoloog
               </BlockText>
@@ -50,13 +109,11 @@ class App extends React.Component {
           </BlockContainer>
 
         </DoubleBlockContainer>
-      </div>
+      </AppContainer>
     );
   }
 }
 
-App.propTypes = {
-  children: PropTypes.node.isRequired,
-};
+App.propTypes = {};
 
 export default App;
