@@ -1,6 +1,6 @@
 import React, {PropTypes} from 'react';
 // Styled
-import {AppContainer, ColorfulBG, TopBar, MenuItem, Title, DoubleBlockContainer, BlockContainer, Block, BlockText} from './styles/styles.js';
+import {AppContainer, TopBar, MenuItem, Title, DoubleBlockContainer, BlockContainer, Block, BlockText} from './styles/styles.js';
 
 class App extends React.Component {
   constructor() {
@@ -26,7 +26,7 @@ class App extends React.Component {
             Betrokken
           </MenuItem>
           <Title>
-            Ivo's
+            Ivo
           </Title>
           <MenuItem
             onClick={() => {
@@ -44,13 +44,12 @@ class App extends React.Component {
 
         <DoubleBlockContainer>
 
-          <ColorfulBG />
-
           <BlockContainer>
             <Block
               onClick={() => {
                 this.props.history.push("/ninlaro");
-              }}>
+              }}
+              ninlaro>
               <BlockText>
                 Ninlaro
               </BlockText>
@@ -59,7 +58,8 @@ class App extends React.Component {
           <BlockContainer>
             <Block onClick={() => {
               this.props.history.push("/zino-davidoff");
-            }}>
+            }}
+            davidoff>
               <BlockText>
                 Zino-davidoff
               </BlockText>
