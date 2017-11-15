@@ -58,8 +58,7 @@ class App extends React.Component {
           <BlockContainer>
             <Block onClick={() => {
               this.props.history.push("/zino-davidoff");
-            }}
-            davidoff>
+            }} davidoff>
               <BlockText>
                 Zino-davidoff
               </BlockText>
@@ -70,7 +69,7 @@ class App extends React.Component {
             <Block
               onClick={() => {
                 this.props.history.push("/mentos");
-              }}>
+              }} mentos>
               <BlockText>
                 Mentos
               </BlockText>
@@ -79,7 +78,7 @@ class App extends React.Component {
           <BlockContainer>
             <Block onClick={() => {
               this.props.history.push("/hero");
-            }}>
+            }} hero>
               <BlockText>
                 Hero
               </BlockText>
@@ -91,10 +90,10 @@ class App extends React.Component {
 
           <BlockContainer>
             <Block onClick={() => {
-              this.props.history.push("/ontwerpend");
-            }}>
+              this.props.history.push("/schwartau");
+            }} schwartau>
               <BlockText>
-                Ontwerpende <br/> Technoloog
+                Schwartau
               </BlockText>
             </Block>
           </BlockContainer>
@@ -103,7 +102,7 @@ class App extends React.Component {
               this.props.history.push("/onderzoekend");
             }}>
               <BlockText>
-                Onderzoekende <br/> Technoloog
+                CDSP
               </BlockText>
             </Block>
           </BlockContainer>

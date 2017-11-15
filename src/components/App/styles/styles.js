@@ -1,7 +1,11 @@
 import glamorous from 'glamorous';
 import propStyles from 'prop-styles';
+// Images
 import ninlaro from '../../../images/ninlaro.jpg';
 import davidoff from '../../../images/davidoff.jpeg';
+import mentos from '../../../images/mentos.png';
+import hero from '../../../images/hero.jpg';
+import schwartau from '../../../images/schwartau.jpg';
 
 const AppContainer = glamorous.div({
   backgroundColor: '#E8E9EB',
@@ -54,19 +58,39 @@ const Block = glamorous.div(
   propStyles({
     ninlaro: {
       backgroundImage: `url(${ninlaro})`,
-      color: '#2e2e2e',
-      textStroke: '2px #ffffff',
+      color: '#EF7622',
       ':hover': {
-        color: '#ffffff',
+        color: '#FFFFFF',
       }
     },
     davidoff: {
       backgroundImage: `url(${davidoff})`,
-      color: '#ffffff',
+      color: '#1D1E2A',
       ':hover': {
-        color: '#2e2e2e',
+        color: '#FFFFFF',
       }
-    }
+    },
+    mentos: {
+      backgroundImage: `url(${mentos})`,
+      color: '#2C2D87',
+      ':hover': {
+        color: '#FFFFFF',
+      }
+    },
+    hero: {
+      backgroundImage: `url(${hero})`,
+      color: '#00318b',
+      ':hover': {
+        color: '#FFFFFF',
+      }
+    },
+    schwartau: {
+      backgroundImage: `url(${schwartau})`,
+      color: '#2E2E2E',
+      ':hover': {
+        color: '#FFFFFF',
+      }
+    },
   }),
   {
     display: 'inline-block',
@@ -97,4 +121,14 @@ const BlockText = glamorous.div({
   lineHeight: '20vh'
 });
 
-export {AppContainer, TopBar, MenuItem, Title, DoubleBlockContainer, BlockContainer, Block, BlockText};
+// EXPORTS
+export {
+  AppContainer,
+  TopBar,
+  MenuItem,
+  Title,
+  DoubleBlockContainer,
+  BlockContainer,
+  Block,
+  BlockText
+};
