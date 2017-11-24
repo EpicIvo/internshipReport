@@ -1,16 +1,19 @@
 import React from 'react';
 // stlyes
 import {Title, Content} from './shared-styles/styles.js';
+// Components
+import BackButton from '../common/BackButton/BackButton.jsx';
 
-class Mentos extends React.Component{
-  constructor(){
+class Mentos extends React.Component {
+  constructor() {
     super();
   }
 
-  render(){
-    return(
+  render() {
+    return (
       <div>
         <Title mentos>
+          <BackButton/>s
           Mentos
         </Title>
         <Content>

@@ -1,16 +1,19 @@
 import React from 'react';
 // stlyes
 import {Title, Content} from './shared-styles/styles.js';
+// Components
+import BackButton from '../common/BackButton/BackButton.jsx';
 
-class Hero extends React.Component{
-  constructor(){
+class Hero extends React.Component {
+  constructor() {
     super();
   }
 
-  render(){
-    return(
+  render() {
+    return (
       <div>
         <Title hero>
+          <BackButton/>
           Hero
         </Title>
         <Content>

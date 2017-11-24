@@ -20,6 +20,12 @@ export default vo => `
       ? '<link rel="stylesheet" type="text/css" href="' + vo.mainCSSBundle + '">'
       : ''}
 
+      
+    <style>
+        a{
+            text-decoration: none;
+        }
+    </style> 
     <title>Ivo's</title>
   </head>
 

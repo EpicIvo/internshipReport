@@ -1,6 +1,8 @@
 import React from 'react';
 // styles
 import {Title, Content, SubTitle} from './shared-styles/styles.js';
+// Components
+import BackButton from '../common/BackButton/BackButton.jsx';
 
 class Ninlaro extends React.Component {
   constructor() {
@@ -11,6 +13,7 @@ class Ninlaro extends React.Component {
     return (
       <div>
         <Title ninlaro>
+          <BackButton/>
           Ninlaro
         </Title>
         <Content>
