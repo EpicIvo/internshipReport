@@ -1,5 +1,7 @@
 import glamorous from 'glamorous';
 import propStyles from 'prop-styles';
+// Global Styles
+import { colors } from '../../../shared/globalStyles.js';
 // Images
 import ninlaro from '../../../images/ninlaro.jpg';
 import davidoff from '../../../images/davidoff.jpeg';
@@ -8,9 +10,9 @@ import hero from '../../../images/hero.jpg';
 import schwartau from '../../../images/schwartau.jpg';
 
 const AppContainer = glamorous.div({
-  backgroundColor: '#E8E9EB',
+  backgroundColor: colors.general.background,
   height: '99.5vh',
-  borderTop: '0.5vh solid #f06543',
+  borderTop: `0.5vh solid ${colors.general.orange}`,
   zIndex: '-20'
 });
 
@@ -25,12 +27,12 @@ const MenuItem = glamorous.div({
   fontFamily: 'Avenir Next',
   fontSize: '2em',
   textAlign: 'center',
-  color: '#F06543',
+  color: colors.general.orange,
   margin: '0 2% 0 2%',
   display: 'inline-block',
   transitionDuration: '0.4s',
   ':hover': {
-    color: '#91a6FF',
+    color: colors.general.lightBlue,
     cursor: 'pointer'
   }
 });
@@ -39,7 +41,7 @@ const Title = glamorous.h1({
   fontFamily: 'Avenir Next',
   fontSize: '3.5em',
   textAlign: 'center',
-  color: '#2e2e2e',
+  color: colors.general.gray,
   margin: '0 5% 0 5%',
   display: 'inline-block'
 });
@@ -58,37 +60,37 @@ const Block = glamorous.div(
   propStyles({
     ninlaro: {
       backgroundImage: `url(${ninlaro})`,
-      color: '#EF7622',
+      color: colors.projects.ninlaro,
       ':hover': {
-        color: '#FFFFFF',
+        color: colors.general.white,
       }
     },
     davidoff: {
       backgroundImage: `url(${davidoff})`,
-      color: '#1D1E2A',
+      color: colors.projects.davidoff,
       ':hover': {
-        color: '#FFFFFF',
+        color: colors.general.white,
       }
     },
     mentos: {
       backgroundImage: `url(${mentos})`,
-      color: '#2C2D87',
+      color: colors.projects.mentos,
       ':hover': {
-        color: '#FFFFFF',
+        color: colors.general.white,
       }
     },
     hero: {
       backgroundImage: `url(${hero})`,
-      color: '#00318b',
+      color: colors.projects.hero,
       ':hover': {
-        color: '#FFFFFF',
+        color: colors.general.white,
       }
     },
     schwartau: {
       backgroundImage: `url(${schwartau})`,
-      color: '#2E2E2E',
+      color: colors.general.gray,
       ':hover': {
-        color: '#FFFFFF',
+        color: colors.general.white,
       }
     },
   }),
@@ -100,13 +102,13 @@ const Block = glamorous.div(
     height: '20vh',
     textAlign: 'center',
     borderRadius: '25px',
-    border: '2px solid #38FF87',
+    border: `2px solid ${colors.general.lime}`,
     overflow: 'hidden',
     transitionDuration: '0.3s',
     boxShadow: '10px 10px 15px rgba(163,175,191,1)',
     ':hover': {
-      backgroundColor: '#38FF87',
-      border: '2px solid #2e2e2e',
+      backgroundColor: colors.general.lime,
+      border: `2px solid ${colors.general.gray}`,
       transform: 'Scale(1.1)',
       cursor: 'pointer',
       boxShadow: '16px 16px 20px rgba(163,175,191,1)',

@@ -23,7 +23,7 @@ const routes = (
     <Route path="betrokken" components={Betrokken}/>,
     {/*Detail pages*/}
     <Route path="ninlaro" components={Ninlaro}/>,
-    <Route path="davidoff" components={Davidoff}/>,
+    <Route path="zino-davidoff" components={Davidoff}/>,
     <Route path="mentos" components={Mentos}/>,
     <Route path="hero" components={Hero}/>,
     <Route path="schwartau" components={Schwartau}/>,

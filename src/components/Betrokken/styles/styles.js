@@ -1,4 +1,6 @@
 import glamorous from 'glamorous';
+// Global Styles
+import { colors } from '../../../shared/globalStyles.js';
 
 const Title = glamorous.h1({
   fontFamily: 'Avenir next',
@@ -6,7 +8,7 @@ const Title = glamorous.h1({
   fontSize: '6em',
   margin: '0',
   padding: '1%',
-  color: '#f06543',
+  color: colors.general.orange,
   ':hover': {
     cursor: 'pointer',
   }
@@ -20,13 +22,13 @@ const List = glamorous.ul({
 const ListItem = glamorous.li({
   fontFamily: 'Avenir Next',
   fontSize: '3em',
-  color: '#3C6E71',
+  color: colors.general.darkBlue,
   padding: '1% 0 0 0',
   transitionDuration: '0.4s',
   cursor: 'pointer',
   ':before': {
     content: '">_ "',
-    color: "#F06543"
+    color: colors.general.orange
   },
   ':hover': {
     padding: '1% 0 0 2%',

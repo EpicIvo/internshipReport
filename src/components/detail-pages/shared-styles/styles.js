@@ -1,5 +1,7 @@
 import glamorous from 'glamorous';
 import propStyles from 'prop-styles';
+// Global Styles
+import { colors } from '../../../shared/globalStyles.js';
 // Images
 import ninlaroBackground from '../../../images/ninlaro.jpg';
 import davidoffBackground from '../../../images/davidoff.jpeg';
@@ -11,26 +13,33 @@ const Title = glamorous.div(
   propStyles({
     ninlaro: {
       backgroundImage: `url(${ninlaroBackground})`,
-      color: '#EF7622',
+      color: colors.projects.ninlaro,
+      borderBottom: `8px solid ${colors.projects.ninlaro}`
     },
     davidoff: {
       backgroundImage: `url(${davidoffBackground})`,
-      color: '#1D1E2A',
+      color: colors.projects.davidoff,
+      borderBottom: `8px solid ${colors.projects.davidoff}`
     },
     mentos: {
       backgroundImage: `url(${mentosBackground})`,
-      color: '#2C2D87',
+      color: colors.projects.mentos,
+      borderBottom: `8px solid ${colors.projects.mentos}`
     },
     hero: {
       backgroundImage: `url(${heroBackground})`,
-      color: '#00318b',
+      color: colors.projects.hero,
+      borderBottom: `8px solid ${colors.projects.hero}`
     },
     schwartau: {
       backgroundImage: `url(${schwartauBackground})`,
-      color: '#C8102E',
+      color: colors.projects.schwartau,
+      borderBottom: `8px solid ${colors.projects.schwartau}`
     },
   }),
   {
+    backgroundSize: 'cover',
+    backgroundPosition: 'center',
     fontFamily: 'Avenir next',
     fontSize: '6em',
     padding: '2%',
@@ -43,7 +52,7 @@ const Title = glamorous.div(
 
 const Content = glamorous.div({
   fontFamily: 'Avenir next',
-  fontSize: '2em',
+  fontSize: '1.5em',
   padding: '0 4% 0 4%',
   textAlign: 'justify',
   lineHeight: '1.1',
@@ -52,19 +61,19 @@ const Content = glamorous.div({
 const SubTitle = glamorous.h2(
   propStyles({
     ninlaro: {
-      color: '#EF7622',
+      color: colors.projects.ninlaro,
     },
     davidoff: {
-      color: '#1D1E2A',
+      color: colors.projects.davidoff,
     },
     mentos: {
-      color: '#2C2D87',
+      color: colors.projects.mentos,
     },
     hero: {
-      color: '#00318b',
+      color: colors.projects.hero,
     },
     schwartau: {
-      color: '#C8102E',
+      color: colors.projects.schwartau,
     },
   }),
   {
