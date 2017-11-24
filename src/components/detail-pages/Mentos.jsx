@@ -13,7 +13,7 @@ class Mentos extends React.Component {
     return (
       <div>
         <Title mentos>
-          <BackButton/>s
+          <BackButton value="<"/>
           Mentos
         </Title>
         <Content>

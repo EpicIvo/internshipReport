@@ -13,7 +13,7 @@ class Ninlaro extends React.Component {
     return (
       <div>
         <Title ninlaro>
-          <BackButton/>
+          <BackButton value="<"/>
           Ninlaro
         </Title>
         <Content>
