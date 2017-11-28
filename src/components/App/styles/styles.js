@@ -19,21 +19,26 @@ const AppContainer = glamorous.div({
 const TopBar = glamorous.div({
   width: '100%',
   textAlign: 'center',
-  margin: '1% 0 5% 0',
-  paddingTop: '2vh',
+  margin: '0 0 3% 0',
 });
 
 const MenuItem = glamorous.div({
   fontFamily: 'Avenir Next',
-  fontSize: '2em',
+  fontSize: '1em',
   textAlign: 'center',
   color: colors.general.orange,
   margin: '0 2% 0 2%',
+  padding: '1%',
+  backgroundColor: colors.general.white,
   display: 'inline-block',
   transitionDuration: '0.4s',
+  borderRadius: '25px',
+  border: `2px solid ${colors.general.lime}`,
+  boxShadow: '10px 10px 15px rgba(163,175,191,1)',
   ':hover': {
     color: colors.general.lightBlue,
-    cursor: 'pointer'
+    cursor: 'pointer',
+    transform: 'Scale(1.1)',
   }
 });
 
@@ -42,8 +47,7 @@ const Title = glamorous.h1({
   fontSize: '3.5em',
   textAlign: 'center',
   color: colors.general.gray,
-  margin: '0 5% 0 5%',
-  display: 'inline-block'
+  margin: '2% auto',
 });
 
 const DoubleBlockContainer = glamorous.div({

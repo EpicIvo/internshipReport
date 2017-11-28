@@ -1,7 +1,7 @@
 import React from 'react';
-import {Title, List, ListItem} from './styles/styles';
+import {Title, List, ListItem} from '../../../shared/categoryStyles';
 
-class Ondernemend extends React.Component {
+class Ontwerpend extends React.Component {
   constructor() {
     super();
   }
@@ -12,17 +12,14 @@ class Ondernemend extends React.Component {
         <Title onClick={() => {
           this.props.history.push("/")
         }}>
-          Ondernemend
+          Ontwerpend
         </Title>
         <List>
           <ListItem>
-            List item uno
+            Conceptualiseren
           </ListItem>
           <ListItem>
-            List item dos
-          </ListItem>
-          <ListItem>
-            List item tres
+            Ontwerpen en prototypen
           </ListItem>
         </List>
       </div>
@@ -30,4 +27,4 @@ class Ondernemend extends React.Component {
   }
 }
 
-export default Ondernemend;
+export default Ontwerpend;

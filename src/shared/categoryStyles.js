@@ -1,6 +1,6 @@
 import glamorous from 'glamorous';
 // Global Styles
-import { colors } from '../../../shared/globalStyles.js';
+import { colors } from './globalStyles';
 
 const Title = glamorous.h1({
   fontFamily: 'Avenir next',

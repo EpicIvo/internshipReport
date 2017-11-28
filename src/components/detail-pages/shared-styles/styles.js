@@ -53,7 +53,7 @@ const Title = glamorous.div(
 const Content = glamorous.div({
   fontFamily: 'Avenir next',
   fontSize: '1.5em',
-  padding: '0 4% 0 4%',
+  padding: '0 20% 0 20%',
   textAlign: 'justify',
   lineHeight: '1.1',
 });
@@ -79,7 +79,7 @@ const SubTitle = glamorous.h2(
   {
     fontFamily: 'Avenir next',
     fontSize: '2em',
-    padding: '2%',
+    padding: '2% 0 2% 22%',
     fontWeight: 'bold',
   });
 

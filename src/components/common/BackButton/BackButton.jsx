@@ -12,6 +12,7 @@ const Button = glamorous.div({
 const ButtonText = glamorous.div({
   fontFamily: 'Avenir',
   fontSize: '2em',
+  fontWeight: '100',
   color: colors.general.white,
   transitionDuration: '0.4s',
   ':hover': {

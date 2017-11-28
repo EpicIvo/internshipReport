@@ -4,10 +4,11 @@ import Switch from 'react-router/lib/Route';
 import Util from 'util-is';
 
 import App from '../components/App/App.jsx';
-import Ondernemend from '../components/Ondernemend/Ondernemend.jsx';
-import Betrokken from '../components/Betrokken/Betrokken.jsx';
-import Onderzoekend from '../components/Onderzoekend/Onderzoekend.jsx';
-import Ontwerpend from "../components/Ontwerpend/Ontwerpend.jsx";
+import Ontwikkelend from '../components/categories/Ontwikkelend/Ontwikkelend.jsx';
+import Ondernemend from '../components/categories/Ondernemend/Ondernemend.jsx';
+import Betrokken from '../components/categories/Betrokken/Betrokken.jsx';
+import Onderzoekend from '../components/categories/Onderzoekend/Onderzoekend.jsx';
+import Ontwerpend from "../components/categories/Ontwerpend/Ontwerpend.jsx";
 import Ninlaro from "../components/detail-pages/Ninlaro.jsx";
 import Davidoff from "../components/detail-pages/Davidoff.jsx";
 import Mentos from "../components/detail-pages/Mentos.jsx";
@@ -17,6 +18,7 @@ import Schwartau from "../components/detail-pages/Schwartau.jsx";
 const routes = (
   <Switch>
     <Route path="/" component={App}/>,
+    <Route path="ontwikkelend" components={Ontwikkelend}/>,
     <Route path="ontwerpend" components={Ontwerpend}/>,
     <Route path="onderzoekend" components={Onderzoekend}/>,
     <Route path="ondernemend" components={Ondernemend}/>,
