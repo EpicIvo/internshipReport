@@ -7,10 +7,11 @@ import {colors} from '../../../shared/globalStyles.js';
 
 const Button = glamorous.div({
   position: 'absolute',
+  marginLeft: '3%'
 });
 
 const ButtonText = glamorous.div({
-  fontFamily: 'Avenir',
+  fontFamily: 'Times',
   fontSize: '2em',
   fontWeight: '100',
   color: colors.general.white,
