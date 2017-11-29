@@ -1,5 +1,6 @@
 import React from 'react';
 import {Title, List, ListItem} from '../../shared/categoryStyles';
+// Components
 import BackButton from '../common/BackButton/BackButton.jsx'
 
 class Ontwerpend extends React.Component {
@@ -10,7 +11,7 @@ class Ontwerpend extends React.Component {
   render() {
     return (
       <div>
-        <Title davidoff>
+        <Title ontwikkelend>
           <BackButton value="<"/>
           Ontwikkelend
         </Title>

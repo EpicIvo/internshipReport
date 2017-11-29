@@ -1,5 +1,7 @@
 import React from 'react';
 import {Title, List, ListItem} from '../../shared/categoryStyles';
+// Components
+import BackButton from '../common/BackButton/BackButton.jsx'
 
 class Ontwerpend extends React.Component {
   constructor() {
@@ -9,9 +11,8 @@ class Ontwerpend extends React.Component {
   render() {
     return (
       <div>
-        <Title onClick={() => {
-          this.props.history.push("/")
-        }}>
+        <Title ontwerpend>
+          <BackButton value="<"/>
           Ontwerpend
         </Title>
         <List>
