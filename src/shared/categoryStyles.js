@@ -1,17 +1,23 @@
 import glamorous from 'glamorous';
 // Global Styles
 import { colors } from './globalStyles';
+// Images
+import davidoffBackground from '../images/davidoff.jpeg';
 
 const Title = glamorous.h1({
+  backgroundImage: `url(${davidoffBackground})`,
+  color: colors.projects.davidoff,
+  borderBottom: `8px solid ${colors.projects.davidoff}`,
+  backgroundSize: 'cover',
+  backgroundPosition: 'center',
   fontFamily: 'Avenir next',
-  fontWeight: 'bold',
   fontSize: '6em',
-  margin: '0',
-  padding: '1%',
-  color: colors.general.orange,
-  ':hover': {
-    cursor: 'pointer',
-  }
+  padding: '2%',
+  fontWeight: 'bold',
+  height: '25vh',
+  lineHeight: '25vh',
+  textAlign: 'center',
+  marginBottom: '10vh'
 });
 
 const List = glamorous.ul({

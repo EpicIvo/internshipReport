@@ -1,13 +1,13 @@
 import glamorous from 'glamorous';
 import propStyles from 'prop-styles';
 // Global Styles
-import { colors } from '../../../shared/globalStyles.js';
+import { colors } from './globalStyles.js';
 // Images
-import ninlaroBackground from '../../../images/ninlaro.jpg';
-import davidoffBackground from '../../../images/davidoff.jpeg';
-import mentosBackground from '../../../images/mentos.png';
-import heroBackground from '../../../images/hero.jpg';
-import schwartauBackground from '../../../images/schwartau.jpg';
+import ninlaroBackground from '../images/ninlaro.jpg';
+import davidoffBackground from '../images/davidoff.jpeg';
+import mentosBackground from '../images/mentos.png';
+import heroBackground from '../images/hero.jpg';
+import schwartauBackground from '../images/schwartau.jpg';
 
 const Title = glamorous.div(
   propStyles({

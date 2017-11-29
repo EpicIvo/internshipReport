@@ -4,11 +4,11 @@ import Switch from 'react-router/lib/Route';
 import Util from 'util-is';
 
 import App from '../components/App/App.jsx';
-import Ontwikkelend from '../components/categories/Ontwikkelend/Ontwikkelend.jsx';
-import Ondernemend from '../components/categories/Ondernemend/Ondernemend.jsx';
-import Betrokken from '../components/categories/Betrokken/Betrokken.jsx';
-import Onderzoekend from '../components/categories/Onderzoekend/Onderzoekend.jsx';
-import Ontwerpend from "../components/categories/Ontwerpend/Ontwerpend.jsx";
+import Ontwikkelend from '../components/categories/Ontwikkelend.jsx';
+import Ondernemend from '../components/categories/Ondernemend.jsx';
+import Betrokken from '../components/categories/Betrokken.jsx';
+import Onderzoekend from '../components/categories/Onderzoekend.jsx';
+import Ontwerpend from "../components/categories/Ontwerpend.jsx";
 import Ninlaro from "../components/detail-pages/Ninlaro.jsx";
 import Davidoff from "../components/detail-pages/Davidoff.jsx";
 import Mentos from "../components/detail-pages/Mentos.jsx";
@@ -34,10 +34,11 @@ const routes = (
 
 // HMR
 if (module.hot) {
-  require('../components/Ondernemend/Ondernemend.jsx');
-  require('../components/Onderzoekend/Onderzoekend.jsx');
-  require('../components/Ontwerpend/Ontwerpend.jsx');
-  require('../components/Betrokken/Betrokken.jsx');
+  require('../components/categories/Ontwikkelend.jsx');
+  require('../components/categories/Ondernemend.jsx');
+  require('../components/categories/Onderzoekend.jsx');
+  require('../components/categories/Ontwerpend.jsx');
+  require('../components/categories/Betrokken.jsx');
   require('../components/detail-pages/Ninlaro.jsx');
   require('../components/detail-pages/Davidoff.jsx');
   require('../components/detail-pages/Mentos.jsx');

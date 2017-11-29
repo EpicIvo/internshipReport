@@ -1,6 +1,6 @@
 import React from 'react';
 // styles
-import {Title, Content, SubTitle} from './shared-styles/styles.js';
+import {Title, Content, SubTitle} from './../../shared/detailStyles.js';
 // Components
 import BackButton from '../common/BackButton/BackButton.jsx';
 

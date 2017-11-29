@@ -1,5 +1,5 @@
 import React from 'react';
-import {Title, List, ListItem} from '../../../shared/categoryStyles';
+import {Title, List, ListItem} from '../../shared/categoryStyles';
 
 class Onderzoekend extends React.Component {
   constructor() {
