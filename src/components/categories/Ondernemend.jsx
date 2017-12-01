@@ -17,17 +17,21 @@ class Ondernemend extends React.Component {
           Ondernemend
         </Title>
         <List>
-          <Link to="/ondernemende-houding">
+          <Link to="/ondernemend/ondernemende-houding">
             <ListItem>
               Ondernemende houding
             </ListItem>
           </Link>
-          <ListItem>
-            Ondernemende vaardigheden
-          </ListItem>
-          <ListItem>
-            Projectmatig werken
-          </ListItem>
+          <Link to="/ondernemend/ondernemende-vaardigheden">
+            <ListItem>
+              Ondernemende vaardigheden
+            </ListItem>
+          </Link>
+          <Link to="/ondernemend/projectmatig-werken">
+            <ListItem>
+              Projectmatig werken
+            </ListItem>
+          </Link>
         </List>
       </div>
     );

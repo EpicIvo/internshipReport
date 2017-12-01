@@ -45,13 +45,13 @@ const routes = (
     <Route path="ontwikkelend/technische-kennis-en-analyse" components={TechnischeKennisAnalyse}/>,
     <Route path="ontwikkelend/testen-en-implementeren" components={TestenImplementeren}/>,
     <Route path="ontwikkelend/ontwikkelen-en-prototypen" components={OntwikkelenPrototypen}/>,
-    <Route path="onderzoekend/onderzoek-en-analyseren" components={OnderzoekenAnalyseren}/>,
+    <Route path="onderzoekend/onderzoeken-en-analyseren" components={OnderzoekenAnalyseren}/>,
     <Route path="ontwerpend/conceptualiseren" components={Conceptualiseren}/>,
     <Route path="ontwerpend/ontwerpen-en-prototypen" components={OntwerpenPrototypen}/>,
     <Route path="ondernemend/ondernemende-houding" components={OndernemendeHouding}/>,
     <Route path="ondernemend/ondernemende-vaardigheden" components={OndernemendeVaardigheden}/>,
     <Route path="ondernemend/projectmatig-werken" components={ProjectmatigWerken}/>,
-    <Route path="ondernemend/lerend-vermogen" components={LerendVermogen}/>,
+    <Route path="betro/lerend-vermogen" components={LerendVermogen}/>,
   </Switch>
 );
 

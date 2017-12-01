@@ -19,7 +19,7 @@ class LerendVermogen extends React.Component {
       <div>
         <Title ondernemend criteria>
           <BackButton icon="<" path="/ondernemend"/>
-          Ondernemende houding
+          Lerend vermogen
         </Title>
         <SubText>
           De CMGT'er streeft naar verbetering en is kritisch naar collega’s en zichzelf om het beste in zichzelf

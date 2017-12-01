@@ -19,7 +19,7 @@ class TechnischeKennisAnalyse extends React.Component {
       <div>
         <Title ondernemend criteria>
           <BackButton icon="<" path="/ondernemend"/>
-          Ondernemende houding
+          Technische kennis en analyse
         </Title>
         <SubText>
            De CMGT'er beschikt over kennis van ontwikkeltalen, - frameworks, -omgevingen, en kan deze met weinig

@@ -19,7 +19,7 @@ class OntwikkelenPrototypen extends React.Component {
       <div>
         <Title ondernemend criteria>
           <BackButton icon="<" path="/ondernemend"/>
-          Ondernemende houding
+          Ontwikkelen en prototypen
         </Title>
         <SubText>
           De CMGT'er is in staat om iteratief te ontwikkelen, om zo deadlines en afspraken na te komen.

@@ -19,7 +19,7 @@ class Conceptualiseren extends React.Component {
       <div>
         <Title ondernemend criteria>
           <BackButton icon="<" path="/ondernemend"/>
-          Ondernemende houding
+          Conceptualiseren
         </Title>
         <SubText>
           De CMGT'er is in staat een concept te ontwerpen dat relevant is voor een vooraf gespecificeerde

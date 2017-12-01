@@ -1,5 +1,6 @@
 import React from 'react';
 import {Title, List, ListItem} from '../../shared/categoryStyles';
+import {Link} from 'react-router';
 // Components
 import BackButton from '../common/BackButton/BackButton.jsx'
 
@@ -12,13 +13,15 @@ class Onderzoekend extends React.Component {
     return (
       <div>
         <Title onderzoekend category>
-          <BackButton icon="<" path="/"/>
+          <BackButton icon="<" path="/onderzoekend"/>
           Onderzoekend
         </Title>
         <List>
-          <ListItem>
-            Onderzoeken en analyseren
-          </ListItem>
+          <Link to="/onderzoekend/onderzoeken-en-analyseren">
+            <ListItem>
+              Onderzoeken en analyseren
+            </ListItem>
+          </Link>
         </List>
       </div>
     );

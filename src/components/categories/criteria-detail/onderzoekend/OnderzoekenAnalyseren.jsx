@@ -19,7 +19,7 @@ class OnderzoekenAnalyseren extends React.Component {
       <div>
         <Title ondernemend criteria>
           <BackButton icon="<" path="/ondernemend"/>
-          Ondernemende houding
+          Onderzoeken en analyseren
         </Title>
         <SubText>
           De CMGT'er is in staat op structurele wijze een bronnen- en veldonderzoek uit te voeren in opdracht

@@ -19,7 +19,7 @@ class TestenImplementeren extends React.Component {
       <div>
         <Title ondernemend criteria>
           <BackButton icon="<" path="/ondernemend"/>
-          Ondernemende houding
+          Testen en implementeren
         </Title>
         <SubText>
           De CMGT'er is in staat de correcte werking van producten te testen, waarbij analyse van een

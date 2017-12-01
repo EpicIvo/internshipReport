@@ -19,7 +19,7 @@ class ProjectmatigWerken extends React.Component {
       <div>
         <Title ondernemend criteria>
           <BackButton icon="<" path="/ondernemend"/>
-          Ondernemende Vaardigheden
+          Projectmatig werken
         </Title>
         <SubText>
           De CMGT'er is in staat om zowel individueel als in teamverband iteratief te werken aan de ontwikkeling van producten.

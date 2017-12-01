@@ -19,7 +19,7 @@ class OntwerpenPrototypen extends React.Component {
       <div>
         <Title ondernemend criteria>
           <BackButton icon="<" path="/ondernemend"/>
-          Ondernemende houding
+          Ontwerpen en prototypen
         </Title>
         <SubText>
           De CMGT'er kan een gestructureerd doelgroeponderzoek opzetten en uitvoeren
