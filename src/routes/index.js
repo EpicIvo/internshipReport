@@ -9,11 +9,23 @@ import Ondernemend from '../components/categories/Ondernemend.jsx';
 import Betrokken from '../components/categories/Betrokken.jsx';
 import Onderzoekend from '../components/categories/Onderzoekend.jsx';
 import Ontwerpend from "../components/categories/Ontwerpend.jsx";
+{/*Detail pages*/}
 import Ninlaro from "../components/detail-pages/Ninlaro.jsx";
 import Davidoff from "../components/detail-pages/Davidoff.jsx";
 import Mentos from "../components/detail-pages/Mentos.jsx";
 import Hero from "../components/detail-pages/Hero.jsx";
 import Schwartau from "../components/detail-pages/Schwartau.jsx";
+{/*Criteria detail pages*/}
+import TechnischeKennisAnalyse from '../components/categories/criteria-detail/ontwikkelend/TechnischeKennisAnalyse.jsx';
+import TestenImplementeren from '../components/categories/criteria-detail/ontwikkelend/TestenImplementeren.jsx';
+import OntwikkelenPrototypen from '../components/categories/criteria-detail/ontwikkelend/OntwikkelenPrototypen.jsx';
+import OnderzoekenAnalyseren from '../components/categories/criteria-detail/onderzoekend/OnderzoekenAnalyseren.jsx'
+import Conceptualiseren from '../components/categories/criteria-detail/ontwerpend/Conceptualiseren.jsx';
+import OntwerpenPrototypen from '../components/categories/criteria-detail/ontwerpend/OntwerpenPrototypen.jsx';
+import OndernemendeHouding from '../components/categories/criteria-detail/ondernemend/OndernemendeHouding.jsx';
+import OndernemendeVaardigheden from '../components/categories/criteria-detail/ondernemend/OndernemendeVaardigheden.jsx';
+import ProjectmatigWerken from '../components/categories/criteria-detail/ondernemend/ProjectmatigWerken.jsx';
+import LerendVermogen from '../components/categories/criteria-detail/betrokken/LerendVermogen.jsx'
 
 const routes = (
   <Switch>
@@ -29,6 +41,17 @@ const routes = (
     <Route path="mentos" components={Mentos}/>,
     <Route path="hero" components={Hero}/>,
     <Route path="schwartau" components={Schwartau}/>,
+    {/*Criteria detail pages*/}
+    <Route path="ontwikkelend/technische-kennis-en-analyse" components={TechnischeKennisAnalyse}/>,
+    <Route path="ontwikkelend/testen-en-implementeren" components={TestenImplementeren}/>,
+    <Route path="ontwikkelend/ontwikkelen-en-prototypen" components={OntwikkelenPrototypen}/>,
+    <Route path="onderzoekend/onderzoek-en-analyseren" components={OnderzoekenAnalyseren}/>,
+    <Route path="ontwerpend/conceptualiseren" components={Conceptualiseren}/>,
+    <Route path="ontwerpend/ontwerpen-en-prototypen" components={OntwerpenPrototypen}/>,
+    <Route path="ondernemend/ondernemende-houding" components={OndernemendeHouding}/>,
+    <Route path="ondernemend/ondernemende-vaardigheden" components={OndernemendeVaardigheden}/>,
+    <Route path="ondernemend/projectmatig-werken" components={ProjectmatigWerken}/>,
+    <Route path="ondernemend/lerend-vermogen" components={LerendVermogen}/>,
   </Switch>
 );
 

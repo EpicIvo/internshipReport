@@ -1,6 +1,7 @@
 import React, {PropTypes} from 'react';
+import {Link} from 'react-router';
 // Styled
-import {AppContainer, TopBar, MenuItem, Title, DoubleBlockContainer, BlockContainer, Block, BlockText} from './styles/styles.js';
+import {AppContainer, TopBar, CategoryItem, Title, DoubleBlockContainer, BlockContainer, Block, BlockText} from './styles/styles.js';
 
 class App extends React.Component {
   constructor() {
@@ -17,101 +18,93 @@ class App extends React.Component {
         </Title>
 
         <TopBar>
-          <MenuItem
-            onClick={() => {
-              this.props.history.push("/ontwikkelend");
-            }}>
-            Ontwikkelend
-          </MenuItem>
-          <MenuItem
-            onClick={() => {
-              this.props.history.push("/onderzoekend");
-            }}>
-            Onderzoekend
-          </MenuItem>
-          <MenuItem
-            onClick={() => {
-              this.props.history.push("/ontwerpend");
-            }}>
-            Ontwerpend
-          </MenuItem>
-          <MenuItem
-            onClick={() => {
-              this.props.history.push("/ondernemend");
-            }}>
-            Ondernemend
-          </MenuItem>
-          <MenuItem
-            onClick={() => {
-              this.props.history.push("/betrokken");
-            }}>
-            Betrokken
-          </MenuItem>
+          <Link to="/ontwikkelend">
+            <CategoryItem>
+              Ontwikkelend
+            </CategoryItem>
+          </Link>
+          <Link to="/onderzoekend">
+            <CategoryItem>
+              Onderzoekend
+            </CategoryItem>
+          </Link>
+          <Link to="/ontwerpend">
+            <CategoryItem>
+              Ontwerpend
+            </CategoryItem>
+          </Link>
+          <Link to="/ondernemend">
+            <CategoryItem>
+              Ondernemend
+            </CategoryItem>
+          </Link>
+          <Link to="/betrokken">
+            <CategoryItem>
+              Betrokken
+            </CategoryItem>
+          </Link>
         </TopBar>
 
         <DoubleBlockContainer>
 
           <BlockContainer>
-            <Block
-              onClick={() => {
-                this.props.history.push("/ninlaro");
-              }}
-              ninlaro>
-              <BlockText>
-                Ninlaro
-              </BlockText>
-            </Block>
+            <Link to="/ninlaro">
+              <Block ninlaro>
+                <BlockText>
+                  Ninlaro
+                </BlockText>
+              </Block>
+            </Link>
           </BlockContainer>
           <BlockContainer>
-            <Block onClick={() => {
-              this.props.history.push("/zino-davidoff");
-            }} davidoff>
-              <BlockText>
-                Zino-davidoff
-              </BlockText>
-            </Block>
+            <Link to="/zino-davidoff">
+              <Block davidoff>
+                <BlockText>
+                  Zino-davidoff
+                </BlockText>
+              </Block>
+            </Link>
           </BlockContainer>
 
           <BlockContainer>
-            <Block
-              onClick={() => {
-                this.props.history.push("/mentos");
-              }} mentos>
-              <BlockText>
-                Mentos
-              </BlockText>
-            </Block>
+            <Link to="/mentos">
+              <Block mentos>
+                <BlockText>
+                  Mentos
+                </BlockText>
+              </Block>
+            </Link>
           </BlockContainer>
           <BlockContainer>
-            <Block onClick={() => {
-              this.props.history.push("/hero");
-            }} hero>
-              <BlockText>
-                Hero
-              </BlockText>
-            </Block>
+            <Link to="/hero">
+              <Block hero>
+                <BlockText>
+                  Hero
+                </BlockText>
+              </Block>
+            </Link>
           </BlockContainer>
 
         </DoubleBlockContainer>
         <DoubleBlockContainer>
 
           <BlockContainer>
-            <Block onClick={() => {
-              this.props.history.push("/schwartau");
-            }} schwartau>
-              <BlockText>
-                Schwartau
-              </BlockText>
-            </Block>
+            <Link to="/schwartau">
+              <Block schwartau>
+                <BlockText>
+                  Schwartau
+                </BlockText>
+              </Block>
+            </Link>
           </BlockContainer>
           <BlockContainer>
-            <Block onClick={() => {
-              this.props.history.push("/onderzoekend");
-            }}>
-              <BlockText>
-                CDSP
-              </BlockText>
-            </Block>
+            <Link to="/onderzoekend">
+              <Block>
+                <BlockText>
+                  CDSP
+                </BlockText>
+              </Block>
+            </Link>
           </BlockContainer>
 
         </DoubleBlockContainer>

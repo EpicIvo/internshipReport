@@ -11,8 +11,8 @@ class Betrokken extends React.Component {
   render() {
     return (
       <div>
-        <Title betrokken>
-          <BackButton value="<"/>
+        <Title betrokken category>
+          <BackButton icon="<" path="/"/>
           Betrokken
         </Title>
         <List>

@@ -11,8 +11,8 @@ class Onderzoekend extends React.Component {
   render() {
     return (
       <div>
-        <Title onderzoekend>
-          <BackButton value="<"/>
+        <Title onderzoekend category>
+          <BackButton icon="<" path="/"/>
           Onderzoekend
         </Title>
         <List>

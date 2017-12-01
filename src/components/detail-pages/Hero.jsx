@@ -13,7 +13,7 @@ class Hero extends React.Component {
     return (
       <div>
         <Title hero>
-          <BackButton value="<"/>
+          <BackButton icon="<" path="/"/>
           Hero
         </Title>
         <Content>

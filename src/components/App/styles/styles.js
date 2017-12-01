@@ -22,7 +22,7 @@ const TopBar = glamorous.div({
   margin: '0 0 3% 0',
 });
 
-const MenuItem = glamorous.div({
+const CategoryItem = glamorous.div({
   fontFamily: 'Avenir Next',
   fontSize: '1em',
   textAlign: 'center',
@@ -32,7 +32,7 @@ const MenuItem = glamorous.div({
   backgroundColor: colors.general.white,
   display: 'inline-block',
   transitionDuration: '0.4s',
-  borderRadius: '25px',
+  borderRadius: '75',
   border: `2px solid ${colors.general.lime}`,
   boxShadow: '10px 10px 15px rgba(163,175,191,1)',
   ':hover': {
@@ -105,7 +105,7 @@ const Block = glamorous.div(
     width: '80%',
     height: '20vh',
     textAlign: 'center',
-    borderRadius: '25px',
+    borderRadius: '60',
     border: `2px solid ${colors.general.lime}`,
     overflow: 'hidden',
     transitionDuration: '0.3s',
@@ -117,6 +117,7 @@ const Block = glamorous.div(
       cursor: 'pointer',
       boxShadow: '16px 16px 20px rgba(163,175,191,1)',
       filter: 'grayscale(50%)',
+      borderRadius: '85',
     }
   });
 
@@ -131,7 +132,7 @@ const BlockText = glamorous.div({
 export {
   AppContainer,
   TopBar,
-  MenuItem,
+  CategoryItem,
   Title,
   DoubleBlockContainer,
   BlockContainer,

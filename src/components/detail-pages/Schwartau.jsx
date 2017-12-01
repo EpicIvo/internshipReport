@@ -13,7 +13,7 @@ class Schwartau extends React.Component {
     return (
       <div>
         <Title schwartau>
-          <BackButton value="<"/>
+          <BackButton icon="<" path="/"/>
           Schwartau
         </Title>
         <Content>

@@ -13,7 +13,7 @@ class Davidoff extends React.Component {
     return (
       <div>
         <Title davidoff>
-          <BackButton value="<"/>
+          <BackButton icon="<" path="/"/>
           Davidoff
         </Title>
         <Content>

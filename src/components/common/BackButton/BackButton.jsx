@@ -24,16 +24,17 @@ const ButtonText = glamorous.div({
 
 const BackButton = (props) => (
   <Button>
-    <Link to="/">
+    <Link to={props.path}>
       <ButtonText>
-        {props.value}
+        {props.icon}
       </ButtonText>
     </Link>
   </Button>
 )
 
 BackButton.PropTypes = {
-  value: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
+  path: PropTypes.string.isRequired
 };
 
 export default BackButton;

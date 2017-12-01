@@ -1,6 +1,8 @@
 import React from 'react';
+import {Link} from 'react-router';
 // styles
-import {Title, Content, SubTitle} from './../../shared/detailStyles.js';
+import {Title, DetailPageTopBar, Content, SubTitle} from './../../shared/detailStyles.js';
+import {CategoryItem} from './../App/styles/styles.js';
 // Components
 import BackButton from '../common/BackButton/BackButton.jsx';
 
@@ -13,9 +15,27 @@ class Ninlaro extends React.Component {
     return (
       <div>
         <Title ninlaro>
-          <BackButton value="<"/>
+          <BackButton icon="<" path="/"/>
           Ninlaro
         </Title>
+        <DetailPageTopBar>
+          <Link to="/ontwikkelend">
+            <CategoryItem>
+              Ontwikkelend
+            </CategoryItem>
+          </Link>
+          <Link to="/betrokken">
+            <CategoryItem>
+              Betrokken
+            </CategoryItem>
+          </Link>
+          <Link to="/ondernemend">
+            <CategoryItem>
+              Ondernemend
+            </CategoryItem>
+          </Link>
+        </DetailPageTopBar>
+
         <Content>
           Oorspronkelijk stond ik maar twee dagen ingepland op Ninlaro, dit werden alleen wel wat meer dagen na wat misverstanden.
           Aan mij was de taak gegeven ervoor te zorgen dat alle content dat geüpload moest worden op de goede plek stond en ook echt

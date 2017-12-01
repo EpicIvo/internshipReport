@@ -23,6 +23,9 @@ export default vo => `
 
       
     <style>
+        body{
+            background-color: #E8E9EB;
+        }
         a{
             text-decoration: none;
         }

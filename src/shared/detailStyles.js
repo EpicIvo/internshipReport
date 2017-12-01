@@ -47,8 +47,14 @@ const Title = glamorous.div(
     height: '25vh',
     lineHeight: '25vh',
     textAlign: 'center',
-    marginBottom: '10vh'
+    marginBottom: '5vh'
   });
+
+const DetailPageTopBar = glamorous.div({
+  width: '100%',
+  textAlign: 'center',
+  margin: '0 0 5vh 0',
+});
 
 const Content = glamorous.div({
   fontFamily: 'Avenir next',
@@ -85,6 +91,7 @@ const SubTitle = glamorous.h2(
 
 export {
   Title,
+  DetailPageTopBar,
   Content,
   SubTitle
 }

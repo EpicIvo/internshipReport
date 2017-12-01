@@ -25,6 +25,7 @@
   },
   "scripts": {
     "dev": "kyt dev",
+    "prod": "kyt build && node build/server/main.js",
     "build": "kyt build",
     "start": "node build/server/main.js",
     "proto": "kyt proto",

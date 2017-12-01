@@ -11,6 +11,14 @@ import sunsetFecamp from '../images/categories/sunsetFecamp.jpg';
 
 const Title = glamorous.h1(
   propStyles({
+    category: {
+      fontSize: '6em',
+      margin: '0 0 10vh 0'
+    },
+    criteria: {
+      fontSize: '4em',
+      margin: '0'
+    },
     ontwikkelend: {
       backgroundImage: `url(${alwaysBeCoding})`,
       color: colors.general.white,
@@ -33,17 +41,15 @@ const Title = glamorous.h1(
     }
   }),
   {
-    borderBottom: `8px solid ${colors.projects.davidoff}`,
+    borderBottom: `8px solid ${colors.general.gray}`,
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     fontFamily: 'Avenir next',
-    fontSize: '6em',
     padding: '4%',
     fontWeight: 'bold',
     height: '25vh',
     lineHeight: '25vh',
     textAlign: 'center',
-    margin: '0 0 10vh 0'
   }
 );
 
