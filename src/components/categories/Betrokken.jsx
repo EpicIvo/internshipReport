@@ -13,7 +13,7 @@ class Betrokken extends React.Component {
     return (
       <div>
         <Title betrokken category>
-          <BackButton icon="<" path="/betrokken"/>
+          <BackButton icon="<" path="/"/>
           Betrokken
         </Title>
         <List>
