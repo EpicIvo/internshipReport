@@ -13,7 +13,7 @@ class Onderzoekend extends React.Component {
     return (
       <div>
         <Title onderzoekend category>
-          <BackButton icon="<" path="/onderzoekend"/>
+          <BackButton icon="<" path="/"/>
           Onderzoekend
         </Title>
         <List>

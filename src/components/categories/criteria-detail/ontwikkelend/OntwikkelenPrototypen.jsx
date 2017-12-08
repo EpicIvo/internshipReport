@@ -17,8 +17,8 @@ class OntwikkelenPrototypen extends React.Component {
   render() {
     return (
       <div>
-        <Title ondernemend criteria>
-          <BackButton icon="<" path="/ondernemend"/>
+        <Title ontwikkelend criteria>
+          <BackButton icon="<" path="/ontwikkelend"/>
           Ontwikkelen en prototypen
         </Title>
         <SubText>
@@ -28,7 +28,7 @@ class OntwikkelenPrototypen extends React.Component {
         </SubText>
         <CriteriaList history={this.props.history} postList={List}/>
       </div>
-    )
+    );
   }
 }
 

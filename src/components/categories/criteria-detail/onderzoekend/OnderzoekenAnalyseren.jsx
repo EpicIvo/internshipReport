@@ -17,8 +17,8 @@ class OnderzoekenAnalyseren extends React.Component {
   render() {
     return (
       <div>
-        <Title ondernemend criteria>
-          <BackButton icon="<" path="/ondernemend"/>
+        <Title onderzoekend criteria>
+          <BackButton icon="<" path="/onderzoekend"/>
           Onderzoeken en analyseren
         </Title>
         <SubText>

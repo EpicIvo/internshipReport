@@ -51,7 +51,7 @@ const routes = (
     <Route path="ondernemend/ondernemende-houding" components={OndernemendeHouding}/>,
     <Route path="ondernemend/ondernemende-vaardigheden" components={OndernemendeVaardigheden}/>,
     <Route path="ondernemend/projectmatig-werken" components={ProjectmatigWerken}/>,
-    <Route path="betro/lerend-vermogen" components={LerendVermogen}/>,
+    <Route path="betrokken/lerend-vermogen" components={LerendVermogen}/>,
   </Switch>
 );
 

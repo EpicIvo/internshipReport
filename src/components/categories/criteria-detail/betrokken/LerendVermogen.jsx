@@ -17,8 +17,8 @@ class LerendVermogen extends React.Component {
   render() {
     return (
       <div>
-        <Title ondernemend criteria>
-          <BackButton icon="<" path="/ondernemend"/>
+        <Title betrokken criteria>
+          <BackButton icon="<" path="/betrokken"/>
           Lerend vermogen
         </Title>
         <SubText>

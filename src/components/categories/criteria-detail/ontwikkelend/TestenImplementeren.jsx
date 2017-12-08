@@ -17,8 +17,8 @@ class TestenImplementeren extends React.Component {
   render() {
     return (
       <div>
-        <Title ondernemend criteria>
-          <BackButton icon="<" path="/ondernemend"/>
+        <Title ontwikkelend criteria>
+          <BackButton icon="<" path="/ontwikkelend"/>
           Testen en implementeren
         </Title>
         <SubText>

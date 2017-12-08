@@ -13,7 +13,7 @@ class Ontwerpend extends React.Component {
     return (
       <div>
         <Title ontwerpend category>
-          <BackButton icon="<" path="/ontwerpend"/>
+          <BackButton icon="<" path="/"/>
           Ontwerpend
         </Title>
         <List>

@@ -17,8 +17,8 @@ class Conceptualiseren extends React.Component {
   render() {
     return (
       <div>
-        <Title ondernemend criteria>
-          <BackButton icon="<" path="/ondernemend"/>
+        <Title ontwerpend criteria>
+          <BackButton icon="<" path="/ontwerpend"/>
           Conceptualiseren
         </Title>
         <SubText>

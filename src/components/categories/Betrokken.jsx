@@ -17,7 +17,7 @@ class Betrokken extends React.Component {
           Betrokken
         </Title>
         <List>
-          <Link to="betrokken/lerend-vermogen">
+          <Link to="/betrokken/lerend-vermogen">
           <ListItem>
             Lerend vermogen
           </ListItem>

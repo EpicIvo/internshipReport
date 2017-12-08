@@ -17,8 +17,8 @@ class TechnischeKennisAnalyse extends React.Component {
   render() {
     return (
       <div>
-        <Title ondernemend criteria>
-          <BackButton icon="<" path="/ondernemend"/>
+        <Title ontwikkelend criteria>
+          <BackButton icon="<" path="/ontwikkelend"/>
           Technische kennis en analyse
         </Title>
         <SubText>
@@ -28,7 +28,7 @@ class TechnischeKennisAnalyse extends React.Component {
         </SubText>
         <CriteriaList history={this.props.history} postList={List}/>
       </div>
-    )
+    );
   }
 }
 
