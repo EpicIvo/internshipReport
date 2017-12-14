@@ -101,7 +101,7 @@ const Quote = glamorous.div({
   fontFamily: 'Avenir next',
   fontSize: '1.2em',
   fontStyle: 'italic',
-  padding: '0 20% 0 20%',
+  padding: '0 20% 2% 20%',
   textAlign: 'center',
   lineHeight: '1.1',
 });
