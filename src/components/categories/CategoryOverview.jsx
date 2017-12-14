@@ -10,7 +10,8 @@ import dataObject from '../../data/data.js';
 class CategoryOverview extends React.Component {
   constructor(props) {
     super(props);
-    const category = dataObject.categories[this.props.route.category];
+    const pathWithoutSlash = this.props.location.pathname.substring(1);
+    const category = dataObject.categories[pathWithoutSlash];
     this.state = {
       title: category.title,
       criteria: category.criteria,

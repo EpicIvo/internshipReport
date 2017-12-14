@@ -41,7 +41,7 @@ class App extends React.Component {
           i = 0;
         }
         return <BlockContainer key={project.title}>
-          <Link to={project.path}>
+          <Link to={`/project${project.path}`}>
             <Block {...this.projectMachineNameProp}>
               <BlockText>
                 {project.title}

@@ -12,7 +12,8 @@ import dataObject from '../../data/data.js';
 class DetailPage extends React.Component {
   constructor(props) {
     super(props);
-    const project = dataObject.projects[this.props.route.project];
+    const projectFromPath = this.props.location.pathname.split('/')[2];
+    const project = dataObject.projects[projectFromPath];
     this.state = {
       title: project.title,
       content: project.content,
@@ -20,7 +21,7 @@ class DetailPage extends React.Component {
       categories: project.categories,
     };
     this.projectProps = {};
-    this.projectProps[this.props.route.project] = true;
+    this.projectProps[projectFromPath] = true;
   }
 
   renderCategory() {

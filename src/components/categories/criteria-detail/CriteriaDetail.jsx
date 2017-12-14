@@ -9,11 +9,13 @@ import dataObject from '../../../data/data.js';
 class CriteriaDetail extends React.Component {
   constructor(props) {
     super(props);
-    const category = dataObject.categories[this.props.route.category];
+    const routePath = this.props.location.pathname;
+    const categoryFromPath = routePath.split('/')[1];
+    const category = dataObject.categories[categoryFromPath];
     this.criteria = '';
 
-    dataObject.categories[this.props.route.category].criteria.map((criteriaObj) => {
-      if (criteriaObj.path === this.props.route.routePath) {
+    dataObject.categories[categoryFromPath].criteria.map((criteriaObj) => {
+      if (criteriaObj.path === routePath) {
         this.criteria = criteriaObj;
       }
     });
@@ -25,7 +27,7 @@ class CriteriaDetail extends React.Component {
     };
 
     this.categoryProps = {};
-    this.categoryProps[this.props.route.category] = true;
+    this.categoryProps[categoryFromPath] = true;
   }
 
   render() {
