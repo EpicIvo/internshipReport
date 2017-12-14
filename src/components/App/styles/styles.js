@@ -8,6 +8,11 @@ import davidoff from '../../../images/davidoff.jpeg';
 import mentos from '../../../images/mentos.png';
 import hero from '../../../images/hero.jpg';
 import schwartau from '../../../images/schwartau.jpg';
+import takeda from '../../../images/takeda.jpg';
+import iffr from '../../../images/iffr.jpg';
+import jgz from '../../../images/jgz.jpg';
+import jamstudio from '../../../images/jamstudio.jpg';
+
 
 const AppContainer = glamorous.div({
   backgroundColor: colors.general.background,
@@ -97,6 +102,34 @@ const Block = glamorous.div(
         color: colors.general.white,
       }
     },
+    takeda: {
+      backgroundImage: `url(${takeda})`,
+      color: colors.general.gray,
+      ':hover': {
+        color: colors.general.white,
+      }
+    },
+    iffr: {
+      backgroundImage: `url(${iffr})`,
+      color: colors.general.gray,
+      ':hover': {
+        color: colors.general.white,
+      }
+    },
+    jgz: {
+      backgroundImage: `url(${jgz})`,
+      color: colors.general.gray,
+      ':hover': {
+        color: colors.general.white,
+      }
+    },
+    jamstudio: {
+      backgroundImage: `url(${jamstudio})`,
+      color: colors.general.background,
+      ':hover': {
+        color: colors.general.white,
+      }
+    }
   }),
   {
     display: 'inline-block',

@@ -1,7 +1,7 @@
 import glamorous from 'glamorous';
 import propStyles from 'prop-styles';
 // Global Styles
-import { colors } from './globalStyles.js';
+import {colors} from './globalStyles.js';
 // Images
 import ninlaroBackground from '../images/ninlaro.jpg';
 import davidoffBackground from '../images/davidoff.jpeg';
@@ -89,9 +89,28 @@ const SubTitle = glamorous.h2(
     fontWeight: 'bold',
   });
 
+const CirteriaTitle = glamorous.h2({
+  color: colors.general.gray,
+  fontFamily: 'Avenir next',
+  fontSize: '1.5em',
+  padding: '0.5% 0 2% 18%',
+  fontWeight: 'bold',
+});
+
+const Quote = glamorous.div({
+  fontFamily: 'Avenir next',
+  fontSize: '1.2em',
+  fontStyle: 'italic',
+  padding: '0 20% 0 20%',
+  textAlign: 'center',
+  lineHeight: '1.1',
+});
+
 export {
   Title,
   DetailPageTopBar,
   Content,
-  SubTitle
+  SubTitle,
+  CirteriaTitle,
+  Quote
 }

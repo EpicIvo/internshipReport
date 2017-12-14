@@ -17,7 +17,7 @@ class CategoryOverview extends React.Component {
       criteria: category.criteria,
     };
     this.categoryProps = {};
-    this.categoryProps[this.props.route.category] = true;
+    this.categoryProps[pathWithoutSlash] = true;
   }
 
   renderCriteriaList() {

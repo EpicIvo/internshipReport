@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router';
 import PropTypes from 'prop-types';
 // styles
-import {Title, DetailPageTopBar, Content, SubTitle} from './../../shared/detailStyles.js';
+import {Title, DetailPageTopBar, Content, SubTitle, CirteriaTitle, Quote} from './../../shared/detailStyles.js';
 import {CategoryItem} from './../App/styles/styles.js';
 // Components
 import BackButton from '../common/BackButton/BackButton.jsx';
@@ -45,6 +45,14 @@ class DetailPage extends React.Component {
         return <SubTitle key={item.content} {...this.projectProps}>
           >_ {item.content}
         </SubTitle>
+      } else if (item.type === 'criteriaTitle') {
+        return <CirteriaTitle key={item.content} {...this.projectProps}>
+          {item.content}
+        </CirteriaTitle>
+      } else if (item.type === 'quote') {
+        return <Quote key={item.content} {...this.projectProps}>
+          "{item.content}"
+        </Quote>
       } else {
         return null
       }
