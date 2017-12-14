@@ -1,23 +1,26 @@
 import React from 'react';
 import {Link} from 'react-router';
+import PropTypes from 'prop-types';
 // styles
 import {Title, DetailPageTopBar, Content, SubTitle} from './../../shared/detailStyles.js';
 import {CategoryItem} from './../App/styles/styles.js';
 // Components
 import BackButton from '../common/BackButton/BackButton.jsx';
-//data
+// Data
 import dataObject from '../../data/data.js';
 
-class Ninlaro extends React.Component {
-  constructor() {
-    super();
+class DetailPage extends React.Component {
+  constructor(props) {
+    super(props);
+    const project = dataObject.projects[this.props.route.project];
     this.state = {
-      title: dataObject.projects.ninlaro.title,
-      content: dataObject.projects.ninlaro.content,
-      subTitles: dataObject.projects.ninlaro.subTitles,
-      categories: dataObject.projects.ninlaro.categories,
+      title: project.title,
+      content: project.content,
+      subTitles: project.subTitles,
+      categories: project.categories,
     };
-    this.renderCategory = this.renderCategory.bind(this);
+    this.projectProps = {};
+    this.projectProps[this.props.route.project] = true;
   }
 
   renderCategory() {
@@ -38,7 +41,7 @@ class Ninlaro extends React.Component {
           <br/><br/>
         </Content>;
       } else if (item.type === 'subTitle') {
-        return <SubTitle key={item.content} ninlaro>
+        return <SubTitle key={item.content} {...this.projectProps}>
           >_ {item.content}
         </SubTitle>
       } else {
@@ -50,7 +53,7 @@ class Ninlaro extends React.Component {
   render() {
     return (
       <div>
-        <Title ninlaro>
+        <Title {...this.projectProps}>
           <BackButton icon="<" path="/"/>
           {this.state.title}
         </Title>
@@ -63,4 +66,10 @@ class Ninlaro extends React.Component {
   }
 }
 
-export default Ninlaro;
+DetailPage.PropTypes = {
+  route: PropTypes.shape({
+    project: PropTypes.string.isRequired,
+  })
+};
+
+export default DetailPage;

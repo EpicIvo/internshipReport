@@ -2,11 +2,56 @@ import React, {PropTypes} from 'react';
 import {Link} from 'react-router';
 // Styled
 import {AppContainer, TopBar, CategoryItem, Title, DoubleBlockContainer, BlockContainer, Block, BlockText} from './styles/styles.js';
+// data
+import dataObject from '../../data/data.js';
+
 
 class App extends React.Component {
-  constructor() {
-    super();
-    // Bindings
+  constructor(props) {
+    super(props);
+    this.state = {
+      projects: Object.values(dataObject.projects),
+      categories: Object.values(dataObject.categories),
+    };
+  }
+
+  renderTopBar() {
+    return <TopBar>
+      {this.state.categories.map((category) => {
+        return <Link key={category.title} to={category.path}>
+          <CategoryItem>
+            {category.title}
+          </CategoryItem>
+        </Link>
+      })}
+    </TopBar>
+  }
+
+
+  renderProjectBlocks() {
+    let i = 0;
+    let projectIndex = -1;
+    return <DoubleBlockContainer>
+      {this.state.projects.map((project) => {
+        projectIndex++;
+        this.projectMachineNameProp = {};
+        this.projectMachineNameProp[Object.keys(dataObject.projects)[projectIndex]] = true;
+        if (i > 3) {
+          return '</DoubleBlockContainer><DoubleBlockContainer>'
+          i = 0;
+        }
+        return <BlockContainer key={project.title}>
+          <Link to={project.path}>
+            <Block {...this.projectMachineNameProp}>
+              <BlockText>
+                {project.title}
+              </BlockText>
+            </Block>
+          </Link>
+        </BlockContainer>
+        i++;
+      })}
+    </DoubleBlockContainer>
   }
 
   render() {
@@ -17,97 +62,9 @@ class App extends React.Component {
           Ivo
         </Title>
 
-        <TopBar>
-          <Link to="/ontwikkelend">
-            <CategoryItem>
-              Ontwikkelend
-            </CategoryItem>
-          </Link>
-          <Link to="/onderzoekend">
-            <CategoryItem>
-              Onderzoekend
-            </CategoryItem>
-          </Link>
-          <Link to="/ontwerpend">
-            <CategoryItem>
-              Ontwerpend
-            </CategoryItem>
-          </Link>
-          <Link to="/ondernemend">
-            <CategoryItem>
-              Ondernemend
-            </CategoryItem>
-          </Link>
-          <Link to="/betrokken">
-            <CategoryItem>
-              Betrokken
-            </CategoryItem>
-          </Link>
-        </TopBar>
+        {this.renderTopBar()}
+        {this.renderProjectBlocks()}
 
-        <DoubleBlockContainer>
-
-          <BlockContainer>
-            <Link to="/ninlaro">
-              <Block ninlaro>
-                <BlockText>
-                  Ninlaro
-                </BlockText>
-              </Block>
-            </Link>
-          </BlockContainer>
-          <BlockContainer>
-            <Link to="/zino-davidoff">
-              <Block davidoff>
-                <BlockText>
-                  Zino-davidoff
-                </BlockText>
-              </Block>
-            </Link>
-          </BlockContainer>
-
-          <BlockContainer>
-            <Link to="/mentos">
-              <Block mentos>
-                <BlockText>
-                  Mentos
-                </BlockText>
-              </Block>
-            </Link>
-          </BlockContainer>
-          <BlockContainer>
-            <Link to="/hero">
-              <Block hero>
-                <BlockText>
-                  Hero
-                </BlockText>
-              </Block>
-            </Link>
-          </BlockContainer>
-
-        </DoubleBlockContainer>
-        <DoubleBlockContainer>
-
-          <BlockContainer>
-            <Link to="/schwartau">
-              <Block schwartau>
-                <BlockText>
-                  Schwartau
-                </BlockText>
-              </Block>
-            </Link>
-          </BlockContainer>
-          <BlockContainer>
-            <Link to="/onderzoekend">
-              <Block>
-                <BlockText>
-                  CDSP
-                </BlockText>
-              </Block>
-            </Link>
-          </BlockContainer>
-
-        </DoubleBlockContainer>
       </AppContainer>
     );
   }

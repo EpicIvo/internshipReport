@@ -4,69 +4,42 @@ import Switch from 'react-router/lib/Route';
 import Util from 'util-is';
 
 import App from '../components/App/App.jsx';
-import Ontwikkelend from '../components/categories/Ontwikkelend.jsx';
-import Ondernemend from '../components/categories/Ondernemend.jsx';
-import Betrokken from '../components/categories/Betrokken.jsx';
-import Onderzoekend from '../components/categories/Onderzoekend.jsx';
-import Ontwerpend from "../components/categories/Ontwerpend.jsx";
+import CategoryOverview from '../components/categories/CategoryOverview.jsx';
 {/*Detail pages*/}
-import Ninlaro from "../components/detail-pages/Ninlaro.jsx";
-import Davidoff from "../components/detail-pages/Davidoff.jsx";
-import Mentos from "../components/detail-pages/Mentos.jsx";
-import Hero from "../components/detail-pages/Hero.jsx";
-import Schwartau from "../components/detail-pages/Schwartau.jsx";
+import DetailPage from "../components/detail-pages/DetailPage.jsx";
 {/*Criteria detail pages*/}
-import TechnischeKennisAnalyse from '../components/categories/criteria-detail/ontwikkelend/TechnischeKennisAnalyse.jsx';
-import TestenImplementeren from '../components/categories/criteria-detail/ontwikkelend/TestenImplementeren.jsx';
-import OntwikkelenPrototypen from '../components/categories/criteria-detail/ontwikkelend/OntwikkelenPrototypen.jsx';
-import OnderzoekenAnalyseren from '../components/categories/criteria-detail/onderzoekend/OnderzoekenAnalyseren.jsx'
-import Conceptualiseren from '../components/categories/criteria-detail/ontwerpend/Conceptualiseren.jsx';
-import OntwerpenPrototypen from '../components/categories/criteria-detail/ontwerpend/OntwerpenPrototypen.jsx';
-import OndernemendeHouding from '../components/categories/criteria-detail/ondernemend/OndernemendeHouding.jsx';
-import OndernemendeVaardigheden from '../components/categories/criteria-detail/ondernemend/OndernemendeVaardigheden.jsx';
-import ProjectmatigWerken from '../components/categories/criteria-detail/ondernemend/ProjectmatigWerken.jsx';
-import LerendVermogen from '../components/categories/criteria-detail/betrokken/LerendVermogen.jsx'
+import CriteriaDetail from '../components/categories/criteria-detail/CriteriaDetail.jsx'
 
 const routes = (
   <Switch>
     <Route path="/" component={App}/>,
-    <Route path="ontwikkelend" components={Ontwikkelend}/>,
-    <Route path="ontwerpend" components={Ontwerpend}/>,
-    <Route path="onderzoekend" components={Onderzoekend}/>,
-    <Route path="ondernemend" components={Ondernemend}/>,
-    <Route path="betrokken" components={Betrokken}/>,
+    <Route path="ontwikkelend" components={CategoryOverview} category="ontwikkelend"/>,
+    <Route path="ontwerpend" components={CategoryOverview} category="ontwerpend"/>,
+    <Route path="onderzoekend" components={CategoryOverview} category="onderzoekend"/>,
+    <Route path="ondernemend" components={CategoryOverview} category="ondernemend"/>,
+    <Route path="betrokken" components={CategoryOverview} category="betrokken"/>,
     {/*Detail pages*/}
-    <Route path="ninlaro" components={Ninlaro}/>,
-    <Route path="zino-davidoff" components={Davidoff}/>,
-    <Route path="mentos" components={Mentos}/>,
-    <Route path="hero" components={Hero}/>,
-    <Route path="schwartau" components={Schwartau}/>,
+    <Route path="ninlaro" components={DetailPage} project="ninlaro"/>,
+    <Route path="zino-davidoff" components={DetailPage} project="davidoff"/>,
+    <Route path="mentos" components={DetailPage} project="mentos"/>,
+    <Route path="hero" components={DetailPage} project="hero"/>,
+    <Route path="schwartau" components={DetailPage} project="schwartau"/>,
     {/*Criteria detail pages*/}
-    <Route path="ontwikkelend/technische-kennis-en-analyse" components={TechnischeKennisAnalyse}/>,
-    <Route path="ontwikkelend/testen-en-implementeren" components={TestenImplementeren}/>,
-    <Route path="ontwikkelend/ontwikkelen-en-prototypen" components={OntwikkelenPrototypen}/>,
-    <Route path="onderzoekend/onderzoeken-en-analyseren" components={OnderzoekenAnalyseren}/>,
-    <Route path="ontwerpend/conceptualiseren" components={Conceptualiseren}/>,
-    <Route path="ontwerpend/ontwerpen-en-prototypen" components={OntwerpenPrototypen}/>,
-    <Route path="ondernemend/ondernemende-houding" components={OndernemendeHouding}/>,
-    <Route path="ondernemend/ondernemende-vaardigheden" components={OndernemendeVaardigheden}/>,
-    <Route path="ondernemend/projectmatig-werken" components={ProjectmatigWerken}/>,
-    <Route path="betrokken/lerend-vermogen" components={LerendVermogen}/>,
+    <Route path="ontwikkelend/technische-kennis-en-analyse" components={CriteriaDetail} category="ontwikkelend" routePath="/ontwikkelend/technische-kennis-en-analyse"/>,
+    <Route path="ontwikkelend/testen-en-implementeren" components={CriteriaDetail} category="ontwikkelend" routePath="/ontwikkelend/testen-en-implementeren"/>,
+    <Route path="ontwikkelend/ontwikkelen-en-prototypen" components={CriteriaDetail} category="ontwikkelend" routePath="/ontwikkelend/ontwikkelen-en-prototypen"/>,
+    <Route path="onderzoekend/onderzoeken-en-analyseren" components={CriteriaDetail} category="onderzoekend" routePath="/onderzoekend/onderzoeken-en-analyseren"/>,
+    <Route path="ontwerpend/conceptualiseren" components={CriteriaDetail} category="ontwerpend" routePath="/ontwerpend/conceptualiseren"/>,
+    <Route path="ontwerpend/ontwerpen-en-prototypen" components={CriteriaDetail} category="ontwerpend" routePath="/ontwerpend/ontwerpen-en-prototypen"/>,
+    <Route path="ondernemend/ondernemende-houding" components={CriteriaDetail} category="ondernemend" routePath="/ondernemend/ondernemende-houding"/>,
+    <Route path="ondernemend/ondernemende-vaardigheden" components={CriteriaDetail} category="ondernemend" routePath="/ondernemend/ondernemende-vaardigheden"/>,
+    <Route path="ondernemend/projectmatig-werken" components={CriteriaDetail} category="ondernemend" routePath="/ondernemend/projectmatig-werken"/>,
+    <Route path="betrokken/lerend-vermogen" components={CriteriaDetail} category="betrokken" routePath="/betrokken/lerend-vermogen"/>,
   </Switch>
 );
 
 // HMR
 if (module.hot) {
-  require('../components/categories/Ontwikkelend.jsx');
-  require('../components/categories/Ondernemend.jsx');
-  require('../components/categories/Onderzoekend.jsx');
-  require('../components/categories/Ontwerpend.jsx');
-  require('../components/categories/Betrokken.jsx');
-  require('../components/detail-pages/Ninlaro.jsx');
-  require('../components/detail-pages/Davidoff.jsx');
-  require('../components/detail-pages/Mentos.jsx');
-  require('../components/detail-pages/Hero.jsx');
-  require('../components/detail-pages/Schwartau.jsx');
 
   // Avoid errors
 
