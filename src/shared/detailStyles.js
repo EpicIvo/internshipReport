@@ -106,11 +106,32 @@ const Quote = glamorous.div({
   lineHeight: '1.1',
 });
 
+const List = glamorous.ul({
+  color: colors.general.gray,
+  fontFamily: 'Avenir next',
+  fontSize: '2em',
+  padding: '0 0 2% 25%',
+});
+
+const Name = glamorous.div({
+  display: 'inline-block',
+  fontWeight: 'bold',
+  padding: '0 1% 0 0'
+})
+
+const Role = glamorous.div({
+  display: 'inline-block',
+  fontStyle: 'italic',
+})
+
 export {
   Title,
   DetailPageTopBar,
   Content,
   SubTitle,
   CirteriaTitle,
-  Quote
+  Quote,
+  List,
+  Name,
+  Role
 }

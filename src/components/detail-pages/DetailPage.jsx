@@ -2,7 +2,7 @@ import React from 'react';
 import {Link} from 'react-router';
 import PropTypes from 'prop-types';
 // styles
-import {Title, DetailPageTopBar, Content, SubTitle, CirteriaTitle, Quote} from './../../shared/detailStyles.js';
+import {Title, DetailPageTopBar, Content, SubTitle, CirteriaTitle, Quote, List, Name, Role} from './../../shared/detailStyles.js';
 import {CategoryItem} from './../App/styles/styles.js';
 // Components
 import BackButton from '../common/BackButton/BackButton.jsx';
@@ -36,25 +36,39 @@ class DetailPage extends React.Component {
 
   renderContent() {
     return this.state.content.map(item => {
-      if (item.type === 'paragraph') {
-        return <Content key={item.content}>
-          {item.content}
-          <br/><br/>
-        </Content>;
-      } else if (item.type === 'subTitle') {
-        return <SubTitle key={item.content} {...this.projectProps}>
-          >_ {item.content}
-        </SubTitle>
-      } else if (item.type === 'criteriaTitle') {
-        return <CirteriaTitle key={item.content} {...this.projectProps}>
-          {item.content}
-        </CirteriaTitle>
-      } else if (item.type === 'quote') {
-        return <Quote key={item.content} {...this.projectProps}>
-          "{item.content}"
-        </Quote>
-      } else {
-        return null
+      switch (item.type) {
+        case 'paragraph':
+          return <Content key={item.content}>
+            {item.content}
+            <br/><br/>
+          </Content>;
+        case 'subTitle':
+          return <SubTitle key={item.content} {...this.projectProps}>
+            >_ {item.content}
+          </SubTitle>;
+        case 'criteriaTitle':
+          return <CirteriaTitle key={item.content} {...this.projectProps}>
+            {item.content}
+          </CirteriaTitle>;
+        case 'quote':
+          return <Quote key={item.content} {...this.projectProps}>
+            "{item.content}"
+          </Quote>;
+        case 'list':
+          return <List key={item.items[0] + item.items[1]}>
+            {item.items.map(listItem => {
+              return <li key={listItem.name}>
+                <Name>
+                  {listItem.name}
+                </Name>
+                <Role>
+                  {listItem.role}
+                </Role>
+              </li>
+            })}
+          </List>
+        default:
+          return null;
       }
     });
   }

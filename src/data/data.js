@@ -5,6 +5,27 @@ const dataObject = {
       path: '/ninlaro',
       content: [{
         type: 'paragraph',
+        content: 'Ninlaro is een medicijn te gebruiken bij Multipel Myeloom. Het word verkocht door het farmaceutisch bedrijf Takeda. Zij zijn al een tijd klant van ons en hebben voor verschillende medicatie en ziektes websites waar informatie op staat. Meestal bestaat zo’n site uit twee delen een patiënten gedeelte en een medisch professional gedeelte. Voor Ninlaro stond het patiënten gedeelte al, waar ik aan werkte was het opzetten van het medisch professional gedeelte.',
+      }, {
+        type: 'paragraph',
+        content: 'De website bestaat uit een Wordpress backend waar via templates in php een frontend aan vast zit. Gestyled met Sass.',
+      }, {
+        type: 'subTitle',
+        content: 'Team'
+      }, {
+        type: 'list',
+        items: [{
+          name: 'Roël',
+          role: 'Frontend developer / Content vuller'
+        }, {
+          name: 'Daan',
+          role: 'Content vuller'
+        }, {
+          name: 'Kim',
+          role: 'Project manager'
+        }]
+      }, {
+        type: 'paragraph',
         content: 'Oorspronkelijk stond ik twee dagen ingepland op het project Ninlaro, alleen zijn hier een aantal dagen bijgekomen! Aan mij was de taak gegeven ervoor te zorgen dat alle content dat geüpload moest worden op de goede plek stond en ook echt goed geüpload werd. Ik moest dit doen aangezien Roël en Daan die de content hebben geüpload beide op vakantie gingen. Ik moest dus eigenlijk de laatste check doen.'
       }, {
         type: 'paragraph',
