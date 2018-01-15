@@ -34,7 +34,7 @@ class CriteriaDetail extends React.Component {
     return (
       <div>
         <Title criteria {...this.categoryProps}>
-          <BackButton icon="<" path={this.state.category.path}/>
+          <BackButton icon="‹" path={this.state.category.path}/>
           {this.state.criteria.title}
         </Title>
         <SubText>

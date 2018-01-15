@@ -11,7 +11,7 @@ const Button = glamorous.div({
 });
 
 const ButtonText = glamorous.div({
-  fontFamily: 'Times',
+  fontFamily: 'Avenir',
   fontSize: '2em',
   fontWeight: '100',
   color: colors.general.white,

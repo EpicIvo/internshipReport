@@ -3,6 +3,7 @@ const dataObject = {
     ninlaro: {
       title: 'Ninlaro',
       path: '/ninlaro',
+      href: 'https://www.ninlaro.nl/',
       content: [{
         type: 'paragraph',
         content: 'Ninlaro is een medicijn te gebruiken bij Multipel Myeloom. Het word verkocht door het farmaceutisch bedrijf Takeda. Zij zijn al een tijd klant van ons en hebben voor verschillende medicatie en ziektes websites waar informatie op staat. Meestal bestaat zo’n site uit twee delen een patiënten gedeelte en een medisch professional gedeelte. Voor Ninlaro stond het patiënten gedeelte al, waar ik aan werkte was het opzetten van het medisch professional gedeelte.',
@@ -130,7 +131,80 @@ const dataObject = {
     davidoff: {
       title: 'Davidoff',
       path: '/davidoff',
-      content: [],
+      href: 'https://www.zinodavidoff.com/',
+      content: [{
+        type: 'paragraph',
+        content: 'Zino davidoff is een bedrijf dat zich specialiseerd in luxe producten. Denk hierbij aan parfum, horloges zonnebrillen alles wat je als rijke zakenman/vrouw zou dragen. Hun oude website was een Wordpress site met een mager design en ze kwamen naar Burst om hier verandering in te brengen.'
+      }, {
+        type: 'paragraph',
+        content: 'Het project heeft eerst een lange design fase gehad waarin de wensen van de klant verder omgetoverd tot een pracht van een website ontwerp. Hierna was het aan het development team om hier werkelijkheid van te maken.'
+      }, {
+        type: 'subTitle',
+        content: 'Team'
+      }, {
+        type: 'list',
+        items: [{
+          name: 'Marcos',
+          role: 'Backend developer - Drupal'
+        }, {
+          name: 'Matthijs A',
+          role: 'React developer'
+        }]
+      }, {
+        type: 'paragraph',
+        content: 'Mijn taak in dit project was het maken van de React kant van de website. Ik deed dit samen met mijn collega Matthijs. '
+      }, {
+        type: 'subTitle',
+        content: 'Headless'
+      }, {
+        type: 'paragraph',
+        content: 'Het project is een groot platform. De keuze was dus ook hier een Drupal van te maken. Burst is aan het vernieuwen op het gebied van dit soort grote projecten. Tot op heden hebben we Drupal sites gebouwd waarin Frontend en Backend dicht in elkaar verwikkeld zaten. Tegenwoordig doen we dit anders. We maken namelijk gebruik van Headless software development. Dit doen we in Drupal met onze eigen geschreven module: “Headless Ninja”. Deze module zorgt voor de juiste data structurering in de backend. De endpoint van Drupal is namelijk een API. Hier koppelen we als frontend de React applicatie aan die de website representeert.'
+      }, {
+        type: 'paragraph',
+        content: 'Het voordeel van deze Headless structuur is de loskoppeling van de voor en achterkant. Hierdoor kun je vele voorkanten (denk aan websites, apps) koppelen aan een backend. Zo is de content overal hetzelfde maar wel verspreid over meerdere media. '
+      }, {
+        type: 'subTitle',
+        content: 'Process'
+      }, {
+        type: 'paragraph',
+        content: 'Het project was onderverdeeld in vele userstories die we daarna per sprint onderverdeelden. We hadden onze glazen muur omgetoverd tot swim lanes waarin we de uitgeprinte userstories in de juiste lane plakten (To do, In progress, Testing, Done). Elke ochtend hadden we een standup waarin we de voorgang van deze userstories bespraken.'
+      }, {
+        type: 'subTitle',
+        content: 'My contribution'
+      }, {
+        type: 'paragraph',
+        content: 'De userstories werden per developer toegewezen. Dit betekend dat alle backend userstories naar Marcos gingen en alle React userstories werden verdeeld onder Matthijs en mij. Dit project was voor mij mijn eerste echte ervaring met React. Ik heb voorheen wel het een en ander in React gedaan maar nog nooit op deze schaal. Het was voor mij dus vooral erg wennen maar gelukkig kon ik me er snel bij inwerken. Met de hulp van Matthijs die me het een en ander over React en Headless Ninja kon uitleggen. '
+      }, {
+        type: 'paragraph',
+        content: 'Ik vond dit een van de vetste projecten om aan te werken. React is een techniek waar ik mij graag in wil verbeteren. Daarom is dit stageverslag gebouwd in React. En tijdens dit project heb er erg veel over geleerd. '
+      }, {
+        type: 'criteriaTitle',
+        content: 'Ontwikkelend>Technische kennis en analyse'
+      }, {
+        type: 'paragraph',
+        content: 'Mijn taak was dus het bouwen van verschillende components in React. Met mijn minimale kennis van React was dit in het begin redelijk lastig. Gelukkig ging het steeds beter en beter omdat ik tijdens het ontwikkelen veel over React leerde. Daarnaast kon Matthijs mij erg goed helpen en veel uitleggen over de werking van React. Hierdoor wist ik binnen een korte tijd genoeg te leren over React om zelf components te schrijven.'
+      }, {
+        type: 'paragraph',
+        content: 'Matthijs en ik verdeelde de Components onder elkaar. Hierbij gebruikten we per component een techniek die de data komend uit de Drupal backend juist structureerde om te gebruiken in React.'
+      }, {
+        type: 'paragraph',
+        content: 'Tijdens het project wisten we hoe de verschillende components eruit moesten komen te zien. Alleen zagen we nog niet voor ons hoe de component in elkaar zat. Zo was het aan mij om uit te vogelen hoe de output uit de backend omgezet kon worden tot een frontend passend bij het originele ontwerp.'
+      }, {
+        type: 'criteriaTitle',
+        content: 'Ontwikkelend>Ontwikkelen en prototypen'
+      }, {
+        type: 'paragraph',
+        content: 'Onze ontwikkel omgeving bestond uit twee delen. De frontend en de Backend. De frontend was redelijk simpel om op te zetten, we gebruiken voor de React frontend namelijk Kyt. Kyt is een toolkit waar React applicaties op gebouwd kunnen worden. Met een simpele yarn install kan je al beginnen met ontwikkelen.'
+      }, {
+        type: 'paragraph',
+        content: 'De backend is gebouwd in Drupal. Om dit lokaal te draaien gebruiken we Docker. Docker is een techniek waar ik al vaker mee heb gewerkt maar wel veel problemen mee heb gehad. Er zijn veel factoren die fout kunnen gaan tijdens de installatie van een project. Zo gebeurde dit ook bij de installatie van Davidoff, ik ben er in totaal een dag mee bezig geweest om alles werkend te krijgen. Maar uiteindelijk stond het en was ik klaar om te beginnen met ontwikkelen!'
+      }, {
+        type: 'criteriaTitle',
+        content: 'Ondernemend>Projectmatig werken'
+      }, {
+        type: 'paragraph',
+        content: 'Als burst zijn we erg bezig te gaan werken op een Agile manier. Dit is een werkwijze waar ik in het eerste en tweede jaar mee kennis heb gemaakt. En het is gaaf om te zien dat Burst hier ook mee bezig is. Ook dit project probeerden we zo op te pakken. Dit deden we door alle werkzaamheden op te splitsen in userstories. Deze userstories verdeelden we daarna weer over verschillende sprints. Als ontwikkelaar kreeg ik per sprint een aantal userstories om aan te werken. Elke ochtend hadden we een standup om te bespreken hoever we de dag ervoor waren gekomen, en waar we die dag aan gingen werken.'
+      }],
       categories: []
     },
     mentos: {
@@ -185,7 +259,7 @@ const dataObject = {
         path: '/ontwikkelend/technische-kennis-en-analyse',
         subText: 'De CMGT\'er beschikt over kennis van ontwikkeltalen, - frameworks, -omgevingen, en kan deze met weinig begeleiding toepassen bij het analyseren van een probleem in een praktijksituatie. Hij houdt daarbij rekening met de bestaande situatie en de wensen van de betrokken stakeholders.',
         list: [{
-          path: '/ninlaro',
+          path: '/project/ninlaro',
           title: 'Ninlaro'
         }]
       }, {
@@ -193,7 +267,7 @@ const dataObject = {
         path: '/ontwikkelend/ontwikkelen-en-prototypen',
         subText: 'De CMGT\'er is in staat om iteratief te ontwikkelen, om zo deadlines en afspraken na te komen. Hij heeft een gedegen kennis op programmeergebied en is flexibel genoeg om zich snel in te werken in nieuwe talen, platformen, tools en de werkwijze binnen het stagebedrijf.',
         list: [{
-          path: '/ninlaro',
+          path: '/project/ninlaro',
           title: 'Ninlaro'
         }]
       }, {
@@ -201,7 +275,7 @@ const dataObject = {
         path: '/ontwikkelend/testen-en-implementeren',
         subText: 'De CMGT\'er is in staat de correcte werking van producten te testen, waarbij analyse van een iteratie tot verbeteringen in de volgende iteratie leidt. Zowel op functioneel- als technisch vlak worden vooraf door de klant of stagebedrijf goedgekeurde testopzet en testdoelen bepaald.',
         list: [{
-          path: '/ninlaro',
+          path: '/project/ninlaro',
           title: 'Ninlaro'
         }]
       }]
@@ -214,7 +288,7 @@ const dataObject = {
         path: '/onderzoekend/onderzoeken-en-analyseren',
         subText: 'De CMGT\'er is in staat op structurele wijze een bronnen- en veldonderzoek uit te voeren in opdracht van het stagebedrijf en op basis van de verzamelde data conclusies te trekken en aanbevelingen te doen. De CMGT\'er reflecteert de resultaten van het onderzoek kritisch.',
         list: [{
-          path: '/ninlaro',
+          path: '/project/ninlaro',
           title: 'Ninlaro'
         }]
       }]
@@ -227,7 +301,7 @@ const dataObject = {
         path: '/ontwerpend/conceptualiseren',
         subText: 'De CMGT\'er is in staat een concept te ontwerpen dat relevant is voor een vooraf gespecificeerde doelgroep. Vanuit een probleemstelling past de mediatechnoloog creatieve technieken toe om tot een ontwerpkader te komen dat als een startpunt gebruikt kan worden voor een ontwikkeltraject.',
         list: [{
-          path: '/ninlaro',
+          path: '/project/ninlaro',
           title: 'Ninlaro'
         }]
       }, {
@@ -235,7 +309,7 @@ const dataObject = {
         path: '/ontwerpend/ontwerpen-en-prototypen',
         subText: 'De CMGT\'er kan een gestructureerd doelgroeponderzoek opzetten en uitvoeren in opdracht van het stagebedrijf. Door middel van prototyping en gebruikerstesten kan hij/zij tot een interface komen die aansluit bij deze doelgroep.',
         list: [{
-          path: '/ninlaro',
+          path: '/project/ninlaro',
           title: 'Ninlaro'
         }]
       }]
@@ -248,7 +322,7 @@ const dataObject = {
         path: '/ondernemend/ondernemende-houding',
         subText: 'De CMGT\'er heeft een actueel beeld van de stand van zaken in de maatschappij op het gebied van technologie. Dit beeld wordt gebruikt om oplossingen te ontwikkelen die er toe doen voor de klant of het stagebedrijf, en deze uit zichzelf aan te dragen.\n',
         list: [{
-          path: '/ninlaro',
+          path: '/project/ninlaro',
           title: 'Ninlaro'
         }]
       }, {
@@ -256,7 +330,7 @@ const dataObject = {
         path: '/ondernemend/ondernemende-vaardigheden',
         subText: 'De CMGT\'er houdt zijn kennis over actuele ontwikkelingen bij en weet zijn bronnen daarvoor op waarde te schatten. Hierdoor is de CMGT\'er in staat kansen te zien waar de klant of het stagebedrijf met behulp van technologie waarde kan creëren. Onder begeleiding kan hij hier een analyse met een trendrapportage en verdienmodellen van maken.',
         list: [{
-          path: '/ninlaro',
+          path: '/project/ninlaro',
           title: 'Ninlaro'
         }]
       }, {
@@ -264,7 +338,7 @@ const dataObject = {
         path: '/ondernemend/projectmatig-werken',
         subText: 'De CMGT\'er is in staat om zowel individueel als in teamverband iteratief te werken aan de ontwikkeling van producten. De CMGT\'er kan hierin diverse rollen aannemen, en communiceert tijdig en duidelijk met belanghebbenden.',
         list: [{
-          path: '/ninlaro',
+          path: '/project/ninlaro',
           title: 'Ninlaro'
         }]
       }]
@@ -277,7 +351,7 @@ const dataObject = {
         path: '/betrokken/lerend-vermogen',
         subText: 'De CMGT\'er streeft naar verbetering en is kritisch naar collega’s en zichzelf om het beste in zichzelf en anderen naar boven te halen. De CMGT\'er reflecteert op eigen ervaringen en feedback vanuit het stagebedrijf en trekt daaruit lessen voor de toekomst.',
         list: [{
-          path: '/ninlaro',
+          path: '/project/ninlaro',
           title: 'Ninlaro'
         }]
       }, {
@@ -285,7 +359,7 @@ const dataObject = {
         path: '/betrokken/verantwoordlijkheid',
         subText: 'De CMGT\'er kan verantwoorde keuzes maken, rekening houdend met (de cultuur van) gebruikers, andere stakeholders en (toekomstige) maatschappelijke ontwikkelingen. De CMGT\'er kan in samenspraak met het stagebedrijf een onderbouwde mening vormen over de maatschappelijke en ethische implicaties van een product.',
         list: [{
-          path: '/ninlaro',
+          path: '/project/ninlaro',
           title: 'Ninlaro'
         }]
       }]

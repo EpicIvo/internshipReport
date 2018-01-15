@@ -34,7 +34,7 @@ class CategoryOverview extends React.Component {
     return (
       <div>
         <Title category {...this.categoryProps}>
-          <BackButton icon="<" path="/"/>
+          <BackButton icon="‹" path="/"/>
           {this.state.title}
         </Title>
         <List>

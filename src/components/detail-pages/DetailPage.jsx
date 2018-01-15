@@ -6,6 +6,7 @@ import {Title, DetailPageTopBar, Content, SubTitle, CirteriaTitle, Quote, List, 
 import {CategoryItem} from './../App/styles/styles.js';
 // Components
 import BackButton from '../common/BackButton/BackButton.jsx';
+import CheckItOut from "../common/CheckItOut/CheckItOut.jsx";
 // Data
 import dataObject from '../../data/data.js';
 
@@ -16,6 +17,7 @@ class DetailPage extends React.Component {
     const project = dataObject.projects[projectFromPath];
     this.state = {
       title: project.title,
+      href: project.href,
       content: project.content,
       subTitles: project.subTitles,
       categories: project.categories,
@@ -77,13 +79,14 @@ class DetailPage extends React.Component {
     return (
       <div>
         <Title {...this.projectProps}>
-          <BackButton icon="<" path="/"/>
+          <BackButton icon="‹" path="/"/>
           {this.state.title}
         </Title>
         <DetailPageTopBar>
           {this.renderCategory()}
         </DetailPageTopBar>
         {this.renderContent()}
+        <CheckItOut path={this.state.href}/>
       </div>
     )
   }
