@@ -12,16 +12,14 @@ export default vo => `
     <meta charSet='utf-8' />
     <meta httpEquiv="Content-Language" content="en" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!--<link id="favicon" rel="icon" href="../src/images/burst_favicon.png" sizes="16x16 32x32" type="image/png" />-->
+    
     <link id="favicon" rel="shortcut icon" href="/burst_favicon.png" sizes="16x16 32x32" type="image/png" />
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
     ${vo.mainCSSBundle
-      ? '<link rel="stylesheet" type="text/css" href="' + vo.mainCSSBundle + '">'
-      : ''}
+  ? '<link rel="stylesheet" type="text/css" href="' + vo.mainCSSBundle + '">'
+  : ''}
 
-      
     <style>
         body{
             background-color: #E8E9EB;
@@ -29,7 +27,7 @@ export default vo => `
         a{
             text-decoration: none;
         }
-    </style> 
+    </style>
     <title>Ivo's internship</title>
   </head>
 
@@ -39,7 +37,5 @@ export default vo => `
     ${getDeferScript(vo.vendorJSBundle)}
     ${getDeferScript(vo.mainJSBundle)}
   </body>
-
 </html>
-
 `;

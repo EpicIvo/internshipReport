@@ -2,11 +2,12 @@ const colors = {
   general: {
     white: '#FFFFFF',
     background: '#E8E9EB',
-    orange: '#F06543',
+    red: 'rgb(236, 0, 31)',
     lightBlue: '#91A6FF',
     darkBlue: '#3C6E71',
     gray: '#2E2E2E',
     lime: '#38FF87',
+    invisible: 'rgba(0,0,0,0)'
   },
   projects: {
     ninlaro: '#EF7622',

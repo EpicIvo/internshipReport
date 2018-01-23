@@ -1,7 +1,23 @@
 import React, {PropTypes} from 'react';
 import {Link} from 'react-router';
 // Styled
-import {AppContainer, TopBar, CategoryItem, Title, DoubleBlockContainer, BlockContainer, Block, BlockText} from './styles/styles.js';
+import {
+  AppContainer,
+  TopBar,
+  Title,
+  BurstLogo,
+  Menu,
+  CategoryItem,
+  DoubleBlockContainer,
+  BlockContainer,
+  BlockBackground,
+  Block,
+  BlockText
+} from './styles/styles.js';
+// Components
+import Introduction from './Introduction.jsx';
+// Images
+import burstLogo from '../../images/burst-logo.png';
 // data
 import dataObject from '../../data/data.js';
 
@@ -17,16 +33,21 @@ class App extends React.Component {
 
   renderTopBar() {
     return <TopBar>
-      {this.state.categories.map((category) => {
-        return <Link key={category.title} to={category.path}>
-          <CategoryItem>
-            {category.title}
-          </CategoryItem>
-        </Link>
-      })}
+      <Title>
+        Ivo
+      </Title>
+      <BurstLogo src={burstLogo}/>
+      <Menu>
+        {this.state.categories.map((category) => {
+          return <Link key={category.title} to={category.path}>
+            <CategoryItem>
+              {category.title}
+            </CategoryItem>
+          </Link>
+        })}
+      </Menu>
     </TopBar>
   }
-
 
   renderProjectBlocks() {
     let i = 0;
@@ -42,10 +63,12 @@ class App extends React.Component {
         }
         return <BlockContainer key={project.title}>
           <Link to={`/project${project.path}`}>
-            <Block {...this.projectMachineNameProp}>
-              <BlockText>
-                {project.title}
-              </BlockText>
+            <Block id="block" {...this.projectMachineNameProp}>
+              <BlockBackground>
+                <BlockText>
+                  {project.title}
+                </BlockText>
+              </BlockBackground>
             </Block>
           </Link>
         </BlockContainer>
@@ -57,14 +80,9 @@ class App extends React.Component {
   render() {
     return (
       <AppContainer>
-
-        <Title>
-          Ivo
-        </Title>
-
         {this.renderTopBar()}
+        <Introduction/>
         {this.renderProjectBlocks()}
-
       </AppContainer>
     );
   }
