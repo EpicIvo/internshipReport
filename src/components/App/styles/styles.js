@@ -1,6 +1,5 @@
 import glamorous from 'glamorous';
 import propStyles from 'prop-styles';
-import {select as $} from 'glamorous'
 // Global Styles
 import {colors} from '../../../shared/globalStyles.js';
 // Images
@@ -52,20 +51,31 @@ const Menu = glamorous.div({
   textAlign: 'right'
 })
 
-const CategoryItem = glamorous.div({
-  fontFamily: 'Avenir Next',
-  fontSize: '1.2em',
-  textAlign: 'right',
-  height: '12vh',
-  lineHeight: '8vh',
-  color: colors.general.gray,
-  padding: '1%',
-  display: 'inline-block',
-  ':hover': {
-    color: colors.general.red,
-    cursor: 'pointer',
-  }
-});
+const CategoryItem = glamorous.div(
+  propStyles({
+    detailPage: {
+      color: colors.general.white,
+      backgroundColor: colors.general.gray,
+      margin: '6vh 2% 6vh 2%',
+      padding: '0 1% 0 1%',
+    },
+    frontPage: {
+      color: colors.general.gray,
+      height: '12vh',
+      padding: '1%',
+    }
+  }),
+  {
+    fontFamily: 'Avenir Next',
+    fontSize: '1.2em',
+    textAlign: 'right',
+    lineHeight: '8vh',
+    display: 'inline-block',
+    ':hover': {
+      color: colors.general.red,
+      cursor: 'pointer',
+    }
+  });
 
 const DoubleBlockContainer = glamorous.div({
   textAlign: 'center',

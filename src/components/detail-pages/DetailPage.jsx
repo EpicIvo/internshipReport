@@ -29,7 +29,7 @@ class DetailPage extends React.Component {
   renderCategory() {
     return this.state.categories.map(category => {
       return <Link key={category.title} to={category.path}>
-        <CategoryItem>
+        <CategoryItem detailPage>
           {category.title}
         </CategoryItem>
       </Link>

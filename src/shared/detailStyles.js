@@ -47,19 +47,19 @@ const Title = glamorous.div(
     height: '25vh',
     lineHeight: '25vh',
     textAlign: 'center',
-    marginBottom: '5vh'
+    // marginBottom: '5vh'
   });
 
 const DetailPageTopBar = glamorous.div({
   width: '100%',
   textAlign: 'center',
-  margin: '0 0 5vh 0',
+  //margin: '0 0 5vh 0',
 });
 
 const Content = glamorous.div({
   fontFamily: 'Avenir next',
   fontSize: '1.5em',
-  padding: '0 20% 0 20%',
+  padding: '0 25% 0 25%',
   textAlign: 'justify',
   lineHeight: '1.1',
 });

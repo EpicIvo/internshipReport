@@ -40,7 +40,7 @@ class App extends React.Component {
       <Menu>
         {this.state.categories.map((category) => {
           return <Link key={category.title} to={category.path}>
-            <CategoryItem>
+            <CategoryItem frontPage>
               {category.title}
             </CategoryItem>
           </Link>

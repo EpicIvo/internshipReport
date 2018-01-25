@@ -14,7 +14,7 @@ const CheckItOutLink = glamorous.div({
 });
 
 const LinkText = glamorous.div({
-  color: colors.general.darkBlue,
+  color: colors.general.gray,
   textDecoration: 'underline'
 });
 
