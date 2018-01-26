@@ -17,7 +17,7 @@ const ButtonText = glamorous.div({
   color: colors.general.white,
   transitionDuration: '0.4s',
   ':hover': {
-    color: colors.general.lime,
+    color: colors.general.red,
     cursor: 'pointer'
   }
 });

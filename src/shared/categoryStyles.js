@@ -58,18 +58,20 @@ const List = glamorous.ul({
 });
 
 const ListItem = glamorous.li({
-  fontFamily: 'Avenir Next',
+  fontFamily: 'medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif',
+  fontSmoothing: 'antialiased',
   fontSize: '3em',
-  color: colors.general.darkBlue,
-  padding: '1% 0 0 0',
+  color: colors.general.gray,
+  padding: '2% 0 0 0',
   transitionDuration: '0.4s',
   cursor: 'pointer',
   ':before': {
-    content: '">_ "',
-    color: colors.general.orange
+    content: '› ',
+    color: colors.general.red,
   },
   ':hover': {
-    padding: '1% 0 0 2%',
+    color: colors.general.red,
+    padding: '2% 0 0 2%',
   }
 });
 

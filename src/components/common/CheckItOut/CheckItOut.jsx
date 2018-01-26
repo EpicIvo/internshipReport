@@ -6,7 +6,8 @@ import {Link} from 'react-router';
 import {colors} from '../../../shared/globalStyles.js';
 
 const CheckItOutLink = glamorous.div({
-  fontFamily: 'Avenir next',
+  fontFamily: 'medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif',
+  fontSmoothing: 'antialiased',
   fontSize: '2.2em',
   padding: '0 20% 2% 20%',
   textAlign: 'center',
@@ -14,8 +15,12 @@ const CheckItOutLink = glamorous.div({
 });
 
 const LinkText = glamorous.div({
-  color: colors.general.gray,
-  textDecoration: 'underline'
+  padding: '2% 0 2% 0',
+  color: colors.general.white,
+  backgroundColor: colors.general.gray,
+  ':hover': {
+    color: colors.general.red,
+  }
 });
 
 const CheckItOut = (props) => (

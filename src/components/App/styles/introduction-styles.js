@@ -14,9 +14,9 @@ const HeaderImage = glamorous.div({
 });
 
 const IntroductionParagraph = glamorous.div({
-  fontFamily: 'Avenir Next',
+  fontFamily: 'medium-content-sans-serif-font,"Lucida Grande","Lucida Sans Unicode","Lucida Sans",Geneva,Arial,sans-serif',
+  fontSmoothing: 'antialiased',
   fontSize: '1.2em',
-  fontWeight: '600',
   lineHeight: '1.2',
   textAlign: 'center',
   padding: '4% 25%',

@@ -14,7 +14,13 @@ const colors = {
     davidoff: '#1D1E2A',
     mentos: '#2C2D87',
     hero: '#00318b',
-    schwartau: '#C8102E'
+    schwartau: '#C8102E',
+    iffr: '#000000',
+    jgz: '#009fde',
+    jamstudio: '#00318b',
+    juvela: 'rgba(58,157,61,.95)',
+    kritisch: '#2E2E2E',
+    tickets: '#02b875'
   },
 };
 

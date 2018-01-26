@@ -62,7 +62,7 @@ class App extends React.Component {
           i = 0;
         }
         return <BlockContainer key={project.title}>
-          <Link to={`/project${project.path}`}>
+          <Link to={`/project${project.path}`} style={{backgroundColor: 'red'}}>
             <Block id="block" {...this.projectMachineNameProp}>
               <BlockBackground>
                 <BlockText>

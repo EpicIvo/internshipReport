@@ -12,7 +12,9 @@ import takeda from '../../../images/takeda.jpg';
 import iffr from '../../../images/iffr.jpg';
 import jgz from '../../../images/jgz.jpg';
 import jamstudio from '../../../images/jamstudio.jpg';
-
+import juvela from '../../../images/juvela.jpg';
+import kritisch from '../../../images/blockchain.jpg';
+import tickets from '../../../images/personal/teamMeeting.jpg';
 
 const AppContainer = glamorous.div({
   backgroundColor: colors.general.white,
@@ -79,13 +81,13 @@ const CategoryItem = glamorous.div(
 
 const DoubleBlockContainer = glamorous.div({
   textAlign: 'center',
-  lineHeight: '0'
+  lineHeight: '0',
 });
 
 const BlockContainer = glamorous.div({
   width: '25%',
   display: 'inline-block',
-  textAlign: 'center'
+  textAlign: 'center',
 });
 
 const BlockBackground = glamorous.div({
@@ -125,9 +127,19 @@ const Block = glamorous.div(
     },
     jamstudio: {
       backgroundImage: `url(${jamstudio})`,
-    }
+    },
+    juvela: {
+      backgroundImage: `url(${juvela})`,
+    },
+    kritisch: {
+      backgroundImage: `url(${kritisch})`,
+    },
+    tickets: {
+      backgroundImage: `url(${tickets})`,
+    },
   }),
   {
+    borderStyle: 'none',
     textAlign: 'center',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
@@ -135,7 +147,7 @@ const Block = glamorous.div(
     width: '100%',
     height: '25vh',
     overflow: 'hidden',
-    opacity: 0.9,
+    opacity: 0.999,
   });
 
 const BlockText = glamorous.div(
