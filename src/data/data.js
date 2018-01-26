@@ -226,7 +226,8 @@ const dataObject = {
         }, {
           title: 'Ondernemend',
           path: '/ondernemend'
-        }]
+        }],
+        attachments: []
       },
       mentos: {
         title: 'Mentos',
@@ -290,7 +291,8 @@ const dataObject = {
         categories: [{
           title: 'Ontwikkelend',
           path: '/ontwikkelend'
-        }]
+        }],
+        attachments: []
       },
       hero: {
         title: 'Hero',
@@ -360,7 +362,8 @@ const dataObject = {
         }, {
           title: 'Betrokken',
           path: '/betrokken'
-        }]
+        }],
+        attachments: []
       },
       schwartau: {
         title: 'Schwartau',
@@ -443,7 +446,8 @@ const dataObject = {
           }, {
             title: 'Ontwikkelend',
             path: '/ontwikkelend'
-          }]
+          }],
+        attachments: []
       },
       iffr: {
         title: 'IFFR',
@@ -517,7 +521,8 @@ const dataObject = {
           [{
             title: 'Ondernemend',
             path: '/ondernemend'
-          }]
+          }],
+        attachments: []
       },
       jgz: {
         title: 'Jgz',
@@ -528,7 +533,8 @@ const dataObject = {
         content:
           [],
         categories:
-          []
+          [],
+        attachments: []
       },
       jamstudio: {
         title: 'Jam Studio',
@@ -539,7 +545,8 @@ const dataObject = {
         content:
           [],
         categories:
-          []
+          [],
+        attachments: []
       },
       juvela: {
         title: 'Juvela',
@@ -550,7 +557,8 @@ const dataObject = {
         content:
           [],
         categories:
-          []
+          [],
+        attachments: []
       },
       kritisch: {
         title: 'Kritische literatuur',
@@ -561,7 +569,8 @@ const dataObject = {
         content:
           [],
         categories:
-          []
+          [],
+        attachments: []
       },
       tickets: {
         title: 'Tickets',
@@ -572,7 +581,8 @@ const dataObject = {
         content:
           [],
         categories:
-          []
+          [],
+        attachments: []
       }
     },
     categories: {
