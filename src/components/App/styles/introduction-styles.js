@@ -37,6 +37,10 @@ const ScrollButton = glamorous.div({
   fontFamily: 'Avenir Next',
   fontSize: '4em',
   fontWeight: '600',
+})
+
+const ScrollButtonIcon = glamorous.div({
+  display: 'inline-block',
   ':hover': {
     cursor: 'pointer'
   }
@@ -46,5 +50,6 @@ export {
   HeaderImage,
   IntroductionParagraph,
   Site,
-  ScrollButton
+  ScrollButton,
+  ScrollButtonIcon
 }

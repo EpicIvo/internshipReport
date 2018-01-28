@@ -103,6 +103,7 @@ class DetailPage extends React.Component {
   }
 
   render() {
+    console.log(this.projectProps);
     return (
       <div>
         <Title {...this.projectProps}>
@@ -117,7 +118,7 @@ class DetailPage extends React.Component {
           {this.renderAttachments()}
         </Attachments>
         {this.renderContent()}
-        <CheckItOut path={this.state.href}/>
+        {this.state.href !== null ? <CheckItOut path={this.state.href}/> : null}
       </div>
     )
   }

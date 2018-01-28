@@ -20,7 +20,9 @@ const colors = {
     jamstudio: '#00318b',
     juvela: 'rgba(58,157,61,.95)',
     kritisch: '#2E2E2E',
-    tickets: '#02b875'
+    tickets: '#02b875',
+    headlessninja: 'rgb(236, 0, 31)',
+    burst: 'rgb(236, 0, 31)'
   },
 };
 

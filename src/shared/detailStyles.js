@@ -14,6 +14,8 @@ import jamstudioBackground from '../images/jamstudio.jpg';
 import juvelaBackground from '../images/juvela.jpg';
 import kritischBackground from '../images/blockchain.jpg';
 import ticketsBackground from '../images/personal/teamMeeting.jpg';
+import hackathonBackground from '../images/personal/hackathon.png';
+import burstBackground from '../images/burst-groupphoto.jpg';
 
 const Title = glamorous.div(
   propStyles({
@@ -71,6 +73,16 @@ const Title = glamorous.div(
       backgroundImage: `url(${ticketsBackground})`,
       color: colors.projects.tickets,
       borderBottom: `8px solid ${colors.projects.tickets}`
+    },
+    headlessninja: {
+      backgroundImage: `url(${hackathonBackground})`,
+      color: colors.projects.headlessninja,
+      borderBottom: `8px solid ${colors.projects.headlessninja}`
+    },
+    burst: {
+      backgroundImage: `url(${burstBackground})`,
+      color: colors.projects.burst,
+      borderBottom: `8px solid ${colors.projects.burst}`
     },
   }),
   {

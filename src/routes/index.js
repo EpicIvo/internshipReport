@@ -13,13 +13,15 @@ import DetailPage from "../components/detail-pages/DetailPage.jsx";
 {/*Criteria detail pages*/
 }
 import CriteriaDetail from '../components/categories/criteria-detail/CriteriaDetail.jsx'
+import BasicPage from "../components/basic-page/BasicPage.jsx";
 
 const routes = (
   <Switch>
     <Route path="/" component={App}/>,
-    <Route path="/:category" components={CategoryOverview} />,
-    <Route path="project/:project" components={DetailPage} />,
-    <Route path="/:category/:criteriadetail" components={CriteriaDetail} />,
+    <Route path="/:category" components={CategoryOverview}/>,
+    <Route path="project/:project" components={DetailPage}/>,
+    <Route path="general/:basicpage" components={BasicPage}/>,
+    <Route path="/:category/:criteriadetail" components={CriteriaDetail}/>,
   </Switch>
 );
 

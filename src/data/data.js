@@ -780,13 +780,168 @@ const dataObject = {
         title: 'Tickets',
         path:
           '/tickets',
-        href:
-          'https://files.ivovanderknaap.com/',
+        href: null,
         content:
-          [],
+          [{
+            type: 'paragraph',
+            content: 'Tijdens mijn stage bij burst heb ik aan vele verschillende projecten gewerkt. Zo heb ik bijvoorbeeld in team Blue gewerkt aan Zino Davidoff, Jamstudio en Juvela. Maar ook heb ik in team Red gewerkt aan Ninlaro. Naar mijn contributie aan deze projecten heb ik verreweg het grootste deel van mijn stage gewerkt in team Yellow A.K.A. team CDSP (Continues Development & Small Projects). Mijn taak in dit team was het oppakken van tickets.'
+          }, {
+            type: 'subTitle',
+            content: 'Team'
+          }, {
+            type: 'list',
+            items: [{
+              name: 'Daniël',
+              role: 'Magento backend'
+            }, {
+              name: 'Kai',
+              role: 'Drupal backend'
+            }, {
+              name: 'Matthijs P.',
+              role: 'Drupal backend'
+            }, {
+              name: 'Veerle',
+              role: 'Frontend'
+            }, {
+              name: 'Erik',
+              role: 'All-round / Team captain'
+            }, {
+              name: 'Rein',
+              role: 'Service manager'
+            }]
+          }, {
+            type: 'paragraph',
+            content: 'Mijn rol binnen dit team was: Drupal backend'
+          }, {
+            type: 'subTitle',
+            content: 'Way of working'
+          }, {
+            type: 'paragraph',
+            content: 'Als service developer bevind jouw planning zich in het service portal. Hier staan alle tickets die aan jou toegewezen zijn. Het is aan jou de taak deze op een goede volgorde te prioriteren. Wat ikzelf het leukste vind aan het werken in dit team is dat je erg nauw samenwerkt met de klant. Elke dag spreek je verschillende klanten om ze te helpen een aanpassing te maken in hun site, of ze te helpen een oplossing te vinden op een probleem.'
+          }, {
+            type: 'paragraph',
+            content: 'Een ticket komt binnen als een klant een mail verstuurd naar het email adres: service@burst-digital.com. Ook kunnen klanten bellen met een vraag over hun website. Een ticket begint altijd niet-toegewezen. Per dag heeft één iemand ’ticket duty’, dat houd in dat diegene die dag let op de service portal om te zien of er nieuwe tickets binnen zijn gekomen. Als dat zo is dan is diegene er ook verantwoordelijk voor dat het ticket door de juiste persoon wordt opgepakt. Dat houd in dat hij of zij even moet kijken wat er precies gedaan moet worden om zo in te schatten wie dit het beste op kan pakken. Zo worden Drupal backend tickets bijvoorbeeld opgepakt door Kai, Matthijs P. of ik, terwijl frontend tickets juist naar Veerle of Erik gaan. '
+          }, {
+            type: 'paragraph',
+            content: 'Vervolgens lost de service developer het ticket op. Bij Burst werken wij namelijk volgens de ‘DTAP’ straat. Dit houd in dat wij per project vier verschillende omgevingen hebben. We beginnen bij de eerste omgeving lokaal: Development. Daarna hebben we de testomgeving, deze bevind zich vaak op een server. Klanten kunnen hier niet bij. Vervolgens komt de omgeving waarop klanten nieuwe aanpassingen of oplossingen testen: acceptatie. En uiteindelijk is er de live omgeving: productie. De oplossing wordt door de klant getest een van de acceptatie omgevingen van het project. Na goedkeuring kan het live!'
+          }, {
+            type: 'paragraph',
+            content: 'Als Burst bieden wij onze klanten een SLA aan als een project is afgelopen. SLA staat voor Service Level Agreement. Dit houd in dat zij per maand een aantal uur kopen waarin wij aanpassingen kunnen maken of problemen op kunnen lossen op de site. We hebben drie verschillende categorieën SLA: Gold, Silver en Bronze. Hierbij is Gold de overeenkomst waarbij wij het snelste reageren op die klant. Bijna alle klanten hebben een Bronze SLA. Als uitzondering IFFR: zij hebben tijdens het festival Gold SLA.'
+          }, {
+            type: 'criteriaTitle',
+            content: 'Ondernemen > Ondernemende houding'
+          }, {
+            type: 'paragraph',
+            content: 'Als service developer ben je zelf erg vaak in contact met de klant. Dit heeft tot gevolg dat er problemen bij jou komen te liggen waar jij oplossingen voor moet bedenken. Dit maakt het werk als service developer erg uitdagend. Door goede kennis te hebben van het project en de technologie waar dat project mee is gebouwd kun je de beste oplossing bedenken voor de klant. '
+          }, {
+            type: 'paragraph',
+            content: 'Een goed voorbeeld hiervan is een ticket voor Hezelburcht. Ze wilden een aantal telefoonnummers op hun website volgen door er een parameter aan toe te voegen die zo’n ‘track event’ in gang zette. Dit moest alleen niet gebeurden met alle telefoon nummers dus kon ik niet zomaar alle telefoonnummers vervangen. Gelukkig wist ik hier de beste oplossing voor: binnen wordpress bestaat een techniek genaamd ‘short code’ hiermee kan je in de content van de website een stukje code uitvoeren. Door deze techniek te gebruiken kon ik zijn wens in vervulling brengen. De juiste telefoonnummers werden getoond!'
+          }, {
+            type: 'paragraph',
+            content: 'Toen liep ik tegen nog een probleem aan. Dit systeem werkte naar de parameter ook met cookies, en daarbinnen ging iets mis. Elke keer als er een gebruiker op de site kwam werd de cookie verkeerd ingesteld. Samen met Rick heb ik naar dit probleem gekeken alleen wist hij ook niet zo snel een oplossing te bedenken. Na diep te graven in mijn geheugen kwam ik op het idee om de cookies te combineren met sessies. Dit leidde tot een complex systeem dat uiteindelijk precies werkte zoals het hoorde! Ik heb mijn geniale oplossing laten zien (Zie ‘Uitleg systeem’) aan de klant en hij was er enorm blij mee! Zelf was ik ook erg trots op het complexe systeem dat ik heb gebouwd.'
+          }, {
+            type: 'paragraph',
+            content: 'Een ander voorbeeld was toen ik een ticket kreeg voor de site van Hero Medisch. Voor een specifieke gebruiker was de winkelwagen niet zichtbaar waardoor diegene niks kon bestellen. Hero Medisch is een site die wij niet hebben gebouwd dus weet niemand echt hoe het in elkaar zit, aan mij de taak om uit te zoeken wat er precies mis ging. '
+          }, {
+            type: 'paragraph',
+            content: 'Na een flinke speurtocht kwam ik erachter wat het probleem was. Ik heb het succesvol op kunnen lossen. Dit heb ik proberen uit te leggen aan de klant alleen wist ze niet goed wat ik bedoelde. Na een specifiekere uitleg (Zie: ‘Specifieke uitleg’) wist ze meer hoe het zat. '
+          }, {
+            type: 'paragraph',
+            content: 'Bij dit project speelde de kennis van het project zelf een kleine rol, aangezien bijna niemand er echt veel van weet. Gelukkig kon ik in dit doolhof tocht vinden waar de fout zat om het er succesvol uit te halen! '
+          }, {
+            type: 'criteriaTitle',
+            content: 'Ondernemen > Ondernemende vaardigheden'
+          }, {
+            type: 'paragraph',
+            content: 'Als service developer kom je ook wel eens in de situatie waarbij dat een klant iets wil zonder er nog voor betaald te hebben. Aan mij was de taak hier waarde te creëren voor Burst door nieuw werk te creëren.'
+          }, {
+            type: 'paragraph',
+            content: 'Ik kreeg een keer een ticket binnen voor Hero Spain. Hun vraag was of we captcha’s konden installeren op al hun formulieren. Nu weten wij dat een captcha voor de gebruiker enorm vervelend is om mee om te gaan. Daarom kozen wij voor een beter alternatief: Neverbounce. Neverbounce is een implementatie die je in een formulier kunt bouwen waardoor automatisch alle emails worden gecontroleerd op echtheid. Deze implementatie inbouwen kost echter wel meer uur dan een simpele captcha.'
+          }, {
+            type: 'paragraph',
+            content: 'Na een inschatting gemaakt te hebben heb ik een voorstel gestuurd naar de klant om te zien of ze ermee in zee zouden gaan (Zie: ‘Inschatting Hero’). De klant keurde het goed!'
+          }, {
+            type: 'paragraph',
+            content: 'Niet iedere klant geeft snel toestemming op een project van 44 uur. Zo heb ik een keer een inschatting verstuurd naar Mentos Turkije waarbij de klant twee opties had. Voor één uur zouden we één van de twee aanvragen verzorgen aangezien zij de tweede op zich zelf konden doen. Ook konden ze kiezen ons alles te laten doen voor twee uur (Zie: ‘Inschatting Mentos’).'
+          }, {
+            type: 'paragraph',
+            content: 'Eerst heb ik geprobeerd een SLA te verkopen aangezien dat meestal de manier is waar wij op werken alleen wilde ze dat perse niet aangezien ze maar een kleine aanpassing hadden. Uiteindelijk is hij gegaan voor de optie van één uur. '
+          }],
         categories:
-          [],
-        attachments: []
+          [{
+            title: 'Ondernemend',
+            path: '/ondernemend'
+          }],
+        attachments: [{
+          title: 'Uitleg systeem',
+          href: 'https://files.ivovanderknaap.com/img/hezelburcht-uitleg-systeem.png'
+        }, {
+          title: 'Specifieke uitleg',
+          href: 'https://files.ivovanderknaap.com/img/heromedisch-specific-explanation.png'
+        }, {
+          title: 'Inschatting Hero',
+          href: 'https://files.ivovanderknaap.com/img/herospain-calculation.png'
+        }, {
+          title: 'Inschatting Mentos',
+          href: 'https://files.ivovanderknaap.com/img/mentosturkey-calculation.png'
+        }]
+      },
+      headlessninja: {
+        title: 'Headless Ninja',
+        path:
+          '/headlessninja',
+        href: null,
+        content: [{
+          type: 'paragraph',
+          content: 'Burst is zich aan het ontwikkelen op technisch gebied. Grotendeels door het idee van Bart, Ian en Niels zijn we ons aan het focussen op een ‘headless’ software architectuur. ‘Headless’ houd in dat de frontend volledig losgekoppeld is van de backend. Tot nu toe hebben onze projecten een architectuur waarin de frontend en backend verweven zijn met elkaar. In Php templates printen wij frontend elementen vanuit de backend. Bij headless is dit andersom. De backend van de applicatie staat los van de frontend. Via requests vraagt de frontend de juiste informatie op uit de backend waar de frontend vervolgens zelf iets mee doet. Dit betekend dat we de losse backend aan vele verschillende frontenden kunnen koppelen (zoveel we maar willen). De vraag was alleen hoe we dit gaan doen. Drupal is het CMS dat wij gebruiken voor onze grote platformen, er zit in Drupal wel een mogelijkheid om er een API van te maken maar deze is niet optimaal. En hoe willen we de frontend in elkaar zetten?'
+        }, {
+          type: 'paragraph',
+          content: 'Over het afgelopen jaar heeft Team Headless Ninja (Bart, Ian en Niels) hier een oplossing voor bedacht. Zelf zouden we onze eigen module voor Drupal schrijven, Headless Ninja, die van de het CMS een gestructureerd API endpoint maakt. Daaraan zouden we als hoofd-frontend een React applicatie hangen. Ook voor React was er een module geschreven die de structurering van de Drupal API gemakkelijk maakte om mee te werken. Ian, Bart en Niels waren voornamelijk bezig met het maken van deze modules en het uitdenken van de architectuur. Voor de rest van het bedrijf was dit nog magie. En dus was het tijd hier verandering in te brengen. '
+        }, {
+          type: 'paragraph',
+          content: 'Er werden voor beide de Drupal Headless Ninja module en de React Headless Ninja implementatie Hackathons georganiseerd. Ik ben naar beide toe geweest aangezien ik geïnteresseerd was in beide.'
+        }, {
+          type: 'subTitle',
+          content: 'Drupal Headless Ninja'
+        }, {
+          type: 'paragraph',
+          content: 'Allereerst was er de Headless Ninja Drupal Module hackathon. Bart, de hoofd-developer van de module, organiseerde de hackathon (Zie: ‘hackathon video’). We kregen eerst een presentatie te zien van Bart over waarom we als Burst Headless Ninja aan het ontwikkelen zijn en hoe het in al onze grote projecten een grote rol gaat spelen. Alle nieuwe grote projecten die worden gebouwd in Drupal zullen gaan werken op basis van deze module.'
+        }, {
+          type: 'paragraph',
+          content: 'Tot nu toe heb ik eigenlijk alleen maar gewerkt met Drupal 7. De Headless Ninja module is gemaakt voor Drupal 8. Ik vond de presentatie hierom lastig te volgen op sommige momenten. Wel was het enorm interessant. Ik vind de techniek die wordt gebruikt en de achterliggende architectuur erg gaaf. Daarom zou ik er graag een keer mee willen werken.'
+        }, {
+          type: 'paragraph',
+          content: 'het tweede deel van de hackathon bestond uit het maken van een opdracht. Bart had een git repository aangemaakt die we allemaal moesten klonen. Aan ons de taak zelf een implementatie van de module te bedenken en die programmeren. Ook dit vond ik erg lastig te doen. Ik kwam er voor mezelf achter dat als ik hierin wil groeien ik nog veel moet leren over de technieken die worden gebruikt. Wel ben ik er ook achter gekomen dat ik erg enthousiast wordt van Headless Ninja. Het lijkt mij erg gaaf hier in de toekomst mee te werken en daar ga ik ook zeker achteraan!'
+        }, {
+          type: 'subTitle',
+          content: 'React Headless Ninja'
+        }, {
+          type: 'paragraph',
+          content: 'De volgende hackathon stond in het teken van de React kant van Headless Ninja. Ian was degene die hier het meeste verstand van heeft aangezien hij de hoofd-developer was van het project. Ikzelf had voor de hackathon al wat ervaring met React, waardoor ik deze hackathon beter kon volgen. De React Headless Ninja hackathon zat hetzelfde in elkaar als de Drupal Headless Ninja hackathon: eerst kregen we een presentatie over waarom Burst hier nou eigenlijk mee bezig was en waarom we het op deze manier deden. Vervolgens was het tijd om de techniek in het echt toe te passen. Door een aantal opdrachten te doen met de techniek kregen we hem steeds beter onder de knie. '
+        }, {
+          type: 'paragraph',
+          content: 'Ik merkte aan mezelf dat ik ook van deze hackathon erg enthousiast werd. Ergens misschien wel te enthousiast. Ik was tijdens het maken van de opdrachten erg leergierig waardoor ik het snel onder de knie had, en daar was ikzelf erg trots op.'
+        }, {
+          type: 'subTitle',
+          content: 'Stageverslag'
+        }, {
+          type: 'paragraph',
+          content: 'Mijn stageverslag (degene die je nu leest) is ook gebouwd in React. Toen ik ermee begon had ik al wat verstand van React maar nog niet enorm veel. Ik wilde er wel meer van leren, wat ook de reden was dat ik mijn stageverslag ermee zou maken. Na de basis structuur opgezet te hebben kwam ik erachter dat de architectuur die ik in mijn hoofd had enorm inefficiënt was. Ik had namelijk totaal geen dynamische content. Alles werd een een template geplaatst waardoor het één grote chaos werd in code. Gelukkig had ik toen nog geen content staan waardoor ik er nog iets aan kon veranderen. En dat heb ik gedaan. In plaats van alle content in de templates te plaatsen heb ik nu één groot JSON object (een soort van API endpoint) waar alle content in staat. In React lees ik deze data uit om het dynamisch in templates te plaatsen. De techniek die ik bedacht om alle content juist te plaatsen leek een klein beetje op hoe Drupal content structureert. Ik geef per type een content type mee die React uitleest om er een component van te maken. '
+        }, {
+          type: 'paragraph',
+          content: 'Tijdens de React Headless Ninja hackathon kwam ik erachter dat de manier waarop Ian met Headless Ninja de content omtovert tot components enorm veel lijkt op de manier die ik bedacht heb. Hij doet het nog net een stuk netter en efficiënter maar ik kom aardig in de buurt. Dit vond ik erg gaaf om te zien. Mijn denkwijze was dus in de goede richting!'
+        }, {
+          type: 'paragraph',
+          content: 'Bij mijn aanraking met Drupal, React en Headless Ninja passen geen competenties uit mijn stage. Toch vond ik het een erg belangrijke stap die ik gezet heb in mijn stage periode. Ik wordt zelf erg enthousiast van de technieken en zou er daarom graag mee door willen. Ik zie hier toekomst in voor mezelf en door mijn stage verslag op eenzelfde manier in elkaar te zetten weet ik dat ik met mijn leren de goede kant op ga!'
+        }],
+        categories: [{
+          title: '',
+          path: ''
+        }],
+        attachments: [{
+          title: 'Hackathon video',
+          href: 'https://files.ivovanderknaap.com/vid/Burst-Drupal-8-HN-Hackathon.mp4'
+        }],
       }
     },
     categories: {
@@ -917,6 +1072,35 @@ const dataObject = {
           }]
       }
     },
+    basicPages: {
+      burst: {
+        title: 'Burst',
+        path: '/burst',
+        href: 'https://www.ninlaro.nl/',
+        content: [{
+          type: 'paragraph',
+          content: 'Burst is een digitaal productie bureau dat data, creativiteit en technologie combineert om haar klanten te voorzien van de beste antwoorden op hun vragen. Burst heeft een holistische kijk dat meebeweegt met de consumentenbehoefte.'
+        }, {
+          type: 'paragraph',
+          content: 'Burst werkt samen met zowel lokale als internationale klanten uit vele verschillende industrieën. Tijdens een project verzorgt Burst niet alleen het ontwerp en ontwikkel proces voor de site maar ze doet ook aan data analyse om het product op vele vlakken te verbeteren. Hierdoor wordt burst een hechte businesspartner in plaats van alleen een web bouwer.'
+        }, {
+          type: 'subTitle',
+          content: 'Waarom Burst?'
+        }, {
+          type: 'paragraph',
+          content: 'Eind 2016 was ik mijzelf nog erg aan het ontwikkelen op het gebied van ontwikkelen. Voor ik op de opleiding Creative Media and Game Technologies kwam had ik al enige kennis van programmeren alleen is dat in de eerste anderhalf jaar van mijn tijd op de opleiding exponentieel gestegen. Door passie te hebben voor het vak ben ik vaak thuis doorgegaan met het leren van vele nieuwe technieken. '
+        }, {
+          type: 'paragraph',
+          content: 'Toen kwam ik via mijn klasgenoot Matthijs P. in contact met Ian. Ian werkte al een tijdje bij Burst en was er nu stage aan het lopen. Ook gaf hij zelf programmeer les aan studenten van het eerste jaar. Burst was opzoek naar nieuw talent in de vorm van jonge studenten en Ian was binnen de opleiding hiervoor aan het scouten. Toen ik dit hoorde heb ik gelijk contact opgenomen om hem te vertellen dat ik erg enthousiast was op het gebied van CMGT. Het gevolg hiervan was dat Matthijs P. en ik werden uitgenodigd om een keertje een kijkje in de keuken te nemen bij Burst.'
+        }, {
+          type: 'paragraph',
+          content: 'Op die dag kregen we over vele aspecten van Burst uitleg over hoe ze werkten. Ik vond het geweldig te zien hoe een bedrijf binnen deze sector werkte. Na deze middag kregen Matthijs P. en ik de vraag of we stage zouden willen lopen bij burst, en in de maanden daartoe leiden een aantal dagen in de week als bijbaan zouden willen werken. Voor ons beide was dit antwoord: ja! '
+        }, {
+          type: 'paragraph',
+          content: 'De sfeer die bij burst hing, de manier waarop ze werkten en de projecten waaraan ze werkten spraken mij allemaal aan. Allereerst wilde ik meer leren over development in het algemeen. Daarnaast had ik nog de wens mij te specificeren op een aantal onderwerpen ernaast (devOps, React, Drupal). Bij Burst was dit de mogelijkheid. Het leek me daarom een perfecte plek voor mijn stage. '
+        }],
+      }
+    }
   }
 ;
 

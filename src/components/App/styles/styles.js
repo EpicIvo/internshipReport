@@ -15,6 +15,7 @@ import jamstudio from '../../../images/jamstudio.jpg';
 import juvela from '../../../images/juvela.jpg';
 import kritisch from '../../../images/blockchain.jpg';
 import tickets from '../../../images/personal/teamMeeting.jpg';
+import hackathon from '../../../images/personal/hackathon.png';
 
 const AppContainer = glamorous.div({
   backgroundColor: colors.general.white,
@@ -136,6 +137,9 @@ const Block = glamorous.div(
     },
     tickets: {
       backgroundImage: `url(${tickets})`,
+    },
+    headlessninja: {
+      backgroundImage: `url(${hackathon})`,
     },
   }),
   {
