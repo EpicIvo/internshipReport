@@ -113,7 +113,7 @@ class DetailPage extends React.Component {
           {this.renderCategory()}
         </DetailPageTopBar>
         <Attachments>
-          Attachments
+          {this.state.attachments[0] !== undefined ? 'Bijlagen' : null}
           {this.renderAttachments()}
         </Attachments>
         {this.renderContent()}

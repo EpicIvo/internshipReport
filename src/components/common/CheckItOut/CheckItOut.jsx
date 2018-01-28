@@ -18,6 +18,7 @@ const LinkText = glamorous.div({
   padding: '2% 0 2% 0',
   color: colors.general.white,
   backgroundColor: colors.general.gray,
+  transitionDuration: '0.4s',
   ':hover': {
     color: colors.general.red,
   }

@@ -57,7 +57,7 @@ const dataObject = {
           content: 'Na twee weken keihard te hebben gewerkt om alle puntjes op de i te zetten had ik met Kim (de project manager) een meeting bij Takeda. Bij deze meeting zat het ‘Legal team’ van Takeda om de laatste legal check te doen. De website gaat namelijk over het medicijn Ninlaro, en dus is het van groot belang dat de informatie op de juiste plek staat (achter login e.d.).'
         }, {
           type: 'paragraph',
-          content: 'Het eindresultaat was positief! Nadat het aardig fout ging bij de eerste meeting kwam het in deze meeting uiteindelijk toch goed. Het werk dat ik heb geleverd was goed ontvangen door Takeda (Zie: Nice surprise). Hierdoor was het eindresultaat toch erg positief.'
+          content: 'Het eindresultaat was positief! Nadat het aardig fout ging bij de eerste meeting kwam het in deze meeting uiteindelijk toch goed. Het werk dat ik heb geleverd was goed ontvangen door Takeda (Zie: ‘Nice surprise&rsquo;). Hierdoor was het eindresultaat toch erg positief.'
         }, {
           type: 'subTitle',
           content: 'Conclusie'
@@ -99,7 +99,7 @@ const dataObject = {
           content: 'De klant had een aantal functionaliteiten in gedachte die origineel niet in het project zaten, zoals bijvoorbeeld het laten zien van pagina’s zonder ingelogd te zijn. Inloggen voordat je content te zien krijgt zat standaard in de website, en dus moest ik hier extra functionaliteit voor schrijven.'
         }, {
           type: 'paragraph',
-          content: 'Ik dacht dat dit wel iets zou zijn dat vaker terug zou komen en dus heb ik besloten dit beheerbaar te maken in Wordpress (in plaats van een eenmalige uitzondering). De klant was erg tevreden met mijn oplossing (Zie: "klant reactie").'
+          content: 'Ik dacht dat dit wel iets zou zijn dat vaker terug zou komen en dus heb ik besloten dit beheerbaar te maken in Wordpress (in plaats van een eenmalige uitzondering). De klant was erg tevreden met mijn oplossing (Zie: ‘klant reactie’).'
         }, {
           type: 'criteriaTitle',
           content: 'Ondernemend > Projectmatig werken'
@@ -114,7 +114,7 @@ const dataObject = {
           content: 'Ontwerpen > Conceptualiseren'
         }, {
           type: 'paragraph',
-          content: 'Na de oplevering van de site kreeg ik een verzoek van Ninlaro om op het patiënten gedeelte van de site het logo aan te passen. Ze vonden het namelijk teveel lijken op reclame als we het logo van Ninlaro gebruikten om terug te navigeren. Zelf hadden ze een logo gekocht dat in de plaats van het Ninlaro logo zou moeten komen, alleen het logo dat ze hadden uitgezocht paste naar mijn mening niet echt bij de website. Ik ben naar een designer gelopen om het aan hem te laten zien en hij was het met me eens. Samen hebben we een nieuw logo gecreëerd dat een stuk meer bij de style van de website pastte. (Zie: Gesprek, Oude logo, Nieuw logo)'
+          content: 'Na de oplevering van de site kreeg ik een verzoek van Ninlaro om op het patiënten gedeelte van de site het logo aan te passen. Ze vonden het namelijk teveel lijken op reclame als we het logo van Ninlaro gebruikten om terug te navigeren. Zelf hadden ze een logo gekocht dat in de plaats van het Ninlaro logo zou moeten komen, alleen het logo dat ze hadden uitgezocht paste naar mijn mening niet echt bij de website. Ik ben naar een designer gelopen om het aan hem te laten zien en hij was het met me eens. Samen hebben we een nieuw logo gecreëerd dat een stuk meer bij de style van de website pastte. (Zie: ‘Gesprek’, ‘Oude logo’, ‘Nieuw logo’)'
         }],
         categories: [{
           title: 'Ondernemend',
@@ -531,10 +531,94 @@ const dataObject = {
         href:
           'https://www.jgzzhw.nl/',
         content:
-          [],
+          [{
+            type: 'paragraph',
+            content: 'Samen met Erik heb ik een small project opgepakt voor JGZ. Het huidige design en opbouw van de website was niet enorm succesvol en daarom was het tijd voor verandering!'
+          }, {
+            type: 'subTitle',
+            content: 'Team'
+          }, {
+            type: 'list',
+            items: [{
+              name: 'Jantine',
+              role: 'Design'
+            }, {
+              name: 'Daan',
+              role: 'Design'
+            }, {
+              name: 'Erik',
+              role: 'Frontend developer'
+            }, {
+              name: 'Rein',
+              role: 'Service manager'
+            },]
+          }, {
+            type: 'subTitle',
+            content: 'Design'
+          }, {
+            type: 'paragraph',
+            content: 'Het design van de huidige website moest dus veranderen. Op de homepage stond nu een grote video met daar boven een gekleurde header waarin zich het menu bevond. Verder stonden er drie blokken door de video heen die doorverwezen naar andere pagina’s en in het content gedeelte van de pagina stond verschillende informatie verspreid. Uit een doelgroep onderzoek kwam dat deze frontpage erg verwarrend was (Zie ‘Huidige pagina’).'
+          }, {
+            type: 'paragraph',
+            content: 'Dus ben ik gaan zitten met team design. Zij hebben mij geholpen het ontwerp te maken voor de nieuwe frontpage. (Zie ‘Nieuw ontwerp’). In het nieuwe ontwerp is te zien hoe de structuur op voorpagina overzichtelijker is gemaakt. De drie blokken met uitklap functionaliteit die door de header video heen stonden, zijn verplaatst naar onder. Daar hebben ze ieder een eigen header met daarin de titel duidelijk weergegeven. De content die in de drie blokken stond en onder de header in de body van de pagina is nu verdeeld over de drie blokken, en het tekstblok dat zich in de header afbeelding bevindt. '
+          }, {
+            type: 'paragraph',
+            content: 'Het menu bestaat uit twee lagen. De bovenste laag is bedoeld voor navigatie over de verschillende onderwerpen op de site. De onderste laag is bedoeld voor de opvoedinformatie dat per leeftijdsgroep te vinden is op de website. Voorheen was dit niet altijd even duidelijk en daarom hebben we het opgelost door heel simpel het woordje opvoedinformatie in de onderste laag te plaatsen. '
+          }, {
+            type: 'paragraph',
+            content: 'Visueel ziet de pagina er nu ook een stuk rustiger en overzichtelijker uit. De header is nu één kleur in plaats van een overgang van kleuren. De video maakt plaats voor een afbeelding waardoor er geen beweging meer speelt op de pagina. De drie blokken hebben nu een eigen icoon dat het onderwerp representeert.'
+          }, {
+            type: 'paragraph',
+            content: 'De klant was erg blij met de uitkomst van ons nieuwe design. We konden er mee aan de slag!'
+          }, {
+            type: 'subTitle',
+            content: 'Ontwikkeling'
+          }, {
+            type: 'paragraph',
+            content: 'Naast alleen een nieuwe voorpagina waren er in de backend ook een aantal aanpassingen die gedaan moesten worden. De grootste aanpassing was de herstructurering van het menu. Wat er nu onder het ‘Over JGZ’ kopje staat wilden ze opsplitsen in twee nieuwe kopjes: ‘Onze zorg’ en ‘Over JGZ’. '
+          }, {
+            type: 'paragraph',
+            content: 'Erik en Ik begonnen met het maken van een inschatting. Hierbij schatte ik het backend werk in en Erik het frontend werk. In totaal kwamen we uit op zo’n 34 uur. Dit werd verspreid over mijn small project dagen van drie weken (elke week alleen de woensdag).'
+          }, {
+            type: 'paragraph',
+            content: 'Tijdens het proces liep ik hier en daar tegen een aantal punten aan. Zo was de code van het menu bijvoorbeeld niet erg netjes opgezet waardoor ik er eerst eens flink doorheen moest lezen om te zien hoe het precies werkte. Het was destijds gemaakt door een developer die nu niet meer werkzaam is bij Burst, en verder wist niemand veel van het project af wat deze aanpassing lastig maakte om uit te zoeken. Uiteindelijk lukte het me deze code om te bouwen tot een werkend gesplitst menu! De voorpagina aanpassingen gingen een stuk makkelijker. Ik kon in Drupal de nieuwe velden aanmaken en deze op de voorpagina gestructureerd renderen. Erik heeft het toen opgemaakt volgens het ontwerp.'
+          }, {
+            type: 'subTitle',
+            content: 'Meeting'
+          }, {
+            type: 'paragraph',
+            content: 'Samen met Rein had ik een meeting met JGZ. Ze hadden twee nieuwe werknemers aangenomen die ik een snelle Drupal cursus zou geven. Ook was de meeting bedoeld om dit nieuwe design in werking te laten zien. De klant was erg blij met hoe het nieuwe ontwerp eruit zag in werking. Ze hadden hier en daar nog een aantal vraagjes maar die kon ik vrijwel allemaal beantwoorden. Toen ben ik door Drupal heen gelopen om te laten zien hoe de nieuwe voorpagina aan de achterkant was veranderd en om de nieuwe werknemers de rest van de site te laten zien. Dit ging allemaal erg goed. We hadden afgesproken dat zij de site gingen testen waarna we een datum af konden spreken om live te gaan. '
+          }, {
+            type: 'subTitle',
+            content: 'Criteria'
+          }, {
+            type: 'criteriaTitle',
+            content: 'Ontwerpen > Conceptualiseren'
+          }, {
+            type: 'paragraph',
+            content: 'Toen ik samen met team design heb gewerkt aan het nieuwe ontwerp voor de voorpagina heb ik veel van ze geleerd. Als CMGT’er ben ik zelf meer geïnteresseerd in het ontwikkel gedeelte dan het ontwerp gedeelte. Maar toch heb ik veel opgepakt van hun proces. We hebben het probleem aangepakt door vanuit het probleem (de onoverzichtelijkheid) te gaan denken aan oplossingen. De doelgroep voor wie de site was bedoeld was voor ouders met kinderen van verschillende leeftijden: van bijna ouders tot ouders met een jongere. Gericht op die doelgroep zijn we schetsen gaan maken die het overzicht terug brachten op de website. Iteratie was hierbij erg van belang. Het eerste ontwerp dat we hadden gemaakt (Zie: ‘Eerste ontwerp’) werd goed ontvangen door de klant maar er waren verbeterpunten. We hebben deze feedback toegepast en er een nieuw ontwerp van gemaakt (Zie: ‘Nieuw ontwerp’). Hier was de klant een stuk blijer mee, ze vond het een hele verbetering op de huidige pagina (Zie: ‘Huidige pagina’).'
+          }, {
+            type: 'criteriaTitle',
+            content: 'Ontwerpen > Ontwerpen en prototype'
+          }, {
+            type: 'paragraph',
+            content: 'De ontwerpen die we hebben gemaakt hebben we niet alleen laten zien aan de klant maar we hebben ze ook neergelegd bij de doelgroep. Hieruit kwamen vooral de reacties dat het overzicht zeker was verbeterd maar visueel was het ditmaal erg eentonig (Zie: ‘Eerste ontwerp’). Aan de hand van deze reacties zijn we aan de slag gegaan met het nieuwe ontwerp. Deze (Zie: ‘Nieuw ontwerp’) viel meer in de smaak! Uit dit proces heb ik geleerd dat je tijdens de ontwikkeling van digitale producten niet zomaar ervan uit kan gaan dat iedereen gelijk begrijpt wat jij als ontwerper in je hoofd hebt zitten. Het testen met de doelgroep is een belangrijk proces aangezien de eindgebruiker hier zijn wensen kan aangeven. Het wordt duidelijk of wat jij als ontwerper in je hoofd hebt ook echt werkt bij de doelgroep voor wie je het product ontwerpt. '
+          }],
         categories:
-          [],
-        attachments: []
+          [{
+            title: 'Ontwerpen',
+            path: '/ontwerpen'
+          }],
+        attachments: [{
+          title: 'Huidige pagina',
+          href: 'https://files.ivovanderknaap.com/img/jgz-old.png'
+        }, {
+          title: 'Eerste ontwerp',
+          href: 'https://files.ivovanderknaap.com/img/jgz-first-design.png'
+        }, {
+          title: 'Nieuw ontwerp',
+          href: 'https://files.ivovanderknaap.com/img/jgz-new.png'
+        }]
       },
       jamstudio: {
         title: 'Jam Studio',
@@ -543,22 +627,121 @@ const dataObject = {
         href:
           'https://www.hero.nl/fruit/jamstudio',
         content:
-          [],
+          [{
+            type: 'paragraph',
+            content: 'De Jamstudio pagina van Hero is een pagina waarop verschillende recepten staan die te maken zijn met producten van hero. Het echte JamStudio concept dat is bedacht wordt alleen maar gebruikt op de Nederlandse versie van Hero. Hierbij kunnen gebruikers zelf hun eigen recepten uploaden. Bij andere landen is dicht niet mogelijk. Zij gebruiken deze pagina om hun eigen recepten in een overzicht te laten zien. '
+          }, {
+            type: 'paragraph',
+            content: 'Het project waar ik aan meedeed was de redesign van deze pagina. Er was een modernisering nodig in het ontwerp om de pagina er weer fris uit te laten zien. Aan gezien Nederland het enige land was dat de pagina echt gebruikte waar het voor bedoeld was waren zij degene met wie we nauw samenwerkten. De rest van de landen die de Jamstudio pagina gebruikten kregen de redesign ook dus moest het platform wijd worden ontwikkeld (Zie: ‘Project outline’).'
+          }, {
+            type: 'subTitle',
+            content: 'Team'
+          }, {
+            type: 'list',
+            items: [{
+              name: 'Rick',
+              role: 'Backend hulp'
+            }, {
+              name: 'Peter',
+              role: 'Frontend developer'
+            }, {
+              name: 'Robert',
+              role: 'Design'
+            }]
+          }, {
+            type: 'subTitle',
+            content: 'Hero platform'
+          }, {
+            type: 'paragraph',
+            content: 'Het vernieuwde ontwerp moest dus door worden gevoerd op het hele Hero platform. Mijn rol binnen dit project was het aanpassen van de backend. Ook dit moest platform wijd. Op sommige gebieden is het Hero platform erg fragiel. Zo was een platform wijde aanpassing van de backend gemakkelijk te doen in een optie binnen Drupal genaamd “Drupal features”. Helaas was het project sinds het opzetten niet geconfigureerd om deze zogeheten features te gebruiken. Er moest dus voor een oplossing worden gezocht.'
+          }, {
+            type: 'paragraph',
+            content: 'Gelukkig kun je ook met code opties in de backend aanpassen. Maar dan is de vraag, waar willen we deze code uitvoeren (aangezien het éénmalig moet gebeuren: tijdens de release cycle). Ook hier was een antwoord op namelijk: binnen een update hook. Elke module heeft de mogelijkheid een update hook uit te voeren als de database wordt geüpdatet. De oplossing was gevonden!'
+          }, {
+            type: 'paragraph',
+            content: 'Er moesten een aantal backend aanpassingen doorgevoerd worden binnen deze functie. Zo moesten er bijvoorbeeld nieuwe image styles aangemaakt worden en toegepast worden op het “recipe” content type. Ook moest de ordering van de recepten  aangepast worden. Origineel was het overzicht opgesplitst in grote en kleine displays, hierbij lieten de grote displays meer informatie zien over het recept (Zie: ‘Before & after’). Voor het nieuwe ontwerp moest alleen het eerste recept een groot display hebben. De rest moest allemaal klein zijn. '
+          }, {
+            type: 'paragraph',
+            content: 'Uiteindelijk kostte het uitdenken van de oplossing veel meer tijd dan het daadwerkelijke programmeren. De update hook functie bestond uiteindelijk ook maar uit 21 regels code! Maar zo heb ik programmeren altijd gezien. Het denkwerk dat zich achter de code bevind is meer werk dan het programmeren zelf, tenzij je inefficiënt programmeert natuurlijk!'
+          }, {
+            type: 'paragraph',
+            content: 'Al met al was dit een lastig project. Voor ik dit project begon had ik zelf nog niet veel ervaring met deze kant van Drupal (update hooks, Drupal features), gelukkig kon ik de hulp van Rick gebruiken om het uiteindelijk te realiseren!'
+          }, {
+            type: 'criteriaTitle',
+            content: 'Ontwikkelen > Ontwikkelen en prototypen'
+          }, {
+            type: 'paragraph',
+            content: 'Ik heb enorm veel geleerd van dit project. Mijn kennis van Drupal is bijvoorbeeld erg verbeterd, ik weet nu hoe update hooks en Drupal features werken. En ook heb ik nu meer verstand van het Hero platform. Door samen met Rick naar verschillende toepassingen te kijken heeft hij me het een en ander uit kunnen leggen over beide.'
+          }, {
+            type: 'paragraph',
+            content: 'Het ontwikkel proces was voor mij erg ingewikkeld. Het was namelijk niet simpelweg code kloppen en zien wat de uitkomst is, er moest steeds een update worden gedraaid om de update hooks in gang te zetten (Zie: ‘Testmogelijkheid’). Dit zorgde ervoor dat ik niet snel al mijn aanpassingen kon uitproberen. Ik moest hierdoor iteratief werken om mijn functionaliteiten elke update goed te controleren en te verbeteren. Door iteratief te ontwikkelen kon ik het script uiteindelijk optimaliseren voor de release cycle. '
+          }, {
+            type: 'criteriaTitle',
+            content: 'Ontwikkelen > Testen en implementeren'
+          }, {
+            type: 'paragraph',
+            content: 'Zoals ik hierboven al aangaf was deze functionaliteit erg lastig te testen (Zie: ‘Testmogelijkheid’). Elke keer dat ik het wilde testen moest ik de database opnieuw updaten. Dat maakte dit proces erg ingewikkeld. Het was voor mij dus erg belangrijk om elke iteratie aandachtig te analyseren om zo het meest effectieve resultaat te behalen. Hierdoor hoefde ik zo min mogelijk te testen aangezien dit dus erg onhandig was.'
+          }],
         categories:
-          [],
-        attachments: []
+          [{
+            title: 'Ontwikkelend',
+            path: '/ontwikkelend'
+          }],
+        attachments: [{
+          title: 'Project outline',
+          href: 'https://files.ivovanderknaap.com/img/jamstudio-project-outline.png'
+        }, {
+          title: 'Before & after',
+          href: 'https://files.ivovanderknaap.com/img/jamstudio-before-after.png'
+        }, {
+          title: 'Testmogelijkheid',
+          href: 'https://files.ivovanderknaap.com/img/jamstudio-testmogelijkheid.png'
+        }]
       },
       juvela: {
         title: 'Juvela',
         path:
           '/juvela',
         href:
-          'https://www.juvelagoodngo.co.uk/',
+          'https://files.ivovanderknaap.com/sites/juvela-frontpage',
         content:
-          [],
+          [{
+            type: 'paragraph',
+            content: 'Juvela is een onderdeel van Good ’n go wat onderdeel is van Semper dat een merk is van Hero. Ze wilden een nieuwe site voor Engeland waarin ze een informatief overzicht gaven over hun producten. Hiernaast wilden ze een tijdelijke statische voorpagina om aan te geven dat de nieuwe site er bijna aankwam.'
+          }, {
+            type: 'subTitle',
+            content: 'Frontend'
+          }, {
+            type: 'paragraph',
+            content: 'Zelf ben ik meer van de backend. Ik vind het leuker om grote architecturen in elkaar te zetten dan om met pixels te werken. Toch kwam er met Juvela een frontend en ontwerp taak vrij die ik zelf graag op wilde pakken.'
+          }, {
+            type: 'paragraph',
+            content: 'Voordat de site van Juvela live ging wilden ze een voorpagina op het domein laten zien waarin stond dat de site binnenkort gelanceerd werd. Aan mij de taak hier een mooi simplistisch ontwerpje voor te maken en dit om te zetten in een werkend product. Mijn idee was gelijk om een foto op de achtergrond te plaatsen met daarin een blok met tekst. Ik ben voor bevestiging nog even naar Robert gelopen die het een en ander voor mij schetste. Daarna ben ik aan de slag gegaan.'
+          }, {
+            type: 'paragraph',
+            content: 'In het verleden heb ik vaker gewerkt met frontend technieken maar nog nooit echt op de manier hoe burst werkt. Het was dus even wennen om mijn omgeving op te zetten maar uiteindelijk lukte het. De pagina had een kartonnen achterkant met daarin een afbeelding van Juvela producten. Volledig in de kartonnen stijl van Juvela. Daarbinnen bevond zich een kartonnen blok met de tekst “Coming soon” in het lettertype van Juvela geschreven. Boven dit tekstblok bevond zich het logo van de site.'
+          }, {
+            type: 'paragraph',
+            content: 'Het lastigste aan dit project vond ik het responsive maken van de site. Hij moest er op mobiel natuurlijk ook goed uitzien! Ik heb in dit project leren werken met Sass, een variant op CSS. De taal maakte het responsive maken van de site erg makkelijk, ook al moest ik er in het begin erg aan wennen.'
+          }, {
+            type: 'criteriaTitle',
+            content: 'Ontwerpen > Conceptualiseren'
+          }, {
+            type: 'paragraph',
+            content: 'De doelgroep voor wie ik het ontwerp moest maken bestond uit mensen tussen de 25-50 die graag organisch voedsel aten. Vanaf het begin was het voor mij duidelijk dat dit een simpel ontwerp moest worden waar in een klap te zien was wat er bedoeld werd. Wel erg belangrijk was dat het in de stijl zou zijn van hoe de echte website eruit zou komen te zien. Ik heb daarom plaatjes en lettertypes gebruikt die op de echt website ook terugkomen. Verder was het belangrijk dat het logo op de website kwam zodat de gebruiker wist om welk merk het ging. De oplossing was het ontwerp dat ik heb gemaakt (Zie: ‘Desktop ontwerp’ & ‘Mobiel ontwerp’).'
+          }],
         categories:
-          [],
-        attachments: []
+          [{
+            title: 'Ontwerpend',
+            path: '/ontwerpend'
+          }],
+        attachments: [{
+          title: 'Desktop ontwerp',
+          href: 'https://files.ivovanderknaap.com/img/juvela-desktop-design.png'
+        }, {
+          title: 'Mobiel ontwerp',
+          href: 'https://files.ivovanderknaap.com/img/juvela-mobile-design.png'
+        }]
       },
       kritisch: {
         title: 'Kritische literatuur',
@@ -567,9 +750,30 @@ const dataObject = {
         href:
           'https://files.ivovanderknaap.com/pdf/De%20invloed%20van%20blockchain%20technologie%20op%20eCommerce%20-%20Ivo%20van%20der%20knaap%20-%2019%20Januari%202018.pdf',
         content:
-          [],
+          [{
+            type: 'criteriaTitle',
+            content: 'Onderzoeken en analyseren > Onderzoeken en analyseren'
+          }, {
+            type: 'paragraph',
+            content: 'Met de enorme stijging in populariteit van Cryptocurrencies het afgelopen halfjaar ben ik zelf enorm geïnteresseerd geraakt in de onderliggende technologie: blockchain. Niet alleen ik was erg geïnteresseerd in blockchain technologie, ook een aantal van mijn collega’s zijn dat. Elke dag ontstonden er interessante gesprekken rondom het onderwerp.  In een opdracht voor het vak Kritische Literatuur studie moest ik een onderzoek schrijven waarbij het onderwerp te maken moest hebben met mijn stagebedrijf. Vele van de websites die gemaakt zijn door Burst hebben te maken met eCommerce. Daarom besloot ik voor dit onderzoek mijn interesse in blockchain te combineren met eCommerce, om voor Burst uit te zoeken of de techniek eventueel waarde kan betekenen. '
+          }, {
+            type: 'paragraph',
+            content: 'Ik wilde het onderzoek baseren op betrouwbare informatie aangezien er in de ‘blockchain industrie’ nogal weinig vertrouwen is op sommige plekken. De bronnen die ik heb gekozen zijn daarom veelal wetenschappelijk. Een van de bronnen was het boek: ‘Blockchain revolution’. Hier heb ik de meeste informatie uit gehaald. '
+          }, {
+            type: 'subTitle',
+            content: 'Conclusie'
+          }, {
+            type: 'paragraph',
+            content: 'Uiteindelijk is de techniek veelbelovend. Er kunnen concepten mee ontwikkeld worden die nooit eerder mogelijk waren. Wel staat de techniek nog erg in de kinderschoenen. Om hier als burst nu al in te stappen vind ik erg vroeg. Ik zou eerst toekijken hoe echte blockchain toepassingen worden ontwikkeld voordat we er zelf instappen.'
+          }, {
+            type: 'paragraph',
+            content: 'Zie: ‘Check it out!’ om het verslag te lezen.'
+          }],
         categories:
-          [],
+          [{
+            title: 'Onderzoekend',
+            path: '/onderzoekend'
+          }],
         attachments: []
       },
       tickets: {
