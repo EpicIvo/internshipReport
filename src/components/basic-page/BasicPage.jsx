@@ -5,6 +5,10 @@ import PropTypes from 'prop-types';
 import {
   Title,
   DetailPageTopBar,
+  Attachments,
+  AttachmentList,
+  AttachmentListItem,
+  AttachmentListItemText,
   Content,
   SubTitle,
   CirteriaTitle,
@@ -29,9 +33,22 @@ class BasicPage extends React.Component {
       title: page.title,
       content: page.content,
       subTitles: page.subTitles,
+      attachments: page.attachments
     };
     this.pageProps = {};
     this.pageProps[pageFromPath] = true;
+  }
+
+  renderAttachments() {
+    return <AttachmentList>
+      {this.state.attachments.map(item => {
+        return <AttachmentListItem key={item.title}>
+          <AttachmentListItemText href={item.href} target="_blank">
+            {item.title}
+          </AttachmentListItemText>
+        </AttachmentListItem>
+      })}
+    </AttachmentList>
   }
 
   renderContent() {
@@ -86,6 +103,10 @@ class BasicPage extends React.Component {
           <br />
           <br />
         </DetailPageTopBar>
+        <Attachments>
+          {this.state.attachments[0] !== undefined ? 'Bijlagen' : null}
+          {this.renderAttachments()}
+        </Attachments>
         {this.renderContent()}
       </div>
     )

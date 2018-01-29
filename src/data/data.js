@@ -282,10 +282,10 @@ const dataObject = {
         href: 'https://www.zinodavidoff.com/',
         content: [{
           type: 'paragraph',
-          content: 'Zino davidoff is een bedrijf dat zich specialiseerd in luxe producten. Denk hierbij aan parfum, horloges zonnebrillen alles wat je als rijke zakenman/vrouw zou dragen. Hun oude website was een Wordpress site met een mager design en ze kwamen naar Burst om hier verandering in te brengen.'
+          content: 'Zino davidoff is een bedrijf dat zich specialiseerd in luxe producten. Denk hierbij aan parfum, horloges zonnebrillen en alles wat je als rijke zakenman of -vrouw zou willen dragen. Hun oude website was een Wordpress site met een mager ontwerp. Ze kwamen naar Burst om hier verandering in te brengen.'
         }, {
           type: 'paragraph',
-          content: 'Het project heeft eerst een lange design fase gehad waarin de wensen van de klant verder omgetoverd tot een pracht van een website ontwerp. Hierna was het aan het development team om hier werkelijkheid van te maken.'
+          content: 'Het project heeft eerst een lange ontwerp fase gehad waarin de wensen van de klant werden omgetoverd tot een pracht van een website ontwerp. Hierna was het aan het development team om hier werkelijkheid van te maken.'
         }, {
           type: 'subTitle',
           content: 'Team'
@@ -295,36 +295,36 @@ const dataObject = {
             name: 'Marcos',
             role: 'Backend developer - Drupal'
           }, {
-            name: 'Matthijs A',
+            name: 'Matthijs A.',
             role: 'React developer'
           }]
         }, {
           type: 'paragraph',
-          content: 'Mijn taak in dit project was het maken van de React kant van de website. Ik deed dit samen met mijn collega Matthijs. '
+          content: 'Mijn taak in dit project was het maken van de React kant van de website. Ik deed dit samen met mijn collega Matthijs A.'
         }, {
           type: 'subTitle',
           content: 'Headless'
         }, {
           type: 'paragraph',
-          content: 'Het project is een groot platform. De keuze was dus ook hier een Drupal van te maken. Burst is aan het vernieuwen op het gebied van dit soort grote projecten. Tot op heden hebben we Drupal sites gebouwd waarin Frontend en Backend dicht in elkaar verwikkeld zaten. Tegenwoordig doen we dit anders. We maken namelijk gebruik van Headless software development. Dit doen we in Drupal met onze eigen geschreven module: “Headless Ninja”. Deze module zorgt voor de juiste data structurering in de backend. De endpoint van Drupal is namelijk een API. Hier koppelen we als frontend de React applicatie aan die de website representeert.'
+          content: 'Het project is een groot platform. De keuze was dus ook hier een Drupal van te maken. Burst is aan het vernieuwen op het gebied van dit soort grote projecten. Tot op heden hebben we Drupal sites gebouwd waarin Frontend en Backend dicht met elkaar verweven zaten. Tegenwoordig doen we dit anders. We maken namelijk gebruik van Headless software development. Dit doen we in Drupal met onze eigen geschreven module: “Headless Ninja”. Deze module zorgt voor de juiste data structurering in de backend. De endpoint van Drupal is namelijk een API. Hier koppelen we als frontend een React applicatie aan die de website representeert.'
         }, {
           type: 'paragraph',
-          content: 'Het voordeel van deze Headless structuur is de loskoppeling van de voor en achterkant. Hierdoor kun je vele voorkanten (denk aan websites, apps) koppelen aan een backend. Zo is de content overal hetzelfde maar wel verspreid over meerdere media. '
+          content: 'Het voordeel van deze Headless structuur is de loskoppeling van de voor en achterkant. Hierdoor kun je vele voorkanten (denk aan websites, apps) koppelen aan één backend. Zo is de content overal hetzelfde maar wel verspreid over meerdere media. '
         }, {
           type: 'subTitle',
-          content: 'Process'
+          content: 'Proces'
         }, {
           type: 'paragraph',
           content: 'Het project was onderverdeeld in vele userstories die we daarna per sprint onderverdeelden. We hadden onze glazen muur omgetoverd tot swim lanes waarin we de uitgeprinte userstories in de juiste lane plakten (To do, In progress, Testing, Done). Elke ochtend hadden we een standup waarin we de voorgang van deze userstories bespraken.'
         }, {
           type: 'subTitle',
-          content: 'My contribution'
+          content: 'Mijn contributie'
         }, {
           type: 'paragraph',
-          content: 'De userstories werden per developer toegewezen. Dit betekend dat alle backend userstories naar Marcos gingen en alle React userstories werden verdeeld onder Matthijs en mij. Dit project was voor mij mijn eerste echte ervaring met React. Ik heb voorheen wel het een en ander in React gedaan maar nog nooit op deze schaal. Het was voor mij dus vooral erg wennen maar gelukkig kon ik me er snel bij inwerken. Met de hulp van Matthijs die me het een en ander over React en Headless Ninja kon uitleggen. '
+          content: 'De userstories werden per developer toegewezen. Dit betekend dat alle backend userstories naar Marcos gingen en alle React userstories werden verdeeld onder Matthijs A en mij. Dit project was voor mij mijn eerste echte ervaring met React. Ik heb voorheen wel het een en ander in React gedaan maar nog nooit op deze schaal. Het was voor mij dus vooral erg wennen maar gelukkig kon ik me snel inwerken. Met de hulp van Matthijs die me het een en ander over React en Headless Ninja kon uitleggen. '
         }, {
           type: 'paragraph',
-          content: 'Ik vond dit een van de vetste projecten om aan te werken. React is een techniek waar ik mij graag in wil verbeteren. Daarom is dit stageverslag gebouwd in React. En tijdens dit project heb er erg veel over geleerd. '
+          content: 'Ik vond dit een van de gaafste projecten om aan te werken. React is een techniek waar ik mij graag in wil verbeteren. Daarom is dit stageverslag gebouwd in React. En tijdens dit project heb er erg veel over geleerd. '
         }, {
           type: 'criteriaTitle',
           content: 'Ontwikkelend > Technische kennis en analyse'
@@ -336,13 +336,13 @@ const dataObject = {
           content: 'Matthijs en ik verdeelde de Components onder elkaar. Hierbij gebruikten we per component een techniek die de data komend uit de Drupal backend juist structureerde om te gebruiken in React.'
         }, {
           type: 'paragraph',
-          content: 'Tijdens het project wisten we hoe de verschillende components eruit moesten komen te zien. Alleen zagen we nog niet voor ons hoe de component in elkaar zat. Zo was het aan mij om uit te vogelen hoe de output uit de backend omgezet kon worden tot een frontend passend bij het originele ontwerp.'
+          content: 'Tijdens het project wisten we hoe de verschillende components eruit moesten komen te zien. Alleen zagen we nog niet voor ons hoe de components in elkaar zouden steken. Zo was het aan mij om uit te vogelen hoe de output uit de backend omgezet kon worden tot een frontend passend bij het originele ontwerp.'
         }, {
           type: 'criteriaTitle',
           content: 'Ontwikkelend > Ontwikkelen en prototypen'
         }, {
           type: 'paragraph',
-          content: 'Onze ontwikkel omgeving bestond uit twee delen. De frontend en de Backend. De frontend was redelijk simpel om op te zetten, we gebruiken voor de React frontend namelijk Kyt. Kyt is een toolkit waar React applicaties op gebouwd kunnen worden. Met een simpele yarn install kan je al beginnen met ontwikkelen.'
+          content: 'Onze ontwikkel omgeving bestond uit twee delen. De frontend en de Backend. De frontend was redelijk simpel om op te zetten, we gebruiken voor de React frontend namelijk Kyt. Kyt is een toolkit waar React applicaties op gebouwd kunnen worden. Na een simpele ‘yarn install’ kan je al beginnen met ontwikkelen.'
         }, {
           type: 'paragraph',
           content: 'De backend is gebouwd in Drupal. Om dit lokaal te draaien gebruiken we Docker. Docker is een techniek waar ik al vaker mee heb gewerkt maar wel veel problemen mee heb gehad. Er zijn veel factoren die fout kunnen gaan tijdens de installatie van een project. Zo gebeurde dit ook bij de installatie van Davidoff, ik ben er in totaal een dag mee bezig geweest om alles werkend te krijgen. Maar uiteindelijk stond het en was ik klaar om te beginnen met ontwikkelen!'
@@ -371,7 +371,7 @@ const dataObject = {
         content:
           [{
             type: 'paragraph',
-            content: 'Als merk van Hero is Schwartau een Duits bedrijf. De website die we gingen bouwen werd dus een site op het Hero platform. Alleen omdat het merk anders was werd de frontend ook anders gedaan. Wat naast de frontend van de website anders was aan Schwartau was het contact formulier. Dit formulier moest gekoppeld worden met de database van Schwartau zelf. Zij hebben hier namelijk een systeem aan gekoppeld waarin ze al de antwoorden op het formulier overzichtelijk kunnen bekijken.'
+            content: 'Schwartau is een Duits merk van Hero. De website die we gingen bouwen werd dus een site op het Hero platform. Alleen omdat het merk anders was werd de frontend ook anders gedaan. Wat naast de frontend van de website anders was aan Schwartau was het contact formulier. Dit formulier moest gekoppeld worden met de database van Schwartau zelf. Zij hebben hier namelijk een systeem aan gekoppeld waarin ze al de antwoorden op het formulier overzichtelijk kunnen bekijken.'
           }, {
             type: 'subTitle',
             content: 'Team'
@@ -407,19 +407,19 @@ const dataObject = {
             content: 'Mijn eerste opdracht was het ervoor zorgen dat ik op hun systeem bij de database gegevens kon om het uit te lezen. Echter was het systeem wat ze gebruiken een “MSSQL” database uit het jaar 2000. Erg oud dus. Na vele drivers te hebben geïnstalleerd en duizenden connectie pogingen te hebben gemaakt kwam ik erachter dat mijn besturingssysteem (MacOS X) te nieuw was om met zo’n oud system te kunnen verbinden. Tijd om het op de server te proberen!'
           }, {
             type: 'paragraph',
-            content: 'Ook hier heb ik veel moeten installeren voordat de connectie eindelijk lukte. Toen ik uiteindelijk de connectie had bemachtigd bleek het IP adres van onze server niet gewhitelist te zijn. Dus kon ik nog geen data uitlezen. Ik heb aan de systeembeheerder van schwartau gevraagd ons IP adres te whitelisten en dat heeft hij gedaan. Nu kon ik eindelijk in hun database om gegevens uit te lezen.'
+            content: 'Ook hier heb ik veel moeten installeren voordat de connectie eindelijk lukte. Toen ik uiteindelijk de connectie had bemachtigd bleek het IP adres van onze server niet gewhitelist te zijn. Dus kon ik nog geen data uitlezen. Ik heb aan de systeembeheerder van Schwartau gevraagd ons IP adres te whitelisten en dat heeft hij gedaan. Nu kon ik eindelijk in hun database om gegevens uit te lezen.'
           }, {
             type: 'paragraph',
-            content: 'De volgende stap was om het formulier eromheen te maken. Hiervoor moest ik alle drivers die op de server geïnstalleerd stonden gebruiken in Php. Dit is iets waar ik tot voorheen geen ervaring mee heb gehad. Met de hulp van Rick heb ik het formulier uiteindelijk af kunnen maken. Wij importeren product data uit het systeem van Schwartau zodat de gebruiker tussen deze producten kan kiezen. Vervolgens formatteren wij de data in het formulier op een manier waarop het “MSSQL” systeem het uit kan lezen. Dit bleek nogal een lastig punt te zijn aangezien wij het systeem waarin alles wordt bekeken niet kunnen testen. Dit systeem staat alleen bij Schwartau zelf. Voor elk veld moesten we dus aan Schwartau vragen of het goed door kwam. Dit werd een enorm lange opdracht dat na een aantal weken eindelijk live kon. '
+            content: 'De volgende stap was om het formulier eromheen te maken. Hiervoor moest ik alle drivers die op de server geïnstalleerd stonden gebruiken in Php. Dit is iets waar ik tot voorheen geen ervaring mee heb gehad. Met de hulp van Rick heb ik het formulier uiteindelijk af kunnen maken. Wij importeren product data uit het systeem van Schwartau zodat de gebruiker tussen deze producten kan kiezen. Vervolgens formatteren wij de data in het formulier op een manier waarop het “MSSQL” systeem het uit kan lezen. Dit bleek nogal een lastig punt te zijn aangezien wij het systeem waarin alles wordt bekeken niet kunnen testen. Dit systeem staat alleen bij Schwartau zelf. Voor elk veld moesten we dus aan Schwartau vragen of het goed door kwam. Dit werd een enorm lange opdracht dat na een aantal weken eindelijk live kon.'
           }, {
             type: 'subTitle',
             content: 'Image upload'
           }, {
             type: 'paragraph',
-            content: 'Toen het formulier na al die tijd eindelijk live werkte kreeg in een mail van Schwartau: ze willen een nieuwe functionaliteit in het formulier. En dus ging het project weer door. Dit keer wilden ze drie nieuwe velden waarin gebruikers afbeeldingen kunnen uploaden. Zelf ben ik begonnen met deze functionaliteit. Het was erg lastig de ruwe data uit de afbeelding zo te formatteren dat hun systeem het ook uit kan lezen. Uiteindelijk kreeg ik het zelf niet af voor mijn vakantie en dus heeft Daniel mij geholpen met het afmaken van de backend. In de week na mijn vakantie heb ik de frontend verder afgemaakt. En was het complete formulier eindelijk afgerond. '
+            content: 'Toen het formulier na al die tijd eindelijk live werkte kreeg in een mail van Schwartau: ze willen een nieuwe functionaliteit in het formulier. En dus ging het project weer door. Dit keer wilden ze drie nieuwe velden waarin gebruikers afbeeldingen kunnen uploaden. Zelf ben ik begonnen met deze functionaliteit. Het was erg lastig de ruwe data uit de afbeelding zo te formatteren dat hun systeem het ook uit kon lezen. Uiteindelijk kreeg ik het zelf niet af voor mijn vakantie en dus heeft Daniël mij geholpen met het afmaken van de backend. In de week na mijn vakantie heb ik de frontend verder afgemaakt. En daarmee was het complete formulier eindelijk afgerond. '
           }, {
             type: 'criteriaTitle',
-            content: 'Ondernemen > Ondernemende houding'
+            content: 'Ondernemend > Ondernemende houding'
           }, {
             type: 'paragraph',
             content: 'Het maken van de connectie naar hun oude ‘MSSQL’ database was een projectje dat ik als opdracht had gekregen van Jeroen. Het was een beetje een try & fail project omdat het in eerste instantie nog niet duidelijk was hoe de connectie opgezet moest worden. Aan mij de taak dit uit te zoeken. Met mijn wetenschap over waar dit eventueel te vinden zou zijn ben ik onderzoek gaan doen. Uiteindelijk kwam ik op een ODBC driver die te installeren was de onze Ubuntu server waar het formulier gedraaid zou worden. Met deze driver kon ik via Php een connectie opzetten tussen onze server en de database van Schwartau. '
@@ -428,10 +428,10 @@ const dataObject = {
             content: 'Toen ik dit succesvol had getest heb ik mijn oplossing bij Jeroen aangedragen. Hierna volgde de opdracht om het contact formulier ermee op te zetten. En uiteindelijk is dit gelukt!'
           }, {
             type: 'criteriaTitle',
-            content: 'Ontwikkelen > Technische kennis en analyse'
+            content: 'Ontwikkelend > Technische kennis en analyse'
           }, {
             type: 'paragraph',
-            content: 'Technisch gezien was dit wel het lastigste project waar ik mee te maken heb gehad. En dat was niet omdat de technieken die ik gebruikte zo nieuw waren (althans wel voor mij), maar dat was omdat al deze technieken juist enorm oud waren! Mijn besturingssysteem was niet oud genoeg om de juiste drivers te kunnen installeren voor de connectie. Uiteindelijk heb ik ervoor gezorgd dat de juiste drivers geïnstalleerd stonden op onze server, waar het gelukkig wel kon. Ik heb vervolgens samen met Rick de backend van het formulier gebouwd in Php. '
+            content: 'Technisch gezien was dit het lastigste project waar ik mee te maken heb gehad. En dat was niet omdat de technieken die ik gebruikte zo nieuw waren (althans wel voor mij), maar dat was omdat al deze technieken juist enorm oud waren! Mijn besturingssysteem was niet oud genoeg om de juiste drivers te kunnen installeren voor de connectie. Uiteindelijk heb ik ervoor gezorgd dat de juiste drivers geïnstalleerd stonden op onze server, waar het gelukkig wel kon. Ik heb vervolgens samen met Rick de backend van het formulier gebouwd in Php. '
           }, {
             type: 'paragraph',
             content: 'Ook dit was een uitdaging. We moesten de drivers die ik op de server had geïnstalleerd op de juiste manier gebruiken. Beide Rick en ik hadden in het begin weinig kennis van deze driver. Veruit het lastigste van dit hele project was de data formattering. Omdat Schwartau het als enige kon testen wisten wij dus niet of onze formattering goed was. Het heeft vele mailtjes gekost voordat alle data eindelijk goed binnen kwam.'
@@ -482,7 +482,7 @@ const dataObject = {
             content: '404 page not found'
           }, {
             type: 'paragraph',
-            content: 'Een van de tickets die ik van Kai zijn schouder afhaalde ging over de 404 pagina. Ze had voor deze pagina vier verzoeken. Allereerst werkte de zoekfunctie niet. Deze moest hersteld worden. Daarnaast wilde ze dat ook op deze pagina een logo in de header kwam, aangezien deze hier ontbrak. Hierbij wilde ze ook dat het gele logo dat zich midden op de pagina bevindt niet meer door linkte naar de home pagina. En als laatste wilde ze dat ik alle paden die niet gevonden werden de string ‘404’ in de URL kregen. '
+            content: 'Een van de tickets die ik van Kai zijn schouder afhaalde ging over de 404 pagina. Ze hadden voor deze pagina vier verzoeken. Allereerst werkte de zoekfunctie niet. Deze moest hersteld worden. Daarnaast wilden ze dat ook op deze pagina een logo in de header kwam, aangezien deze hier ontbrak. Hierbij wilden ze ook dat het gele logo dat zich midden op de pagina bevindt niet meer door linkte naar de home pagina. En als laatste wilden ze dat ik alle paden die niet gevonden werden de string ‘404’ in de URL kregen. '
           }, {
             type: 'paragraph',
             content: 'Na samen met Rick gekeken te hebben naar deze aanpassingen ben ik aan het werk gegaan. Ik heb succesvol alle puntjes op kunnen lossen en nu staat het live!'
@@ -500,7 +500,7 @@ const dataObject = {
             content: 'Ondernemend > Projectmatig werken'
           }, {
             type: 'paragraph',
-            content: 'De projecten waar we aan werken zijn verspreid over het team. Zo doen Erik Veerle meer wordpress en frontend. En Matthijs P., Kai en ik meer Drupal en backend. Toch zijn wij als team verantwoordelijk voor de service die wij leveren aan onze klanten. Als Kai dus de enige is die iets afweet van IFFR maar hij in tijdsnood komt vind ik dat we dat als team op moeten lossen. Dit keer was de oplossing dat ik insprong om Kai te helpen met zijn tickets. In de toekomst betekend dat dat ik vaker aan het IFFR project kan werken wat de kennis van dat project ook weer verspreid. '
+            content: 'De projecten waar we als CDSP team aan werken zijn verspreid over het team. Zo doen Erik Veerle meer wordpress en frontend. En Matthijs P., Kai en ik meer Drupal en backend. Toch zijn wij als team verantwoordelijk voor de service die wij leveren aan onze klanten. Als Kai dus de enige is die iets afweet van IFFR maar hij in tijdsnood komt vind ik dat we dat als team op moeten lossen. Dit keer was de oplossing dat ik insprong om Kai te helpen met zijn tickets. In de toekomst betekend dat dat ik vaker aan het IFFR project kan werken wat de kennis van dat project ook weer verspreid. '
           }, {
             type: 'paragraph',
             content: 'Als CDSP team zijn we erg aan het werken aan onze ‘way of working’. Sinds kort hebben we een nieuwe Service Manager die erg gemotiveerd is dit team de goede kant op te sturen. Een tijdje terug had heel het team last van teveel werk zonder overzicht. Het was voor ons allen dweilen met de kraan open. Gelukkig hebben we hier een grote verandering in gemaakt. Samen met Annemieke is Veerle nu voornamelijk verantwoordelijk voor de portal waarin alle tickets binnenkomen. Dit houd in dat zij het overzicht over de tickets bijhoudt, en ze er voor zorgt dat ze door de juiste persoon worden opgepakt.'
@@ -512,7 +512,7 @@ const dataObject = {
             content: 'Ondernemend > ondernemende houding'
           }, {
             type: 'paragraph',
-            content: 'In eerste instantie was het niet duidelijk wat de klant precies bedoelde toen ze zei dat ze op alle 404 pagina’s ook ’404’ in de URL wilde hebben. Maar uiteindelijk bleek het dat ze hierdoor beter konden volgen welke pagina’s niet gevonden konden worden zodat ze die pagina’s aan konden maken. Zelf heb ik een oplossing kunnen vinden voor deze functionaliteit en dit heb ik aan Rick laten zien. De oplossing die ik heb gecreëerd is goed ontvangen bij de klant. Het werkt nu precies zoals ze het hebben bedacht. '
+            content: 'In eerste instantie was het niet duidelijk wat de klant precies bedoelde toen ze zeiden dat ze op alle 404 pagina’s ook ’404’ in de URL wilde hebben. Maar uiteindelijk bleek het dat ze hierdoor beter konden volgen welke pagina’s niet gevonden konden worden zodat ze die pagina’s aan konden maken. Zelf heb ik een oplossing kunnen vinden voor deze functionaliteit en dit heb ik aan Rick laten zien. De oplossing die ik heb gecreëerd is goed ontvangen bij de klant. Het werkt nu precies zoals ze het hebben bedacht. '
           }],
         categories:
           [{
@@ -1146,6 +1146,7 @@ const dataObject = {
           type: 'paragraph',
           content: 'De sfeer die bij burst hing, de manier waarop ze werkten en de projecten waaraan ze werkten spraken mij allemaal aan. Allereerst wilde ik meer leren over development in het algemeen. Daarnaast had ik nog de wens mij te specificeren op een aantal onderwerpen ernaast (devOps, React, Drupal). Bij Burst was dit de mogelijkheid. Het leek me daarom een perfecte plek voor mijn stage. '
         }],
+        attachments: []
       },
       preface: {
         title: 'Inleiding',
@@ -1162,7 +1163,8 @@ const dataObject = {
         }, {
           type: 'paragraph',
           content: 'Allereerst zal ik uitleggen waar ik stage heb gelopen en waarom nou juist daar! Dit doe ik op de pagina ‘Burst’ te vinden achter het linkje ‘Burst’ op de voorpagina!'
-        }]
+        }],
+        attachments: []
       },
       conclusion: {
         title: 'Conclusie',
@@ -1203,6 +1205,13 @@ const dataObject = {
         }, {
           type: 'paragraph',
           content: 'Mijn stage bij burst beviel enorm! Voorlopig blijf ik als bijbaan werken bij Burst. Hiermee wil ik nieuwe technieken blijven ontdekken om mijzelf op het ontwikkel gebied te blijven verbeteren. Wat er ook aan zit te komen is afstuderen. Wat ik daarvoor ga doen kan ik me nu nog niet bedenken. Wel heb ik een idee waar ik het zou willen doen. Al voor een lange tijd zou ik graag naar New York City willen om daar werkervaring op te doen. Hier en daar ben ik al bezig geweest met het zoeken naar bedrijven gevestigd in New York City. Of dit ook werkelijkheid wordt weet ik nog niet, het lijkt mij in ieder geval enorm gaaf zoiets mee te maken. Wie weet wat de toekomst brengt!'
+        }],
+        attachments: [{
+          title: 'Beoordeling Ivo',
+          href: 'https://files.ivovanderknaap.com/pdf/stagebeoordeling-ivo.pdf'
+        }, {
+          title: 'Beoordeling Rick',
+          href: 'https://files.ivovanderknaap.com/pdf/stagebeoordeling-rick.pdf'
         }]
       }
     }
