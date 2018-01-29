@@ -16,6 +16,8 @@ import kritischBackground from '../images/blockchain.jpg';
 import ticketsBackground from '../images/personal/teamMeeting.jpg';
 import hackathonBackground from '../images/personal/hackathon.png';
 import burstBackground from '../images/burst-groupphoto.jpg';
+import prefaceBackground from '../images/personal/mondayMeeting.jpg';
+import conclusionBackground from '../images/personal/pingPong.jpg';
 
 const Title = glamorous.div(
   propStyles({
@@ -84,6 +86,16 @@ const Title = glamorous.div(
       color: colors.projects.burst,
       borderBottom: `8px solid ${colors.projects.burst}`
     },
+    preface: {
+      backgroundImage: `url(${prefaceBackground})`,
+      color: colors.projects.preface,
+      borderBottom: `8px solid ${colors.projects.preface}`
+    },
+    conclusion: {
+      backgroundImage: `url(${conclusionBackground})`,
+      color: colors.projects.preface,
+      borderBottom: `8px solid ${colors.projects.preface}`
+    }
   }),
   {
     fontFamily: 'Avenir Next',

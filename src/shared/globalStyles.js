@@ -22,7 +22,8 @@ const colors = {
     kritisch: '#2E2E2E',
     tickets: '#02b875',
     headlessninja: 'rgb(236, 0, 31)',
-    burst: 'rgb(236, 0, 31)'
+    burst: 'rgb(236, 0, 31)',
+    preface: '#2e2e2e'
   },
 };
 

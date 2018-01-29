@@ -1,12 +1,151 @@
 const dataObject = {
     projects: {
+      mentos: {
+        title: 'Mentos',
+        path: '/mentos',
+        href: 'http://www.mentos.jp/',
+        content: [{
+          type: 'paragraph',
+          content: 'Een van de grootste klanten van Burst is Mentos. Dit project bestaat uit een Drupal platform met vele verschillende websites. Elk land heeft zijn eigen website. Sommige landen delen eenzelfde backend die meertalig is opgezet om per taal een ander land te representeren en dus ook andere content te hebben. Zo zijn alle Scandinavische landen gekoppeld aan één Drupal CMS waarbij de meertaligheid ervoor zorgt dat per land de juiste content wordt getoond.'
+        }, {
+          type: 'subTitle',
+          content: 'Team'
+        }, {
+          type: 'list',
+          items: [{
+            name: 'Matthijs P.',
+            role: 'Content vuller / Drupal structure'
+          }, {
+            name: 'Ian',
+            role: 'Drupal coach / DevOps specialist'
+          }]
+        }, {
+          type: 'subTitle',
+          content: 'Rollouts'
+        }, {
+          type: 'paragraph',
+          content: 'Mijn allereerste project bij burst was het uitrollen van een nieuw land op het Mentos platform. Dit land was Japan. Ik deed deze rollout samen met Matthijs P. die net als ik toen nog niet veel wist van Drupal. Eigenlijk was dit ons eerste project om echt kennis te maken met Drupal. '
+        }, {
+          type: 'paragraph',
+          content: 'Mijn taak was identiek aan die van Matthijs. Van de klant kregen we een opzet met content aangeleverd. Onze taak was de nieuwe site op die manier in te richten. Zo moesten we dus in Drupal de structuur van de site opbouwen. En hierbij ook de content vullen. Het opzetten van de website deden we op de acceptatie omgeving. Van te voren hadden we samen met Ian deze omgeving opgezet met een lege installatie van het Mentos project. Omdat er voor ons nog erg veel leren viel kostte het ons ruim een week voordat we het af hadden.'
+        }, {
+          type: 'paragraph',
+          content: 'Tijdens dit eerste projectje heb ik erg veel geleerd van Drupal. Allereerst heeft Ian mij er doorheen geleid hoe ik een nieuwe acceptatie omgeving opzette voor het Mentos project. Dit was enorm leerzaam aangezien ik zelf nog nooit op een server had ingelogd, ik had nog nul ervaring met devOps. Bij het bouwen van de structuur in Drupal kwam ik er achter wat alle verschillende elementen in Drupal precies betekenen, en waar ze voor dienen. Zelf ben ik een voorstander van “Leren door te doen“ in dit project kwam dat perfect tot de orde. '
+        }, {
+          type: 'paragraph',
+          content: 'Toen het uiteindelijk tijd was om de website live te zetten heeft Ian ons geholpen met dit proces. Aan onze kant stond uiteindelijk alles klaar, het was nu nog wachten op de klant omdat zij het DNS van het domein om moesten zetten. Toen ook dit gedaan was was het officieel. Onze eerste website stond live!'
+        }, {
+          type: 'paragraph',
+          content: 'Naast Japan heb ik zelf nog een aantal andere rollouts verzorgd voor het Mentos platform. Zo heb ik de multi-language site voor Scandinavië en de Baltische staten gemaakt. Dat allereerste project was het perfecte opstapje om te beginnen!'
+        }, {
+          type: 'subTitle',
+          content: 'Team CDSP'
+        }, {
+          type: 'paragraph',
+          content: 'Naast het opzetten van nieuwe sites voor nieuwe landen ben ik ook bezig geweest voor Mentos tijdens mijn tijd in het CDSP team (Continues Development & Small Projects). Hier heb ik vele tickets binnen gekregen voor het Mentos platform. Deze tickets varieerden van content aanpassingen tot het oplossen van bugjes in code tot het aanpassen van instellingen in Google Tag Manager. '
+        }, {
+          type: 'criteriaTitle',
+          content: 'Ontwikkelen > Ontwikkelen en prototypen'
+        }, {
+          type: 'paragraph',
+          content: 'Als allereerste project bij burst was het wel even wennen om te zien hoe projecten binnen het bedrijf worden opgepakt. Ik had daarnaast voor mezelf de taak om me te focussen op Drupal aangezien ik er nog helemaal niks vanaf wist. Gelukkig kon ik mijn weg snel vinden binnen Drupal. Aan het einde van dit project wist ik de basis principes van het CMS systeem, en kon ik ook in andere Drupal websites van Burst mijn weg goed vinden.'
+        }, {
+          type: 'paragraph',
+          content: 'Verder heb ik ook kennis gemaakt met devOps. Nog nooit eerder had ik gewerkt met servers, maar door een eigen acceptatie omgeving op te zetten voor de website van Japan met de hulp van Ian heb ik ook hier de nodige basis voor geleerd.'
+        }, {
+          type: 'criteriaTitle',
+          content: 'Ontwikkelend > Testen en implementeren'
+        }, {
+          type: 'paragraph',
+          content: 'Als team member van het CDSP team heb ik een aantal bugjes opgelost op het mentos platform. Deze oplossingen heb ik goed moeten testen voordat ik ze live kon zetten omdat het een enorm platform is. Dezelfde code werd gebruikt op alle zelfde pagina’s voor alle landen op heel het platform. Dat betekend dat je dus niet zomaar even op land A iets kan veranderen zonder naar land B te kijken. Een uitgebreide test is dus erg van belang op het Mentos platform!'
+        }],
+        categories: [{
+          title: 'Ontwikkelend',
+          path: '/ontwikkelend'
+        }],
+        attachments: []
+      },
+      hero: {
+        title: 'Hero',
+        path: '/hero',
+        href: 'https://www.hero.nl/fruit',
+        content: [{
+          type: 'paragraph',
+          content: 'De allergrootste klant van Burst is Hero. Het bedrijf Hero is het moederbedrijf van vele andere merken. Ze specialiseren zich in het conserveren van producten op basis van groenten en fruit en deze geschikt maken voor hun consumenten. Net als Mentos bestaat het project Hero uit vele verschillende landen die allemaal verschillende websites hebben. Zo hebben veel landen bijvoorbeeld een site over Fruit en een site over Baby producten. Voor elk land is er een portal pagina waar de verschillende websites worden gelinkt.'
+        }, {
+          type: 'subTitle',
+          content: 'Team CDSP'
+        }, {
+          type: 'paragraph',
+          content: 'Ik heb in mijn stageperiode bij burst veel gewerkt aan het Hero project. De individuele Hero gerelateerde projecten daaronder zal ik apart benoemen. Mijn grootste contributie aan dit project komt toch wel uit mijn tijd in het CDSP team. Hier heb ik namelijk wekelijks te maken gehad met een ticket voor Hero.'
+        }, {
+          type: 'paragraph',
+          content: 'Tickets voor het Hero platform variëren enorm. Zo kan er iets mis zijn in de Drupal backend van een specifieke site. Of er is ergens een bug gevonden waar een oplossing voor gevonden moet worden. Ook kan het zijn dat de klant een nieuwe functionaliteit toe wil voegen aan een of meerdere websites. Zo heb ik bijvoorbeeld een small project verkocht aan de Spaanse Hero website waarin ze een “Neverbounce” implementatie willen op drie formulieren. '
+        }, {
+          type: 'paragraph',
+          content: 'Kortom er zijn vele verschillende websites op één platform, wat betekend dat alle sites die op het platform draaien dezelfde code gebruiken. Dat betekend dat als je een aanpassing in code doorvoert je erg goed op moet letten wat je aanpast en op welke website(s) de aanpassing zichtbaar moet zijn. Gelukkig hebben we in het CDSP team hier een mooi proces voor gevonden om dit elke keer zo soepel mogelijk te laten verlopen. Namelijk: de Hero release cycle.'
+        }, {
+          type: 'subTitle',
+          content: 'Release Cycle'
+        }, {
+          type: 'paragraph',
+          content: 'Voor het Hero project hebben we elke drie weken (voorheen twee weken) een release cycle. Dit houd in dat we individuele tickets niet live zetten maar deze bundelen om ze vervolgens om de drie weken allemaal in één keer te testen en live te zetten.'
+        }, {
+          type: 'paragraph',
+          content: 'Het proces gaat als volgt: het eerste dat je doet als je een ticket ontvangt van Hero waarin je op het platform code aan moet passen is de versiebeheer rondom jou ticket klaarzetten in git. Dit doe je door vanaf de master branch een nieuwe branch in git aan te maken en die correct te benamen: “hotfix” of “feature”, dit doen wij volgens de gitflow methode. Vervolgens ontwikkel je jouw ticket lokaal met Docker. Hierna claim je een van de vijf acceptatie omgevingen die voor het platform bestaan, dit bespreek je binnen het team. Als je jouw aanpassing aan het platform hebt doorgevoerd op jouw acceptatie omgeving vraag je aan de klant dit te testen op die omgeving. Na goedkeuring van de klant maak je in git een merge request aan die jouw branch samenvoegt met de zogeheten “release” branch. Dit merge request moet goed gekeurd worden door een ander lid binnen het team. In een korte beschrijving beschrijf je wat je hebt aangepast, waar je deze aanpassing kunt vinden en hoe het valt te testen. Vervolgens vraag je een teamlid dit te testen en als het is goedgekeurd komt de aanpassing in de release!'
+        }, {
+          type: 'paragraph',
+          content: 'Eens in de drie weken voeren we deze release uit door allereerst de release branch klaar te zetten op een van de acceptatie omgevingen. Hier wordt alles nog een keer volledig getest door Roël: onze Quality Assurance specialist. Vervolgens zet Erik, de release owner, de deze hele release live. Hier wordt het nogmaals getest door onze Quality Assurance specialist (met onder andere automated testing), waarna de live gang is gelukt!'
+        }, {
+          type: 'subTitle',
+          content: 'Testing day'
+        }, {
+          type: 'paragraph',
+          content: 'Op de donderdag voor de week van de release wordt deze altijd volledig klaargezet op een acceptatie omgeving om er zeker van te zijn dat alle tickets bij elkaar ook werken op het platform. In mijn stageperiode was Erik op de dag dat dit gebeurd een keer ziek en was er verder niemand die deze taak van hem over kon nemen. Behalve ik. Daarom heb ik die dag samen met Roël (die alles testte) ervoor gezorgd dat de volledige release op de acceptatie omgeving kwam te staan. Het was een aardig karwei dit alles klaar te zetten maar uiteindelijk was het me gelukt!'
+        }, {
+          type: 'criteriaTitle',
+          content: 'Ontwikkelen > Testen en implementeren'
+        }, {
+          type: 'paragraph',
+          content: 'Het belang van testen is voor mij erg duidelijk geworden in mijn werkzaamheden binnen het Hero platform. Om op zo’n groot platform een aanpassing door te voeren is natuurlijk erg lastig aangezien er potentieel andere websites stuk gaan. Dit heb ik een aantal keer meegemaakt. Gelukkig wordt er in ons release proces veel getest waardoor mijn foutjes eruit zijn gehaald. Het door meerdere personen veelvoudig testen is binnen een doorontwikkeling proces enorm belangrijk. Als Burst willen wij kwaliteit blijven leveren aan onze klanten. Roël, onze Quality Assurance specialist, is daarom ook een goede toevoeging aan het bedrijf. Ik heb veel van hem en het CDSP team geleerd op het gebied van succesvolle tests draaien binnen het release proces van Hero (Zie: ‘Testplan Hero’).'
+        }, {
+          type: 'criteriaTitle',
+          content: 'Betrokken > Leren vermogen'
+        }, {
+          type: 'paragraph',
+          content: 'De foutjes die ik hierboven benoem waren vooral slordigheidsfoutjes. Een keer had ik geen goede platform wijdde test gedaan waardoor mijn aanpassing op een totaal andere site kapot ging. En ik heb een aantal keer wat frontend werk moeten verrichten voor het Hero platform. Nu is dit niet mijn sterkste kant waar door ik op het gebied van responsiveness hier en daar een foutje maakte. Op mobiel zag mijn aanpassing er bijvoorbeeld niet uit! Van al deze kleine schoonheidsfoutjes heb ik wel erg veel geleerd. Door de keer erop kritischer te zijn op mezelf heb ik dit soort fouten kunnen voorkomen. '
+        }, {
+          type: 'paragrpah',
+          content: 'Niet alleen ik maak van dit soort fouten op het Hero platform. Ook mijn collega’s maken af en toe wel eens een slordigheidsfoutje. Zo heb ik bijvoorbeeld ook tickets van mijn collega’s getest die niet helemaal door de test heen kwamen. Met kritische feedback is de oplossing uiteindelijk weer gevonden. '
+        }, {
+          type: 'paragraph',
+          content: 'Eens in het jaar heeft Burst haar feedback ronde. Dit houd in dat iedereen een aantal collega’s feedback geeft. Als ontvanger mag je aanwijzen van wie je feedback wilt ontvangen. Zo heb ik heel mijn team gevraagd voor feedback, hier kwamen een aantal verbeterpunten voor mij naar boven. Wat vooral het belangrijkste was was de oplever kwaliteit die ik leverde. Zoals ik hier boven aangaf had ik nog wel eens een aantal schoonheidsfoutjes, hier moest ik mij dus nog even op focussen.'
+        }, {
+          type: 'paragraph',
+          content: 'Naast de jaarlijkse feedback ronde heb ik ook een aantal gesprekjes gehad met verschillende collega’s over mijn manier van communicatie. Dit is namelijk iets waar ik behoorlijk slecht ik ben. Van mezelf weet ik dat ik een introvert persoon ben, daarom vind ik het lastig om mezelf te uiten. Dit heeft er meerdere keren voor gezorgd dat ik in een situatie waarin ik ergens op vast liep ik dit niet wist te uiten naar mijn team toe, waardoor het project in tijdsnood kwam.'
+        }, {
+          type: 'paragraph',
+          content: 'Ik vind mijn communicatie het belangrijkste punt om aan mezelf te verbeteren. Ik ben er tijdens mijn stage aan begonnen en ben van plan dit alleen maar meer op te pakken. Een goede communicatie is namelijk essentieel in het doen van projecten.'
+        }],
+        categories: [{
+          title: 'Ontwikkelend',
+          path: '/ontwikkelend'
+        }, {
+          title: 'Betrokken',
+          path: '/betrokken'
+        }],
+        attachments: [{
+          title: 'Testplan Hero',
+          href: 'https://files.ivovanderknaap.com/pdf/hero-testing-plan.pdf'
+        }]
+      },
       ninlaro: {
         title: 'Ninlaro',
         path: '/ninlaro',
         href: 'https://www.ninlaro.nl/',
         content: [{
           type: 'paragraph',
-          content: 'Ninlaro is een medicijn te gebruiken bij Multipel Myeloom. Het word verkocht door het farmaceutisch bedrijf Takeda. Zij zijn al een tijd klant van ons en hebben voor verschillende medicatie en ziektes websites waar informatie op staat. Meestal bestaat zo’n site uit twee delen een patiënten gedeelte en een medisch professional gedeelte. Voor Ninlaro stond het patiënten gedeelte al, waar ik aan werkte was het opzetten van het medisch professional gedeelte.',
+          content: 'Ninlaro is een medicijn te gebruiken bij Multipel Myeloom. Het word verkocht door het farmaceutisch bedrijf Takeda. Zij zijn al een tijd klant van ons en hebben voor verschillende medicatie en ziektes websites waar informatie op staat. Meestal bestaat zo’n site uit twee delen: een patiënten gedeelte en een medisch professional gedeelte. Voor Ninlaro bestond het patiënten gedeelte al, waar ik aan werkte was het opzetten van het medisch professional gedeelte.',
         }, {
           type: 'paragraph',
           content: 'De website bestaat uit een Wordpress backend waar via templates in Php een frontend aan vast zit. Gestyled met Sass.',
@@ -39,31 +178,25 @@ const dataObject = {
           content: 'De projectmanager met wie ik dit project samen deed was de maandag waarop de klant voor de oplevering kwam niet aanwezig. In het weekend vroeg ze of ik deze meeting op mij wilde nemen aangezien er niemand anders (die bij het project betrokken was geweest) op kantoor zou zijn. Ik had de website al aardig doorgenomen tegen deze tijd en wist dus dat ik de klant wel goed te woord kon staan.'
         }, {
           type: 'paragraph',
-          content: 'Tegen het eind van de middag kwamen twee personen van Takeda (waar Ninlaro onder valt) langs voor de oplevering. Ik had een kamer geboekt waar ik met ze ging zitten en we begonnen samen door de site heen te klikken.'
+          content: 'Tegen het eind van de middag kwamen twee personen van Takeda langs voor de oplevering. Ik had een kamer geboekt waar ik met ze ging zitten en we begonnen samen door de site heen te klikken.'
         }, {
           type: 'paragraph',
-          content: 'Snel kwamen we er achter dat er nog veel content niet goed stond. Het bleek dat de klant nog aardig wat feedback had gestuurd in Basecamp. Hier ging het vooral mis. Ik wist namelijk niet van dat Basecamp project af en degene die dat wel wisten waren op vakantie.'
+          content: 'Al snel kwamen we er achter dat er nog veel content niet goed stond. Het bleek dat de klant nog aardig wat feedback had gestuurd in Basecamp. Hier ging het vooral mis. Ik wist namelijk niks van dat Basecamp project af en degene die dat wel wisten waren op vakantie.'
         }, {
           type: 'paragraph',
-          content: 'De meeting die ik alleen aanging (wat ik zag als een leuke uitdaging) liep totaal niet goed doordat erg veel aan de website nog verkeerd stond.'
+          content: 'De meeting die ik alleen aanging (wat ik zag als een leuke uitdaging) liep totaal niet goed doordat er erg veel op de website nog verkeerd stond.'
         }, {
           type: 'subTitle',
           content: 'Second chance'
         }, {
           type: 'paragraph',
-          content: 'De dag erna besprak ik met Kim wat er was gebeurd en hebben we besproken hoe we dit op konden lossen. Ik zou de feedback oppakken en in nauwe samenwerking met de klant ervoor zorgen dat alles goed kwam te staan. Feedback bestond niet alleen uit het veranderen van content maar ook het aanpassen van verschillende functionaliteiten in code. Dit was voor mij mijn eerste ervaring met Wordpress, waardoor ik in korte tijd een nieuwe techniek erbij heb geleerd!'
+          content: 'De dag erna besprak ik met Kim wat er was gebeurd en hebben nagedacht over een oplossing. Ik zou de feedback oppakken en in nauwe samenwerking met de klant ervoor zorgen dat alles goed kwam te staan. De feedback bestond niet alleen uit het veranderen van content maar ook het aanpassen van verschillende functionaliteiten in code. Dit was voor mij mijn eerste ervaring met Wordpress, waardoor ik in korte tijd een nieuwe techniek erbij heb geleerd!'
         }, {
           type: 'paragraph',
-          content: 'Na twee weken keihard te hebben gewerkt om alle puntjes op de i te zetten had ik met Kim (de project manager) een meeting bij Takeda. Bij deze meeting zat het ‘Legal team’ van Takeda om de laatste legal check te doen. De website gaat namelijk over het medicijn Ninlaro, en dus is het van groot belang dat de informatie op de juiste plek staat (achter login e.d.).'
+          content: 'Na twee weken keihard te hebben gewerkt om alle puntjes op de i te zetten had ik met Kim een meeting bij Takeda. Bij deze meeting zat het ‘Legal team’ van Takeda om de laatste legal check te doen. De website gaat namelijk over het medicijn Ninlaro, en dus is het van groot belang dat de informatie op de juiste plek staat (achter login e.d.).'
         }, {
           type: 'paragraph',
-          content: 'Het eindresultaat was positief! Nadat het aardig fout ging bij de eerste meeting kwam het in deze meeting uiteindelijk toch goed. Het werk dat ik heb geleverd was goed ontvangen door Takeda (Zie: ‘Nice surprise&rsquo;). Hierdoor was het eindresultaat toch erg positief.'
-        }, {
-          type: 'subTitle',
-          content: 'Conclusie'
-        }, {
-          type: 'paragraph',
-          content: 'De leerdoelen waar ik in dit project heb gewerkt zijn als volgt:'
+          content: 'Het eindresultaat was positief! Nadat het aardig fout ging bij de eerste meeting kwam het in deze meeting uiteindelijk toch goed. Het werk dat ik heb geleverd was goed ontvangen door Takeda (Zie: ‘Nice surprise’). Hierdoor was het eindresultaat toch erg positief.'
         }, {
           type: 'criteriaTitle',
           content: 'Ontwikkelend > Ontwikkelen en prototypen'
@@ -81,13 +214,13 @@ const dataObject = {
           content: 'Bij burst hebben we een aantal checklists om doorheen te lopen waarin een aantal core functionaliteiten staan om te testen. Door dit testplan uit te voeren komen we erachter of deze functionaliteiten goed zijn ontwikkeld.'
         }, {
           type: 'paragraph',
-          content: 'Een aantal keer stuitte ik op een foutje in een van de functionaliteiten. Hier moest ik dus nog een keer naar kijken om dit op te lossen. Deze kleine foutjes waren voor mij vooral in het begin van mijn Wordpress ervaring erg waardevol. Ik leerde veel nieuwe dingen door nog eens extra te kijken naar mijn geschreven functionaliteiten. Hierdoor kan ik het de volgende keer in een keer goed doen!'
+          content: 'Een aantal keer stuitte ik op een foutje in een van de functionaliteiten. Hier moest ik dus nog een keer naar kijken om dit op te lossen. Deze kleine foutjes waren voor mij vooral in het begin van mijn Wordpress ervaring erg waardevol. Ik leerde veel nieuwe dingen door nog eens extra te kijken naar mijn geschreven functionaliteiten. Hierdoor kon ik het de volgende keer in een keer goed doen!'
         }, {
           type: 'criteriaTitle',
           content: 'Betrokken > Lerend vermogen'
         }, {
           type: 'paragraph',
-          content: 'Niet alleen ik heb van dit project geleerd maar de rest van het team ook. Het project ging totaal niet soepel en dat komt door de manier waarop we het hebben opgepakt als team. De content aanlevering voor de klant hadden we bijvoorbeeld erg complex gemaakt in verschillende mapjes op de Google Drive. Hierdoor bedoelde de klant iets anders met de plaatsing van van de content dan hoe wij het zagen. Ook was de splitsing van communicatie over mail, Google Drive en Basecamp er verwarrend. Er zijn zo veel fouten ontstaan die totaal onnodig waren. '
+          content: 'Niet alleen ik heb van dit project geleerd maar de rest van het team ook. Het project ging totaal niet soepel en dat kwam door de manier waarop we het hebben opgepakt als team. De content aanlevering voor de klant hadden we bijvoorbeeld erg complex gemaakt in verschillende mapjes op de Google Drive. Hierdoor bedoelde de klant iets anders met de plaatsing van van de content dan hoe wij het zagen. Ook was de splitsing van communicatie over mail, Google Drive en Basecamp erg verwarrend. Er zijn zo veel fouten ontstaan die totaal onnodig waren. '
         }, {
           type: 'paragraph',
           content: 'In de evaluatie meeting na de officiële oplevering hebben we het hier uitgebreid over gehad. Ik heb veel complimenten ontvangen omdat ik ondanks dat ik niet origineel aan het project heb gewerkt, het toch mooi heb kunnen afronden. Ik en Burst in het algemeen hebben hier veel van geleerd. '
@@ -105,7 +238,7 @@ const dataObject = {
           content: 'Ondernemend > Projectmatig werken'
         }, {
           type: 'paragraph',
-          content: 'In dit project heb ik veel rollen aangenomen. Zo was ik in teamverband aan het werken aan de site met collega’s, en zo zat ik alleen de feedback lijst af te tikken om zo gefocust mogelijk te kunnen doorwerken. Een aantal keer kwam de klant naar kantoor om samen aan de site te werken en vaak had ik een call met ze om functionaliteiten te bespreken. Ook zat ik tijdens de laatste legal check meeting live code aan te passen zodat alles echt helemaal goed stond.'
+          content: 'In dit project heb ik veel rollen aangenomen. Zo was ik in teamverband aan het werken aan de site met collega’s, en zo zat ik zo gefocust mogelijk alleen de feedback lijst af te tikken. Een aantal keer kwam de klant naar kantoor om samen aan de site te werken en vaak had ik een call met ze om functionaliteiten te bespreken. Ook zat ik tijdens de laatste legal check meeting live code aan te passen zodat alles echt helemaal goed stond.'
         }, {
           type: 'paragraph',
           content: 'Ik heb dus alleen gewerkt, in team verband en in nauwe samenwerking met de klant. Zodat er uiteindelijk een mooi product opgeleverd kon worden!'
@@ -226,142 +359,6 @@ const dataObject = {
         }, {
           title: 'Ondernemend',
           path: '/ondernemend'
-        }],
-        attachments: []
-      },
-      mentos: {
-        title: 'Mentos',
-        path: '/mentos',
-        href: 'http://www.mentos.jp/',
-        content: [{
-          type: 'paragraph',
-          content: 'Een van de grootste klanten van Burst is Mentos. Deze klant bestaat uit een Drupal platform met vele verschillende websites. Elk land heeft zijn eigen website. Sommige landen delen eenzelfde backend die meertalig is opgezet om per taal een ander land te representeren en dus ook andere content te hebben. Zo zijn alle Scandinavische landen gekoppeld aan één Drupal CMS waarbij de meertaligheid ervoor zorgt dat per land de juiste content wordt getoond.'
-        }, {
-          type: 'subTitle',
-          content: 'Team'
-        }, {
-          type: 'list',
-          items: [{
-            name: 'Matthijs P.',
-            role: 'Content vuller / Drupal structure'
-          }, {
-            name: 'Ian',
-            role: 'Drupal coach / DevOps specialist'
-          }]
-        }, {
-          type: 'subTitle',
-          content: 'Rollouts'
-        }, {
-          type: 'paragraph',
-          content: 'Mijn allereerste project bij burst was het uitrollen van een nieuw land op het Mentos platform. Dit land was: Japan. Ik deed deze rollout samen met Matthijs P. die net als ik toen nog niet veel wist van Drupal. Eigenlijk was dit ons eerste project om echt kennis te maken met Drupal. '
-        }, {
-          type: 'paragraph',
-          content: 'Mijn taak was identiek aan die van Matthijs. Van de klant kregen we een opzet met content aangeleverd. Onze taak was de nieuwe site op die manier in te richten. Zo moesten we dus in Drupal de structuur van de site opbouwen. En hierbij ook de content vullen. Het opzetten van de website deden we op de acceptatie omgeving. Van te voren hadden we samen met Ian deze omgeving opgezet met een lege installatie van het Mentos project. Omdat het voor ons nog erg veel leren was kostte het ons ruim een week voordat we het af hadden.'
-        }, {
-          type: 'paragraph',
-          content: 'Tijdens dit eerste projectje heb ik erg veel geleerd van Drupal. Allereerst heeft Ian mij erdoorheen geleid hoe ik een nieuwe acceptatie omgeving opzette voor het Mentos project. Dit was enorm leerzaam aangezien ik zelf nog nooit op een server had ingelogd, ik had nog nul ervaring met devOps. Bij het bouwen van de structuur in Drupal kwam ik er achter wat alle verschillende elementen in Drupal precies betekenen, en waar ze voor dienen. Zelf ben ik een voorstander van “Leren door te doen“ in dit project kwam dat perfect tot de orde. '
-        }, {
-          type: 'paragraph',
-          content: 'Toen het uiteindelijk tijd was om de website live te zetten heeft Ian ons geholpen met dit proces. Aan onze kant stond uiteindelijk alles klaar, het was nu nog wachten op de klant omdat zij het DNS van het domein om moesten zetten. Toen ook dit gedaan was was het officieel. Onze eerste website stond live!'
-        }, {
-          type: 'paragraph',
-          content: 'Naast Japan heb ik zelf nog een aantal andere rollouts verzorgd voor het Mentos platform. Zo heb ik de multi-language site voor Scandinavië en de Baltische staten gemaakt. Dat allereerste project was het perfecte opstapje om te beginnen!'
-        }, {
-          type: 'subTitle',
-          content: 'Team CDSP'
-        }, {
-          type: 'paragraph',
-          content: 'Naast het opzetten van nieuwe sites voor nieuwe landen ben ik ook bezig geweest voor Mentos tijdens mijn tijd in het CDSP team (Continues Development & Small Projects). Hier heb ik vele tickets binnen gekregen voor het Mentos platform. Deze tickets varieerden van content aanpassingen tot het oplossen van bugjes in code tot het aanpassen van instellingen in Google Tag Manager. '
-        }, {
-          type: 'criteriaTitle',
-          content: 'Ontwikkelen > Ontwikkelen en prototypen'
-        }, {
-          type: 'paragraph',
-          content: 'Als allereerste project bij burst was het wel even wennen om te zien hoe projecten binnen het bedrijf worden opgepakt. Ik had daarnaast voor mezelf de taak om me te focussen op Drupal aangezien ik er nog helemaal niks vanaf wist. Gelukkig kon ik mijn weg snel vinden binnen Drupal. Aan het einde van dit project wist ik de basis principes van het CMS systeem, en kon ik ook in andere Drupal websites van Burst mijn weg goed vinden.'
-        }, {
-          type: 'paragraph',
-          content: 'Verder heb ik ook kennis gemaakt met devOps. Nog nooit eerder had ik gewerkt met servers, maar door een eigen acceptatie omgeving op te zetten voor de website van Japan met de hulp van Ian heb ik ook hier de nodige basis voor geleerd. Beide Drupal en devOps zijn technieken '
-        }, {
-          type: 'criteriaTitle',
-          content: 'Ontwikkelend > Testen en implementeren'
-        }, {
-          type: 'paragraph',
-          content: 'Als team member van het CDSP team heb ik een aantal bugjes opgelost op het mentos platform. Deze oplossingen heb ik goed moeten testen voordat ik ze live kon zetten omdat het een enorm platform is. Dezelfde code werd gebruikt op alle zelfde pagina’s voor alle landen op heel het platform. Dat betekend dat je dus niet zomaar even op land A iets kan veranderen zonder naar land B te kijken. Een uitgebreide test is dus erg van belang op het Mentos platform!'
-        }],
-        categories: [{
-          title: 'Ontwikkelend',
-          path: '/ontwikkelend'
-        }],
-        attachments: []
-      },
-      hero: {
-        title: 'Hero',
-        path: '/hero',
-        href: 'https://www.hero.nl/fruit',
-        content: [{
-          type: 'paragraph',
-          content: 'De allergrootste klant van Burst is Hero. Het bedrijf Hero is het moederbedrijf van vele andere merken. Ze specialiseren zich in het conserveren van producten op basis van groenten en fruit en deze geschikt maken voor hun consumenten. Net als Mentos bestaat het project Hero uit vele verschillende landen die allemaal verschillende websites hebben. Zo hebben veel landen bijvoorbeeld een site over Fruit en een site over Baby producten. Voor elk land is er een portal page waar de verschillende websites worden gelinkt.'
-        }, {
-          type: 'subTitle',
-          content: 'Team CDSP'
-        }, {
-          type: 'paragraph',
-          content: 'Ik heb in mijn stageperiode bij burst veel gewerkt aan het Hero project. De individuele Hero gerelateerde projecten daaronder zal ik apart benoemen. Mijn grootste contributie aan dit project komt toch wel uit mijn tijd in het CDSP team. Hier heb ik namelijk wekelijks te maken gehad met een ticket voor Hero.'
-        }, {
-          type: 'paragraph',
-          content: 'Tickets voor het Hero platform variëren enorm. Zo kan er iets mis zijn in de Drupal backend van een specifieke site. Of er is ergens een bug gevonden waar een oplossing voor gevonden moet worden. Ook kan het zijn dat de klant een nieuwe functionaliteit toe wil voegen aan een of meerdere websites. Zo heb ik bijvoorbeeld een small project verkocht aan de Spaanse Hero website waarin ze een “Neverbounce” implementatie willen op drie formulieren. '
-        }, {
-          type: 'paragraph',
-          content: 'Kortom er zijn vele verschillende websites op één platform, wat betekend dat alle sites die op het platform draaien dezelfde code gebruiken. Dat betekend dat als je een aanpassing in code doorvoert je erg goed op moet letten wat je aanpast en op welke website(s) de aanpassing zichtbaar moet zijn. Gelukkig hebben we in het CDSP team hier een mooi proces voor gevonden om dit elke keer zo soepel mogelijk te laten verlopen. Namelijk: de Hero release cycle.'
-        }, {
-          type: 'subTitle',
-          content: 'Release Cycle'
-        }, {
-          type: 'paragraph',
-          content: 'Voor het Hero project hebben we elke drie weken (voorheen twee weken) een release cycle. Dit houd in dat we individuele tickets niet live zetten maar deze per twee weken bundelen om ze vervolgens allemaal in één keer te testen en live te zetten.'
-        }, {
-          type: 'paragraph',
-          content: 'Het process gaat als volgt: het eerste dat je doet als je een ticket ontvangt van Hero waarin je op het platform code aan moet passen is de versiebeheer rondom jou ticket klaarzetten in git. Dit doe je door vanaf de master branch een nieuwe branch in git aan te maken en die correct te benamen: “hotfix” of “feature”, dit doen wij volgens de gitflow methode. Vervolgens ontwikkel je jouw ticket lokaal met Docker. Hierna claim je een van de vijf acceptatie omgevingen die voor het platform bestaan, dit bespreek je binnen het team. Als je jouw aanpassing aan het platform hebt doorgevoerd op jouw acceptatie omgeving vraag je aan de klant dit te testen op die omgeving. Na goedkeuring van de klant maak je in git een merge request aan die jouw branch samenvoegt met de zogeheten “release” branch. Dit merge request moet goed gekeurd worden door een ander lid binnen het team. In een korte beschrijving beschrijf je wat je hebt aangepast, waar je deze aanpassing kunt vinden en hoe het valt te testen. Vervolgens vraag je een teamlid dit te testen en als het is goedgekeurd komt de aanpassing in de release!'
-        }, {
-          type: 'paragraph',
-          content: 'Eens in de drie weken voeren we deze release uit door allereerst de release branch klaar te zetten op een van de acceptatie omgevingen. Hier wordt alles nog een keer volledig getest door onze Quality Assurance specialist. Vervolgens zet Erik (de release owner) de deze hele release live. Hier wordt het nogmaals getest door onze Quality Assurance specialist (met onder andere automated testing), waarna de live gang is gelukt!'
-        }, {
-          type: 'subTitle',
-          content: 'Testing day'
-        }, {
-          type: 'paragraph',
-          content: 'Op de donderdag voor de week van de release wordt deze altijd volledig klaargezet op een acceptatie omgeving om er zeker van te zijn dat alle tickets bij elkaar ook werken op het platform. In mijn stageperiode was Erik op de dag dat dit gebeurd een keer ziek en was er verder niemand die deze taak van hem over kon nemen. Behalve ik. Daarom heb ik die dag samen met Roël (die alles testte) ervoor gezorgd dat de volledige release op de acceptatie omgeving kwam te staan. Het was een aardig karwei dit alles klaar te zetten maar uiteindelijk was het me gelukt!'
-        }, {
-          type: 'paragraph',
-          content: 'Naast de jaarlijkse feedback ronde heb ik ook een aantal gesprekjes gehad met verschillende collega’s over mijn manier van communicatie. Dit is namelijk iets waar ik behoorlijk slecht ik ben. Van mezelf weet ik dat ik een introvert persoon ben, daarom vind ik het lastig om mezelf te uiten. Dit heeft er meerdere keren voor gezorgd dat toen ik ergens op vast liep ik dit niet wist te uiten naar mijn team toe, waardoor het project in tijdsnood kwam.'
-        }, {
-          type: 'paragraph',
-          content: 'Ik vind mijn communicatie het belangrijkste punt om aan mezelf te verbeteren. Ik ben er tijdens mijn stage aan begonnen en ben van plan dit alleen maar meer op te pakken. Een goede communicatie is namelijk essentieel in het doen van projecten.'
-        }, {
-          type: 'criteriaTitle',
-          content: 'Ontwikkelen > Testen en implementeren'
-        }, {
-          type: 'paragraph',
-          content: 'Het belang van testen is voor mij erg duidelijk geworden in mijn werkzaamheden binnen het Hero platform. Om op zo’n groot platform een aanpassing door te voeren is natuurlijk erg lastig aangezien er potentieel andere websites stuk gaan. Dit heb ik een aantal keer meegemaakt. Gelukkig wordt er in ons release proces veel getest waardoor mijn foutjes eruit zijn gehaald. Het door meerdere personen veelvoudig testen is binnen een doorontwikkeling proces enorm belangrijk. Als Burst willen wij kwaliteit blijven leveren aan onze klanten. Roël, onze Quality Assurance specialist, is daarom ook een goede toevoeging aan het bedrijf. Ik heb veel van hem en het CDSP team geleerd op het gebied van succesvolle tests draaien binnen het release proces van Hero.'
-        }, {
-          type: 'criteriaTitle',
-          content: 'Betrokken > Leren vermogen'
-        }, {
-          type: 'paragraph',
-          content: 'De foutjes die ik hierboven benoem waren vooral slordigheidsfoutjes. Een keer had ik geen goede platform wijdde test gedaan waardoor mijn aanpassing op een totaal andere site kapot ging. En ik heb een aantal keer wat frontend werk moeten verrichten voor het Hero platform. Nu is dit niet mijn sterkste kant waar door ik op het gebied van responsiveness hier en daar een foutje maakte. Op mobiel zag mijn aanpassing er bijvoorbeeld niet uit! Van al deze kleine schoonheidsfoutjes heb ik wel erg veel geleerd. Door de keer erop kritischer te zijn op mezelf heb ik dit soort fouten kunnen voorkomen. '
-        }, {
-          type: 'paragrpah',
-          content: 'Niet alleen ik maak van dit soort fouten op het Hero platform. Ook mijn collega’s maken af en toe wel eens een slordigheidsfoutje. Zo heb ik bijvoorbeeld ook tickets van mijn collega’s getest die niet helemaal door de test heen kwamen. Met kritische feedback is de oplossing uiteindelijk weer gevonden. '
-        }, {
-          type: 'paragraph',
-          content: 'Eens in het jaar heeft Burst haar feedback ronde. Dit houd in dat iedereen een aantal collega’s feedback geeft. Als ontvanger mag je aanwijzen van wie je feedback wilt ontvangen. Zo heb ik heel mijn team gevraagd voor feedback, hier kwamen een aantal verbeterpunten voor mij naar boven. Wat vooral het belangrijkste was was de oplever kwaliteit die ik leverde. Zoals ik hier boven aangaf had ik nog wel eens een aantal schoonheidsfoutjes, hier moest ik mij dus nog even op focussen.'
-        }],
-        categories: [{
-          title: 'Ontwikkelend',
-          path: '/ontwikkelend'
-        }, {
-          title: 'Betrokken',
-          path: '/betrokken'
         }],
         attachments: []
       },
@@ -866,6 +863,18 @@ const dataObject = {
           }, {
             type: 'paragraph',
             content: 'Eerst heb ik geprobeerd een SLA te verkopen aangezien dat meestal de manier is waar wij op werken alleen wilde ze dat perse niet aangezien ze maar een kleine aanpassing hadden. Uiteindelijk is hij gegaan voor de optie van één uur. '
+          }, {
+            type: 'criteriaTitle',
+            content: 'Betrokken > Verantwoordelijkheid'
+          }, {
+            type: 'paragraph',
+            content: 'Als de klant een vraag heeft voor een nieuwe functionaliteit op zijn of haar website is het altijd goed om in je achterhoofd te houden dat de klant zelf niet altijd gelijk weet wat hij of zij wil. Het is goed om te weten dat ik in deze situatie de professional ben. Zo was ook het geval met Hero Spain. Ze wilden graag dat hun formulieren beveiligd werden van robots die probeerden hun systeem vol te stoppen met spam. Dit is een duidelijk probleem wat ik al vaker ben tegengekomen. De klant dacht in dit geval dat de oplossing hiervoor een captcha zou zijn. Captcha’s kent iedereen, eerst moet je een vakje invullen om te laten zien dat je geen robot bent. Af en toe moet je zelf tussen verschillende plaatjes speciale objecten herkennen om dit aan te tonen. Al met al is het geen fijne ervaring.'
+          }, {
+            type: 'paragraph',
+            content: 'Dit dachten wij ook en daarom zijn wij op zoek gegaan naar een alternatief. Al snel kwamen wij op de service: Neverbounce. Met deze service kun je een techniek in je formulier implementeren dat ervoor zorgt dat bij het invullen van het email adres er naar de echtheid van dat adres wordt gekeken. Zo worden de adressen van robot’s eruit gefilterd. Deze optie is vele malen gebruiksvriendelijker!'
+          }, {
+            type: 'paragraph',
+            content: 'Naar de klant heb ik een voorstel gestuurd waarin ik uitlegde dat deze optie een betere (maar duurdere) optie was om te implementeren. Uiteindelijk is de gebruiker het belangrijkst! En de klant ging er mee akkoord!'
           }],
         categories:
           [{
@@ -966,16 +975,31 @@ const dataObject = {
             path: '/ontwikkelend/ontwikkelen-en-prototypen',
             subText: 'De CMGT\'er is in staat om iteratief te ontwikkelen, om zo deadlines en afspraken na te komen. Hij heeft een gedegen kennis op programmeergebied en is flexibel genoeg om zich snel in te werken in nieuwe talen, platformen, tools en de werkwijze binnen het stagebedrijf.',
             list: [{
+              path: '/project/mentos',
+              title: 'Mentos'
+            },{
               path: '/project/ninlaro',
               title: 'Ninlaro'
+            }, {
+              path: '/project/davidoff',
+              title: 'Davidoff'
+            }, {
+              path: '/project/jgz',
+              title: 'Jgz'
             }]
           }, {
             title: 'Testen en implementeren',
             path: '/ontwikkelend/testen-en-implementeren',
             subText: 'De CMGT\'er is in staat de correcte werking van producten te testen, waarbij analyse van een iteratie tot verbeteringen in de volgende iteratie leidt. Zowel op functioneel- als technisch vlak worden vooraf door de klant of stagebedrijf goedgekeurde testopzet en testdoelen bepaald.',
             list: [{
-              path: '/project/ninlaro',
-              title: 'Ninlaro'
+              path: '/project/mentos',
+              title: 'Mentos'
+            }, {
+              path: '/project/hero',
+              title: 'Hero'
+            }, {
+              path: '/project/jamstudio',
+              title: 'Jamstudio'
             }]
           }]
       },
@@ -989,8 +1013,8 @@ const dataObject = {
             path: '/onderzoekend/onderzoeken-en-analyseren',
             subText: 'De CMGT\'er is in staat op structurele wijze een bronnen- en veldonderzoek uit te voeren in opdracht van het stagebedrijf en op basis van de verzamelde data conclusies te trekken en aanbevelingen te doen. De CMGT\'er reflecteert de resultaten van het onderzoek kritisch.',
             list: [{
-              path: '/project/ninlaro',
-              title: 'Ninlaro'
+              path: '/project/kritisch',
+              title: 'Kritische literatuur'
             }]
           }]
       },
@@ -1006,14 +1030,20 @@ const dataObject = {
             list: [{
               path: '/project/ninlaro',
               title: 'Ninlaro'
+            }, {
+              path: '/project/jgz',
+              title: 'Jgz'
+            }, {
+              path: '/project/juvela',
+              title: 'Juvela'
             }]
           }, {
             title: 'Ontwerpen en prototypen',
             path: '/ontwerpend/ontwerpen-en-prototypen',
             subText: 'De CMGT\'er kan een gestructureerd doelgroeponderzoek opzetten en uitvoeren in opdracht van het stagebedrijf. Door middel van prototyping en gebruikerstesten kan hij/zij tot een interface komen die aansluit bij deze doelgroep.',
             list: [{
-              path: '/project/ninlaro',
-              title: 'Ninlaro'
+              path: '/project/jgz',
+              title: 'Jgz'
             }]
           }]
       },
@@ -1027,16 +1057,22 @@ const dataObject = {
             path: '/ondernemend/ondernemende-houding',
             subText: 'De CMGT\'er heeft een actueel beeld van de stand van zaken in de maatschappij op het gebied van technologie. Dit beeld wordt gebruikt om oplossingen te ontwikkelen die er toe doen voor de klant of het stagebedrijf, en deze uit zichzelf aan te dragen.\n',
             list: [{
-              path: '/project/ninlaro',
-              title: 'Ninlaro'
+              path: '/project/schwartau',
+              title: 'Schwartau'
+            }, {
+              path: '/project/iffr',
+              title: 'Iffr'
+            }, {
+              path: '/project/tickets',
+              title: 'Tickets'
             }]
           }, {
             title: 'Ondernemende vaardigheden',
             path: '/ondernemend/ondernemende-vaardigheden',
             subText: 'De CMGT\'er houdt zijn kennis over actuele ontwikkelingen bij en weet zijn bronnen daarvoor op waarde te schatten. Hierdoor is de CMGT\'er in staat kansen te zien waar de klant of het stagebedrijf met behulp van technologie waarde kan creëren. Onder begeleiding kan hij hier een analyse met een trendrapportage en verdienmodellen van maken.',
             list: [{
-              path: '/project/ninlaro',
-              title: 'Ninlaro'
+              path: '/project/tickets',
+              title: 'Tickets'
             }]
           }, {
             title: 'Projectmatig werken',
@@ -1045,6 +1081,12 @@ const dataObject = {
             list: [{
               path: '/project/ninlaro',
               title: 'Ninlaro'
+            }, {
+              path: '/project/davidoff',
+              title: 'Davidoff'
+            }, {
+              path: '/project/iffr',
+              title: 'Iffr'
             }]
           }]
       },
@@ -1060,6 +1102,9 @@ const dataObject = {
             list: [{
               path: '/project/ninlaro',
               title: 'Ninlaro'
+            }, {
+              path: '/project/hero',
+              title: 'Hero'
             }]
           }, {
             title: 'Verantwoordlijkheid',
@@ -1068,6 +1113,9 @@ const dataObject = {
             list: [{
               path: '/project/ninlaro',
               title: 'Ninlaro'
+            }, {
+              path: '/project/tickets',
+              title: 'Tickets'
             }]
           }]
       }
@@ -1076,29 +1124,86 @@ const dataObject = {
       burst: {
         title: 'Burst',
         path: '/burst',
-        href: 'https://www.ninlaro.nl/',
         content: [{
           type: 'paragraph',
-          content: 'Burst is een digitaal productie bureau dat data, creativiteit en technologie combineert om haar klanten te voorzien van de beste antwoorden op hun vragen. Burst heeft een holistische kijk dat meebeweegt met de consumentenbehoefte.'
+          content: 'Burst is een digitaal productie bureau dat data, creativiteit en technologie combineert om haar klanten te voorzien van mooie producten. Burst heeft een holistische kijk dat meebeweegt met de consumentenbehoefte.'
         }, {
           type: 'paragraph',
-          content: 'Burst werkt samen met zowel lokale als internationale klanten uit vele verschillende industrieën. Tijdens een project verzorgt Burst niet alleen het ontwerp en ontwikkel proces voor de site maar ze doet ook aan data analyse om het product op vele vlakken te verbeteren. Hierdoor wordt burst een hechte businesspartner in plaats van alleen een web bouwer.'
+          content: 'Burst werkt samen met zowel lokale als internationale klanten uit vele verschillende industrieën. Tijdens een project verzorgt Burst niet alleen het ontwerp en ontwikkel proces voor de site maar ze doet ook aan data analyse om het product op vele vlakken te kunnen verbeteren. Hierdoor wordt burst een hechte businesspartner in plaats van alleen een website bouwer.'
         }, {
           type: 'subTitle',
           content: 'Waarom Burst?'
         }, {
           type: 'paragraph',
-          content: 'Eind 2016 was ik mijzelf nog erg aan het ontwikkelen op het gebied van ontwikkelen. Voor ik op de opleiding Creative Media and Game Technologies kwam had ik al enige kennis van programmeren alleen is dat in de eerste anderhalf jaar van mijn tijd op de opleiding exponentieel gestegen. Door passie te hebben voor het vak ben ik vaak thuis doorgegaan met het leren van vele nieuwe technieken. '
+          content: 'Eind 2016 was ik mijzelf nog erg aan het ontwikkelen op het gebied van development. Voor ik op de opleiding Creative Media and Game Technologies kwam had ik al enige kennis van development. In de eerste anderhalf jaar van mijn tijd op de opleiding is die kennis exponentieel gestegen. Door passie te hebben voor het vak ben ik vaak thuis doorgegaan met het leren van vele nieuwe technieken. Waardoor ik mijn skills snel heb kunnen verbeteren.'
         }, {
           type: 'paragraph',
-          content: 'Toen kwam ik via mijn klasgenoot Matthijs P. in contact met Ian. Ian werkte al een tijdje bij Burst en was er nu stage aan het lopen. Ook gaf hij zelf programmeer les aan studenten van het eerste jaar. Burst was opzoek naar nieuw talent in de vorm van jonge studenten en Ian was binnen de opleiding hiervoor aan het scouten. Toen ik dit hoorde heb ik gelijk contact opgenomen om hem te vertellen dat ik erg enthousiast was op het gebied van CMGT. Het gevolg hiervan was dat Matthijs P. en ik werden uitgenodigd om een keertje een kijkje in de keuken te nemen bij Burst.'
+          content: 'Toen kwam ik via mijn klasgenoot Matthijs P. in contact met Ian. Ian werkte al een tijdje bij Burst en was er nu stage aan het lopen. Ook gaf hij zelf programmeer les aan studenten van het eerste jaar. Burst was opzoek naar nieuw talent in de vorm van jonge studenten en Ian was binnen de opleiding hiervoor aan het scouten. Toen ik dit hoorde heb ik gelijk contact opgenomen om hem te vertellen dat ik erg enthousiast was op het gebied van development. Het gevolg hiervan was dat Matthijs P. en ik werden uitgenodigd om een keertje een kijkje in de keuken te nemen bij Burst.'
         }, {
           type: 'paragraph',
-          content: 'Op die dag kregen we over vele aspecten van Burst uitleg over hoe ze werkten. Ik vond het geweldig te zien hoe een bedrijf binnen deze sector werkte. Na deze middag kregen Matthijs P. en ik de vraag of we stage zouden willen lopen bij burst, en in de maanden daartoe leiden een aantal dagen in de week als bijbaan zouden willen werken. Voor ons beide was dit antwoord: ja! '
+          content: 'Op die dag kregen we over veel aspecten van Burst uitleg over hoe ze in elkaar staken. Ik vond het geweldig te zien hoe een bedrijf binnen deze sector werkte. Na deze middag kregen Matthijs P. en ik de vraag of we stage zouden willen lopen bij Burst, en in de maanden vooraf een aantal dagen in de week zouden willen bijbanen. Voor ons beide was dit antwoord: ja! '
         }, {
           type: 'paragraph',
           content: 'De sfeer die bij burst hing, de manier waarop ze werkten en de projecten waaraan ze werkten spraken mij allemaal aan. Allereerst wilde ik meer leren over development in het algemeen. Daarnaast had ik nog de wens mij te specificeren op een aantal onderwerpen ernaast (devOps, React, Drupal). Bij Burst was dit de mogelijkheid. Het leek me daarom een perfecte plek voor mijn stage. '
         }],
+      },
+      preface: {
+        title: 'Inleiding',
+        path: '/preface',
+        content: [{
+          type: 'paragraph',
+          content: 'Welkom op de website over mijn stage! Deze site is gemaakt in React (later zul je lezen waarom). De site is geoptimaliseerd voor schermen groter dan een laptop wat betekend dat je de site op telefoon niet kunt bekijken!'
+        }, {
+          type: 'paragraph',
+          content: 'De structuur werkt als volgt: Onder op de voorpagina staan alle projecten en verhalen die ik te vertellen heb. Bovenaan staat eerst een intro over het project, daarna met welk team ik het project heb uitgevoerd en vervolgens vertel ik mijn verhaal. Per project zijn eventueel ook bijlagen aanwezig. Deze staan in een lijst aan de linkerkant van de pagina. In de tekst wordt naar deze bijlagen doorverwezen op de volgende manier: (Zie ‘bijlage’). Onderaan de project pagina staan de bijbehorende competenties uitgelegd. Op de voorpagina is ook een menu te zien met alle categorieën nog eens overzichtelijk bij elkaar. Per categorie wordt je doorverwezen naar een overzichtspagina met alle competenties in een lijst. Per competentie is er een detail pagina met een korte uitleg over de competentie en een lijst met welke projecten er bij die competentie passen. '
+        }, {
+          type: 'paragraph',
+          content: 'Deze projecten zijn dezelfde projecten die te vinden zijn op de voorpagina!'
+        }, {
+          type: 'paragraph',
+          content: 'Allereerst zal ik uitleggen waar ik stage heb gelopen en waarom nou juist daar! Dit doe ik op de pagina ‘Burst’ te vinden achter het linkje ‘Burst’ op de voorpagina!'
+        }]
+      },
+      conclusion: {
+        title: 'Conclusie',
+        path: '/conclusion',
+        content: [{
+          type: 'paragraph',
+          content: 'Dat was het dan, voor een half jaar heb ik meegemaakt hoe het is om fulltime te werken als developer bij Burst. En het was geweldig! Ik heb van elk moment genoten. Ik had niet gedacht dat ik er zo van zou genieten. De zes maanden vlogen voorbij, en nu is het alweer bijna februari en tijd om terug te gaan naar school! '
+        }, {
+          type: 'paragraph',
+          content: 'In de eerste twee jaar CMGT heb ik enorm veel mogen leren. In de zes maanden die ik bij Burst heb stage gelopen is dat net zo hard doorgegaan. Elke dag kwam ik wel weer iets nieuws tegen waar ik veel van kon leren. De collega’s die ik om mij heen had hebben mij geholpen over van alles en nog wat dingen op te steken om ze vervolgens in de praktijk te gebruiken. Ik geloof er zelf in dat je van praktijk ervaring meer opsteekt dan van theorie doornemen. Tijdens mijn stage heb ik dat mee mogen maken. Ik kwam bij Burst als student die wel eens een projectje hier en daar had gedaan met Php.'
+        }, {
+          type: 'paragraph',
+          content: 'Nu kan ik overweg met Drupal, Wordpress, React en ik kan websites lanceren op servers (ondertussen heb ik mijn eigen VPS, daar draait deze site onder andere op). Dit zijn precies de doelen die ik voor mezelf had gesteld aan het begin van mijn stage. Ook zijn er enorm veel programmeer technieken waarvan ik nog nooit had gehoord maar die nu toepas op mijn eigen privé projecten. Ik heb enorm veel geleerd, maar voor mij is er nog een hele weg om te gaan. Ik heb erg veel zin mijn nieuwe skills te gebruiken in projecten voor school!'
+        }, {
+          type: 'subTitle',
+          content: 'Stage terugkomdagen'
+        }, {
+          type: 'paragraph',
+          content: 'Tijdens mijn zes maanden bij Burst waren er een aantal dagen waarop ik terug keerde naar school om te bespreken hoe de voortgang van mijn stage verliep. Ik vond het tijdens deze dagen erg leuk om mijn klasgenoten weer te zien en ze te vragen hoe zij hun stage ervaarden. Hierop kreeg ik verschillende antwoorden. Sommigen hadden het erg naar hun zin terwijl ik van anderen hoorden dat ze het wel weer fijn zouden vinden om naar school te gaan. Zoals ik mijn plek binnen Burst had gevonden had niet iedereen dat gevoel bij zijn of haar stagebedrijf.'
+        }, {
+          type: 'paragraph',
+          content: 'Tijdens de gesprekken met onze stage peergroep kwam ik er achter wat anderen lastig vonden tijdens hun stage een aantal van deze onderwerpen kwamen mij bekend voor. Zo was wist Maarten niet zeker of hij wel de telefoon op kon pakken, aangezien hij misschien niet alle vragen van de klant wist te beantwoorden. Van mezelf wist ik dat mijn zwakste punt ook communiceren was, daarom vond ik het zelf erg lastig te bellen met klanten. Het was om die reden goed om te horen dat ik niet de enige was die daar last van had.'
+        }, {
+          type: 'paragraph',
+          content: 'Wat er bij de stage terugkomdagen hoorde was een bedrijfsbezoek bij anderen. Dat hield in dat je op bezoek moest bij het stagebedrijf van een klasgenoot om kennis te maken met dat bedrijf en om te zien wat hij of zij daar precies deed. Wij deden dit in een groepje. '
+        }, {
+          type: 'paragraph',
+          content: 'Als eerste gingen we naar de plek waar Lesley werkte. Dit was een open werkplek in een pand waar meerdere bedrijven in zaten. Hij had hier een kamer waar hij zat te werken aan zijn stage opdracht. In vergelijking met Burst was dit totaal anders. Ik werkte in een kantoor waar we met 40 man een bedrijf vormde werken aan verschillende projecten. Lesley werkte vaak alleen of soms met een collega, in deze kamer. '
+        }, {
+          type: 'paragraph',
+          content: 'Vervolgens gingen we naar DPDK. DPDK is een bedrijf waar ik al vaker was geweest. De studenten die daar stage liepen waren Ivo Kroon en Mark. Zij lieten ons hun plekken en de projecten waaraan ze werkten zien. DPDK is in vergelijking met Burst erg gelijk pratende over hoe het bedrijf eruit ziet. Ook bij DPDK werkt een kantoor vol ontwerpers, ontwikkelaars en data analisten aan verschillende projecten (vaak websites). '
+        }, {
+          type: 'paragraph',
+          content: 'Ik vond het erg leuk te zien hoe veel verschil er zat tussen Lesley en ik, maar ook hoeveel overeenkomst er zat tussen Ivo Kroon, Mark en mij.'
+        }, {
+          type: 'subTitle',
+          content: 'Stage voorbij, en nu?'
+        }, {
+          type: 'paragraph',
+          content: 'Mijn stage bij burst beviel enorm! Voorlopig blijf ik als bijbaan werken bij Burst. Hiermee wil ik nieuwe technieken blijven ontdekken om mijzelf op het ontwikkel gebied te blijven verbeteren. Wat er ook aan zit te komen is afstuderen. Wat ik daarvoor ga doen kan ik me nu nog niet bedenken. Wel heb ik een idee waar ik het zou willen doen. Al voor een lange tijd zou ik graag naar New York City willen om daar werkervaring op te doen. Hier en daar ben ik al bezig geweest met het zoeken naar bedrijven gevestigd in New York City. Of dit ook werkelijkheid wordt weet ik nog niet, het lijkt mij in ieder geval enorm gaaf zoiets mee te maken. Wie weet wat de toekomst brengt!'
+        }]
       }
     }
   }

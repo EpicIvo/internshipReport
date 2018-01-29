@@ -32,11 +32,13 @@ const Site = glamorous.a({
 })
 
 const ScrollButton = glamorous.div({
+  width: '5%',
   padding: '6% 0',
   transform: 'rotate(270deg)',
   fontFamily: 'Avenir Next',
   fontSize: '4em',
   fontWeight: '600',
+  margin: '0 auto',
 })
 
 const ScrollButtonIcon = glamorous.div({
