@@ -103,7 +103,6 @@ class DetailPage extends React.Component {
   }
 
   render() {
-    console.log(this.projectProps);
     return (
       <div>
         <Title {...this.projectProps}>
