@@ -27,11 +27,17 @@ class Introduction extends React.Component {
           >Burst</Site>.
           Op deze website vertel ik mijn verhaal! Lees hier de&nbsp;
           <Site
-          href='/general/preface'
-        >inleiding</Site> en uiteindelijk de&nbsp;
+            href='/general/preface'
+          >inleiding</Site> en uiteindelijk de&nbsp;
           <Site
             href='/general/conclusion'
           >conclusie</Site>!
+          <br/>
+          <br/>
+          Lees&nbsp;
+          <Site
+            href='/general/research'
+          >hier</Site> mijn herkansing voor onderzoeken!
           <ScrollButton>
             <ScrollButtonIcon onClick={() => scroll(0, 1000)}>
               ‹

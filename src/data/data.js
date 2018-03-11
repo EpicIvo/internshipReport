@@ -977,7 +977,7 @@ const dataObject = {
             list: [{
               path: '/project/mentos',
               title: 'Mentos'
-            },{
+            }, {
               path: '/project/ninlaro',
               title: 'Ninlaro'
             }, {
@@ -1212,6 +1212,24 @@ const dataObject = {
         }, {
           title: 'Beoordeling Rick',
           href: 'https://files.ivovanderknaap.com/pdf/stagebeoordeling-rick.pdf'
+        }]
+      },
+      research: {
+        title: 'Hero kwaliteits onderzoek',
+        path: '/research',
+        content: [{
+          type: 'subTitle',
+          content: 'Hero kwaliteits verbeteringen'
+        }, {
+          type: 'paragraph',
+          content: 'In overleg met Hero kwamen we erachter dat er over de jaren heen in onze samenwerking het een en ander is verwaterd. In opdracht van Burst heb ik daarom een onderzoek uitgevoerd om hier oplossingen voor te vinden.'
+        }, {
+          type: 'paragraph',
+          content: 'Lees het verslag door ernaar te navigeren in de bijlagen.'
+        }],
+        attachments: [{
+          title: 'Onderzoek',
+          href: 'https://files.ivovanderknaap.com/pdf/kwaliteit-verbetering-hero.pdf'
         }]
       }
     }

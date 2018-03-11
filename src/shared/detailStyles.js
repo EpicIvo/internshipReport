@@ -95,7 +95,12 @@ const Title = glamorous.div(
       backgroundImage: `url(${conclusionBackground})`,
       color: colors.projects.preface,
       borderBottom: `8px solid ${colors.projects.preface}`
-    }
+    },
+    research: {
+      backgroundImage: `url(${heroBackground})`,
+      color: colors.projects.hero,
+      borderBottom: `8px solid ${colors.projects.hero}`
+    },
   }),
   {
     fontFamily: 'Avenir Next',
@@ -107,6 +112,7 @@ const Title = glamorous.div(
     height: '25vh',
     lineHeight: '25vh',
     textAlign: 'center',
+    textShadow: 'rgba(0, 0, 0, 0.5) 0px 0px 6px'
   });
 
 const DetailPageTopBar = glamorous.div({
